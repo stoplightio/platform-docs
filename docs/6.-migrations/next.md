@@ -2,13 +2,24 @@
 
 ## Introduction
 
-One of the main goals for this new version of the Stoplight Platform has been to make it easier for you to integrate Stoplight into your existing workflows. In NEXT, we were locked into a single VCS provider, GitLab. Under the hood, every NEXT project is connected to a Stoplight hosted GitLab repository.
+The new Stoplight Platform is the third generation of our product, and fundamentally re imagines how Stoplight integrates into your development workflow. A 
 
-The biggest difference between NEXT and the new Stoplight Platform is now you have control over what VCS provider your projects are stored in. This allows you to keep your source of truth in one location, making it easier for non-Stoplight users to contribute while continuing to use the tools they're comfortable with.
+When we began developing the new platform, our primary goal was to make it as easy as possible to integrate Stoplight into your existing workflows. Stoplight should enrich - not replace - these workflows, thus reducing the friction involved with rolling out a modern API development strategy at your company.
+
+To that end, the new Stoplight Platform was built to act as a layer on top of the version control system(s) at your company - GitHub, GitLab, Bitbucket, etc. In NEXT, your API designs and docs are stored in Stoplight. In the new Stoplight Platform, these assets are stored in your own version control system. This shift leads to a number of benefits:
+
+1. **No lock-in:** Your data is your own, stored in your Git repositories.
+2. **Tooling flexibility:** Convincing developers to adopt a new tool can be difficult. With our new approach, developers can continue to use the tools that they're most comfortable with - all they need to do is commit design/docs files to your Git repos. If some of them prefer to write OpenAPI by hand in VS Code rather than using Stoplight Studio, no problem!
+3. **Workflow flexibility:** Since Stoplight is built on your VCS, it's easy to leverage the development workflows that already exist at your company - PR reviews, CI, GitHub actions, custom VCS integrations, you name it.
+4. **Co locate alongside implementation:** In NEXT you are forced to store your design/docs files in a flat list, separate from the implementation they are meant to describe. In our new Platform you can organize your files however you like, including managing them in the same repo as the actual API implementation! This has a number of benefits, such as reviewing changes to design and implementation in a single Pull Request.
+
+The list above describes some of the large fundamental opportunities our new approach opens up. Beyond that there are of course dozens of new features and enhancements packed into the new Platform.
 
 ## When can I migrate?
 
-If any of the following features are critical to your workflow, we suggest you wait to migrate until we've finished building a solution that fits your needs. You can request to be notified and even make suggestions by voting for features on our [public roadmap](https://roadmap.stoplight.io).
+While the new Stoplight Platform includes a lot of new functionality, there are some features from NEXT that have not yet made their way over. We are taking this opportunity to re-imagine and improve the functionality listed below, and will be rolling it out through the rest of the year. If any of the features below are critical to your workflow, we suggest that you wait to migrate until the relevant features are released. You can continue to use Stoplight NEXT without distruption until then.
+
+Each feature is linked to a card on our public roadmap, and we encourage you to follow the features relevant to you - we'll notify you as each is released.
 
 |                                     |  Timeline   | Description                                                                        |
 | ----------------------------------- | :---------: | ---------------------------------------------------------------------------------- |
@@ -27,9 +38,11 @@ If any of the following features are critical to your workflow, we suggest you w
 
 ## How do I migrate?
 
-> If you feel comfortable and ready to migrate, please follow the steps below. If you have any questions concerns, please don't hesistate to [reach out](mailto:support@stoplight.io) and we will schedule time to assist you.
+> If you feel comfortable and ready to migrate, please follow the steps below. If you have any questions concerns, please don't hesitate to [reach out](mailto:support@stoplight.io) and we will schedule time to assist you. We understand that this not a trivial migration, and are here to help!
+> 
+> Also keep in mind that you can of course copy API design files from NEXT into your existing Git repositories. This approach makes sense if you want to start managing these design assets in the same Git repos that store the code. If you are wondering which approach is best for you, please get in touch and we'll schedule some time to help you decide.
 
-The goal of this migration is to move your projects from Stoplight NEXT to your new Stoplight Workspace.
+Because we've updated our approach to where your data is stored and managed (your VCS rather than our homegrown backend), this migration is a bit more involved. The goal of this migration is to move your data from Stoplight NEXT to Git repos in your VCS, and then to connect those Git repos to your new Stoplight Workspace.
 
 First, let's move the contents of your NEXT project into your own VCS provider.
 
@@ -55,7 +68,7 @@ Finally, let's invite your team to your new Stoplight workspace. The fastest way
 
 ## FAQ
 
-The concepts in the new Stoplight Platform should be very similar to what you're used to in NEXT. Here are some commonly asked questions to help clarify those similarities and differences. If you have any additional questions, please don't hesistate to [contact us](mailto:support@stoplight.io).
+The concepts in the new Stoplight Platform should be very similar to what you're used to in NEXT. Here are some commonly asked questions to help clarify those similarities and differences. If you have any additional questions, please don't hesitate to [contact us](mailto:support@stoplight.io).
 
 **Is a Stoplight Workspace similar to an Organization in NEXT?**
 
