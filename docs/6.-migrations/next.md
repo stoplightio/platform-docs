@@ -8,24 +8,22 @@ The biggest difference between NEXT and the new Stoplight Platform is now you ha
 
 ## When can I migrate?
 
-If any of the following features are critical to your workflow, we suggest you wait to migrate until we've finished building a solution that fits your needs. You can request to be notified and even make suggestions by voting for features on our [public roadmap](https://meta.stoplight.io/roadmap).
-
-<!-- TODO: Add productboard links for each feature -->
+If any of the following features are critical to your workflow, we suggest you wait to migrate until we've finished building a solution that fits your needs. You can request to be notified and even make suggestions by voting for features on our [public roadmap](https://roadmap.stoplight.io).
 
 |                                     |  Timeline   | Description                                                                        |
 | ----------------------------------- | :---------: | ---------------------------------------------------------------------------------- |
-| Docs: Theming                       |  Immediate  | Customize the theme colors for your Workspace's sidebar                            |
-| Docs: Versioning                    |  Immediate  | Show/hide specific branches in each project's docs                                 |
-| Docs: Table of contents ordering    | Short-term  | Customize the ordering of items in the sidebar                                     |
-| Docs: Custom CSS, JS, and HTML      | Short-term  | Rich component library for composing custom API docs                               |
-| Design: Shared parameters/responses |  Mid-term   | Form based editing for OpenAPI shared components                                   |
-| Design: Lifecycle tags              |  Mid-term   | Add tags to build workflows around the API lifecycle                               |
-| Docs: TryIt auth token generation   |  Mid-term   | Generate OAuth 1 & 2 tokens for HTTP requests in TryIt                             |
-| Discussions                         |  Mid-term   | Create and resolve discussions on API designs and docs                             |
-| Docs: Custom variables              | Considering | Allow users to set variable once and have it used everywhere                       |
-| Docs: Redirects                     | Considering | Automatic redirects when docs routes are changed                                   |
-| Docs: Integrations                  | Considering | First class support for integrations like Google analytics, Segment, Intercom, etc |
-| Design: CRUD Builder                | Considering | Automatically generate a list of CRUD endpoints for a schema                       |
+| [Docs: Theming](https://roadmap.stoplight.io/c/52-theming-and-branding)                       |  Immediate  | Customize the theme colors for your Workspace's sidebar                            |
+| [Docs: Versioning](https://roadmap.stoplight.io/c/60-multiple-branches)                    |  Immediate  | Show/hide specific branches in each project's docs                                 |
+| [Docs: Table of contents ordering](https://roadmap.stoplight.io/c/59-customize-docs-sidebar-ordering)    | Short-term  | Customize the ordering of items in the sidebar                                     |
+| [Docs: Custom CSS, JS, and HTML](https://roadmap.stoplight.io/c/57-embeddable-component-library)      | Short-term  | Rich component library for composing custom API docs                               |
+| [Design: Shared parameters/responses](https://roadmap.stoplight.io/c/10-openapi-shared-components) |  Mid-term   | Form based editing for OpenAPI shared components                                   |
+| [Design: Lifecycle tags](https://roadmap.stoplight.io/c/65-lifecycle-tags)              |  Mid-term   | Add tags to build workflows around the API lifecycle                               |
+| [Docs: TryIt OAuth token generation](https://roadmap.stoplight.io/c/58-request-maker-authentication)   |  Mid-term   | Generate OAuth 1 & 2 tokens for HTTP requests in TryIt                             |
+| [Discussions](https://roadmap.stoplight.io/c/61-discussions-comments)                         |  Mid-term   | Create and resolve discussions on API designs and docs                             |
+| [Docs: Custom variables](https://roadmap.stoplight.io/c/47-custom-variables)              | Considering | Allow users to set a variable once and have it used everywhere                       |
+| [Docs: Redirects](https://roadmap.stoplight.io/c/68-redirects)                     | Considering | Automatic redirects when docs routes are changed                                   |
+| [Docs: Integrations](https://roadmap.stoplight.io/c/64-analytics-integrations)                  | Considering | First class support for integrations like Google analytics, Segment, Intercom, etc |
+| [Design: CRUD Builder](https://roadmap.stoplight.io/c/63-crud-builder)                | Considering | Automatically generate a list of CRUD endpoints for a schema                       |
 
 ## How do I migrate?
 
@@ -36,7 +34,7 @@ The goal of this migration is to move your projects from Stoplight NEXT to your 
 First, let's move the contents of your NEXT project into your own VCS provider.
 
 1. Choose which NEXT project you want to migrate.
-2. Follow [this guide](https://docs.stoplight.io/platform/projects/git-repo) to git clone the project's contents to a folder on your computer.
+2. Follow [this guide](https://docs.stoplight.io/platform/projects/git-repo#how-to-clone-your-stoplight-git-repository) to git clone the project's contents to a folder on your computer.
 3. Create a new git repository in your VCS provider ([Github](https://help.github.com/en/github/getting-started-with-github/create-a-repo), [Gitlab](https://docs.gitlab.com/ee/gitlab-basics/create-project.html), [Bitbucket](https://confluence.atlassian.com/bitbucket/create-a-git-repository-759857290.html), etc).
 4. Push the project contents from your computer into your new git repository.
 
@@ -53,7 +51,7 @@ Now, let's create a Stoplight Workspace and add your projects.
 5. [Create](https://stoplight.io/welcome/create) your new [Stoplight Workspace](./a.creating-a-workspace.md).
 6. Please follow this [step-by-step guide](../1.-quickstarts/add-projects-quickstart.md#connect-an-existing-git-project) to connect your VCS account and add the projects from step 4.
 
-Finally, let's invite your team. The fastest way is to [configure an email domain](../2.-workspaces/d.inviting-your-team.md#make-your-workspace-discoverable) and share a link to your workspace's signup page. Or you can also [invite members](../2.-workspaces/d.inviting-your-team.md) individually using their email.
+Finally, let's invite your team to your new Stoplight workspace. The fastest way is to [configure an email domain](../2.-workspaces/d.inviting-your-team.md#make-your-workspace-discoverable) and share a link to your workspace's signup page. Alternatively, you can also [invite members](../2.-workspaces/d.inviting-your-team.md) individually using their email.
 
 ## FAQ
 
