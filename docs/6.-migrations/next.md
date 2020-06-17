@@ -66,6 +66,12 @@ Now, let's create a Stoplight Workspace and add your projects.
 
 Finally, let's invite your team to your new Stoplight workspace. The fastest way is to [configure an email domain](../2.-workspaces/d.inviting-your-team.md#make-your-workspace-discoverable) and share a link to your workspace's signup page. Alternatively, you can also [invite members](../2.-workspaces/d.inviting-your-team.md) individually using their email.
 
+### Migrating published docs
+
+If you have published docs for external stakeholders (customers, the general public, etc), there are a couple of things to consider before migrating.
+
+TODO
+
 ## FAQ
 
 The concepts in the new Stoplight Platform should be very similar to what you're used to in NEXT. Here are some commonly asked questions to help clarify those similarities and differences. If you have any additional questions, please don't hesitate to [contact us](mailto:support@stoplight.io).
