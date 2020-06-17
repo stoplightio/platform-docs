@@ -8,7 +8,7 @@ So, the biggest difference between NEXT and the new Stoplight Platform is now yo
 
 ## When can I migrate?
 
-If any of the following features are critical to your workflow, we suggest you wait to migrate until we've finished building a solution that fits your needs. You can request to be notified and even make suggestions by voting on our [public roadmap](https://meta.stoplight.io/roadmap).
+If any of the following features are critical to your workflow, we suggest you wait to migrate until we've finished building a solution that fits your needs. You can request to be notified and even make suggestions by voting for features on our [public roadmap](https://meta.stoplight.io/roadmap).
 
 |                                     |  Timeline   | Description                                                                        |
 | ----------------------------------- | :---------: | ---------------------------------------------------------------------------------- |
@@ -27,14 +27,31 @@ If any of the following features are critical to your workflow, we suggest you w
 
 ## How do I migrate?
 
-_TODO: Copy some info from https://github.com/stoplightio/proserve/blob/master/next-migration-tool/README.md_
+> If you feel comfortable and ready to migrate, please follow the steps below. If you have any questions concerns, please don't hesistate to [reach out](mailto:support@stoplight.io) and we will schedule time to assist you.
 
-If you feel comfortable, please follow the steps below. If you have any questions, please don't hesistate to reach out and we can schedule time to assist you with this process.
+The goal of this migration is to move your projects from Stoplight NEXT to your new Stoplight Workspace.
 
-1. Choose which NEXT project you want to migrate
-2. Follow [this guide](https://docs.stoplight.io/platform/projects/git-repo) to clone the project contents down to your computer. 
-3. Create a new git repository in your VCS ([Github](https://help.github.com/en/github/getting-started-with-github/create-a-repo), Gitlab, Bitbucket, etc).
-4. Push the contents from your computer into your new project
+First, let's move the contents of your NEXT project into your own VCS provider.
+
+1. Choose which NEXT project you want to migrate.
+2. Follow [this guide](https://docs.stoplight.io/platform/projects/git-repo) to git clone the project's contents to a folder on your computer.
+3. Create a new git repository in your VCS provider ([Github](https://help.github.com/en/github/getting-started-with-github/create-a-repo), [Gitlab](https://docs.gitlab.com/ee/gitlab-basics/create-project.html), [Bitbucket](https://confluence.atlassian.com/bitbucket/create-a-git-repository-759857290.html), etc).
+4. Push the project contents from your computer into your new git repository.
+
+```bash
+git remote rename origin upstream
+git remote add origin https://github.com/{organization}/{url}.git
+git push -u origin $(git rev-parse --abbrev-ref HEAD)
+```
+
+5. Repeat these steps for each of the NEXT projects you want to migrate.
+
+Now, let's create a Stoplight Workspace and add your projects.
+
+5. [Create](https://stoplight.io/welcome/create) your new [Stoplight Workspace](./a.creating-a-workspace.md).
+6. Please follow this [step-by-step guide](../1.-quickstarts/add-projects-quickstart.md#connect-an-existing-git-project) to connect your VCS account and add the projects from step 4.
+
+Finally, let's invite your team. The fastest way is to [configure an email domain](../2.-workspaces/d.inviting-your-team.md#make-your-workspace-discoverable) and share a link to your workspace's signup page. Or you can also [invite members](../2.-workspaces/d.inviting-your-team.md) individually using their email.
 
 ## FAQ
 

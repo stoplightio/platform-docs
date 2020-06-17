@@ -12,7 +12,7 @@ Workspaces in Stoplight are used to group API projects across your organization 
 
 To create a new workspace:
 
-1. Open the [Stoplight Platform Homepage](<>) page or your On-Premise installation homepage
+1. Open the [Stoplight Platform Homepage](https://stoplight.io/welcome) page or your On-Premise installation homepage
 2.  Click on **My team isn't using Stoplight yet**.
     <!--To-Do: Screenshot from homepage-->
 3.  Fill in the form by entering your **Work email address**. Next, input the **Workspace name**. Your workspace would be live at `workspace-name.stoplight.io`
