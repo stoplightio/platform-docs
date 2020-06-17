@@ -55,15 +55,19 @@ Finally, let's invite your team. The fastest way is to [configure an email domai
 
 ## FAQ
 
-Below are some commonly asked questions that draw comparisons between concepts in NEXT and the new Stoplight Platform.
+The concepts in the new Stoplight Platform should be very similar to what you're used to in NEXT. Here are some commonly asked questions to help clarify those similarities and differences. If you have any additional questions, please don't hesistate to [contact us](mailto:support@stoplight.io).
 
-**Is a Workspace similar to an Organization in NEXT?**
+**Is a Stoplight Workspace similar to an Organization in NEXT?**
 
-
+Yes, they are very similar. Just like in a NEXT organization, your Workspace is where you'll invite members, add projects, and create a billing subscription.
 
 **How do the members roles compare to the ones in NEXT?**
 
-The roles and permissions work similar to NEXT, but some of the role names have changed. The main difference in Platform is members who need to edit projects will need to be granted access within your VCS.
+The roles and permissions work similar to NEXT, but some of the role names have changed. The main difference in the new Platform is members who need to edit a git project will need to be given editing access within your VCS. 
+
+We've also added a `guest` role which allows you to invite members from outside of your company and grant them access to view specific projects.
+
+Below is a mapping of NEXT to Platform roles:
 
 | NEXT        | Platform |                                   |
 | ----------- | -------- | --------------------------------- |
@@ -73,17 +77,22 @@ The roles and permissions work similar to NEXT, but some of the role names have 
 | Reader      | Viewer   | Can view projects                 |
 |             | Guest    | Can be granted access to projects |
 
-**How do I publish a documentation Hub?**
+**How do I publish my documentation as a Hub?**
 
-In Platform, your Workspace is your documentation Hub. Workspaces are publicly accessible, but you can control access to view projects by configuring a project's visibility settings. You can also grant members and guests explicit access to view private or internal projects.
+In the new Platform, your Workspace is your documentation Hub. Workspaces are publicly accessible, and you control access to view projects by configuring a project's visibility settings. 
 
-Once your projects have been added to Stoplight, there are two ways you can make sure your documentation is always up to date. You can install git webhooks to notify Stoplight whenever a change is made or you can use the Stoplight CLI to push changes.
+For example if you want a project to only be visible by Workspace members, you can set the project's visibility to `internal`. You can also give members and guests explicit access to view specific private or internal projects.
 
-_TODO: Add a link_
+**How do I update the contents of my project's documentation?**
 
-**How do I add a custom domain?**
+When adding a project to your Stoplight Workspace, a git webhook will be installed on the VCS repository. This allows Stoplight to automatically update your documentation when any of the API design assets in the repository have changed. 
 
-_TODO: Add custom domain to Workspace. Considering project custom domains?_
+The contents of the project can then be updated from any one of your favorite tools such as Stoplight Studio or even directly in the VCS provider. As long as the changes are pushed to the git repository, they will be automatically synced with your Stoplight Workspace.
+
+
+**How do I add a custom domain to my documentation?**
+
+
 
 _TODO: Add a link_
 
