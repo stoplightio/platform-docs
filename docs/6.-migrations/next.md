@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The new Stoplight Platform is the third generation of our product, and fundamentally re imagines how Stoplight integrates into your development workflow. A 
+The new Stoplight Platform is the third generation of our product, and fundamentally re imagines how Stoplight integrates into your development workflow.
 
 When we began developing the new platform, our primary goal was to make it as easy as possible to integrate Stoplight into your existing workflows. Stoplight should enrich - not replace - these workflows, thus reducing the friction involved with rolling out a modern API development strategy at your company.
 
