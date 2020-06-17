@@ -14,7 +14,7 @@ If any of the following features are critical to your workflow, we suggest you w
 | ----------------------------------- | :---------: | ---------------------------------------------------------------------------------- |
 | [Docs: Theming](https://roadmap.stoplight.io/c/52-theming-and-branding)                       |  Immediate  | Customize the theme colors for your Workspace's sidebar                            |
 | [Docs: Versioning](https://roadmap.stoplight.io/c/60-multiple-branches)                    |  Immediate  | Show/hide specific branches in each project's docs                                 |
-| [Docs: Table of contents ordering](https://roadmap.stoplight.io/c/59-customize-docs-sidebar-ordering)    | Short-term  | Customize the ordering of items in the sidebar                                     |
+| [Docs: Table of contents ordering](https://roadmap.stoplight.io/c/59-customize-docs-sidebar-ordering)    | Short-term  | Completely custom ordering of your docs sidebar. By default, files will be organized alphabetically, matching the order in the filesystem                                     |
 | [Docs: Custom CSS, JS, and HTML](https://roadmap.stoplight.io/c/57-embeddable-component-library)      | Short-term  | Rich component library for composing custom API docs                               |
 | [Design: Shared parameters/responses](https://roadmap.stoplight.io/c/10-openapi-shared-components) |  Mid-term   | Form based editing for OpenAPI shared components                                   |
 | [Design: Lifecycle tags](https://roadmap.stoplight.io/c/65-lifecycle-tags)              |  Mid-term   | Add tags to build workflows around the API lifecycle                               |
