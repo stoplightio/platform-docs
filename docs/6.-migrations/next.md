@@ -6,6 +6,36 @@ One of the main goals for this new version of the Stoplight Platform has been to
 
 So, the biggest difference between NEXT and the new Stoplight Platform is now you have control over which VCS provider your projects are stored in, making it easier for non-Stoplight users to contribute while continuing to use whatever tools they're comfortable with.
 
+## When can I migrate?
+
+If any of the following features are critical to your workflow, we suggest you wait to migrate until we've finished building a solution that fits your needs. You can request to be notified and even make suggestions by voting on our [public roadmap](https://meta.stoplight.io/roadmap).
+
+|                                     |  Timeline   | Description                                                                        |
+| ----------------------------------- | :---------: | ---------------------------------------------------------------------------------- |
+| Docs: Theming                       |  Immediate  | Customize the theme colors for your Workspace's sidebar                            |
+| Docs: Versioning                    |  Immediate  | Show/hide specific branches in each project's docs                                 |
+| Docs: Table of contents ordering    | Short-term  | Customize the ordering of items in the sidebar                                     |
+| Docs: Custom CSS, JS, and HTML      | Short-term  | Rich component library for composing custom API docs                               |
+| Design: Shared parameters/responses |  Mid-term   | Form based editing for OpenAPI shared components                                   |
+| Design: Lifecycle tags              |  Mid-term   | Add tags to build workflows around the API lifecycle                               |
+| Docs: TryIt auth token generation   |  Mid-term   | Generate OAuth 1 & 2 tokens for HTTP requests in TryIt                             |
+| Discussions                         |  Mid-term   | Create and resolve discussions on API designs and docs                             |
+| Docs: Custom variables              | Considering | Allow users to set variable once and have it used everywhere                       |
+| Docs: Redirects                     | Considering | Automatic redirects when docs routes are changed                                   |
+| Docs: Integrations                  | Considering | First class support for integrations like Google analytics, Segment, Intercom, etc |
+| Design: CRUD Builder                | Considering | Automatically generate a list of CRUD endpoints for a schema                       |
+
+## How do I migrate?
+
+_TODO: Copy some info from https://github.com/stoplightio/proserve/blob/master/next-migration-tool/README.md_
+
+If you feel comfortable, please follow the steps below. If you have any questions, please don't hesistate to reach out and we can schedule time to assist you with this process.
+
+1. Choose which NEXT project you want to migrate
+2. Follow [this guide](https://docs.stoplight.io/platform/projects/git-repo) to clone the project contents down to your computer. 
+3. Create a new git repository in your VCS ([Github](https://help.github.com/en/github/getting-started-with-github/create-a-repo), Gitlab, Bitbucket, etc).
+4. Push the contents from your computer into your new project
+
 ## FAQ
 
 **How do I create an organization?**
@@ -53,72 +83,3 @@ _TODO: Git branches_
 Every OpenAPI file in your Workspace has a mock server configured automatically. All you need to do is send requests to the API's unique mock URL.
 
 _TODO: Add a link_
-
-## When can I migrate?
-
-If any of the following features are critical to your workflow, we suggest you wait to migrate until we've finished building a solution that fits your needs. You can follow along and even make suggestions by voting on our public roadmap.
-
-**I need to add theming to my documentation**
-
-We are currently developing theming into Stoplight Workspace. _Considering project theming?_
-
-Want to keep up with the development and be notified when this feature is ready? Let us know by voting on our public roadmap.
-
-**I need to show multiple versions of my project's documentation**
-
-We are currently developing support for showing multiple branches in project documentation. This feature will be useful if your project has different branches for each version.
-
-Want to keep up with the development and be notified when this feature is ready? Let us know by voting on our public roadmap.
-
-**I need to customize the ordering of items in my docs sidebar**
-
-Want to keep up with the development and be notified when this feature is ready? Let us know by voting on our public roadmap.
-
-**I need custom HTML, CSS and/or JavaScript**
-
-We are working on a solution for these features in our **short-term roadmap**. For more information, check out this link.
-
-**I need to design shared parameters and responses using the OpenAPI forms editor**
-
-We are working on a solution for these features in our **mid-term roadmap**. For more information, check out this link.
-
-**The discussions feature is a critical part of my workflow**
-
-_TODO: Mid-term roadmap_
-
-**I need lifecycle tags**
-
-_TODO: Mid-term roadmap_
-
-**I need environment variables**
-
-_TODO: Not sure how to phrase this one_
-
-We're considering adding this feature back and would love to hear your use cases. Please let us know how you're currently using this feature and how you expect it to work.
-
-**I need to configure redirects for pages in my documentation**
-
-We're considering adding this feature back and would love to hear your use cases. Please let us know how you're currently using this feature and how you expect it to work.
-
-**I need analytics integrations (GA, Intercom, Segment) in my docs**
-
-We're considering adding this feature back and would love to hear what integrations you need to add. Please let us know my voting on our public roadmap.
-
-**Scenarios are critical to my workflow**
-
-_TODO: Not doing_
-
-**I need to download a static build of my documentation**
-
-_TODO: Stoplight Elements?_
-
-## How do I migrate?
-
-_TODO: Copy some info from https://github.com/stoplightio/proserve/blob/master/next-migration-tool/README.md_
-
-If you feel comfortable, please follow the steps below. If you have any questions, please don't hesistate to reach out and we can schedule time to assist you with this process.
-
-1. Choose which Stoplight project you want to migrate
-2. Follow the steps in this article to pull the project contents down to your computer.
-3. Create a new project in VCS provider (Github, Gitlab, Bitbucket, etc)
-4. Push the contents from your computer into your new project
