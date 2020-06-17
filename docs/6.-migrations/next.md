@@ -10,6 +10,8 @@ The biggest difference between NEXT and the new Stoplight Platform is now you ha
 
 If any of the following features are critical to your workflow, we suggest you wait to migrate until we've finished building a solution that fits your needs. You can request to be notified and even make suggestions by voting for features on our [public roadmap](https://meta.stoplight.io/roadmap).
 
+<!-- TODO: Add productboard links for each feature -->
+
 |                                     |  Timeline   | Description                                                                        |
 | ----------------------------------- | :---------: | ---------------------------------------------------------------------------------- |
 | Docs: Theming                       |  Immediate  | Customize the theme colors for your Workspace's sidebar                            |
@@ -63,7 +65,7 @@ Yes, they are very similar. Just like in a NEXT organization, your Workspace is 
 
 **How do the members roles compare to the ones in NEXT?**
 
-The roles and permissions work similar to NEXT, but some of the role names have changed. The main difference in the new Platform is members who need to edit a git project will need to be given editing access within your VCS. 
+The roles and permissions work similar to NEXT, but some of the role names have changed. The main difference in the new Platform is members who need to edit a git project will need to be given editing access within your VCS.
 
 We've also added a `guest` role which allows you to invite members from outside of your company and grant them access to view specific projects.
 
@@ -79,35 +81,32 @@ Below is a mapping of NEXT to Platform roles:
 
 **How do I publish my documentation as a Hub?**
 
-In the new Platform, your Workspace is your documentation Hub. Workspaces are publicly accessible, and you control access to view projects by configuring a project's visibility settings. 
+In the new Platform, your Workspace is your documentation Hub. Workspaces are publicly accessible, and you control access to view projects by configuring a project's visibility settings.
 
 For example if you want a project to only be visible by Workspace members, you can set the project's visibility to `internal`. You can also give members and guests explicit access to view specific private or internal projects.
 
 **How do I update the contents of my project's documentation?**
 
-When adding a project to your Stoplight Workspace, a git webhook will be installed on the VCS repository. This allows Stoplight to automatically update your documentation when any of the API design assets in the repository have changed. 
+When adding a project to your Stoplight Workspace, a git webhook will be installed on the VCS repository. This allows Stoplight to automatically update your documentation when any of the API design assets in the repository have changed.
 
 The contents of the project can then be updated from any one of your favorite tools such as Stoplight Studio or even directly in the VCS provider. As long as the changes are pushed to the git repository, they will be automatically synced with your Stoplight Workspace.
 
+<!-- **How do I add a custom domain to my documentation?** -->
 
-**How do I add a custom domain to my documentation?**
+<!-- **How do I configure authentication such as Auth0 or SAML?** -->
 
+<!-- TODO: Configure Auth0 as an IdP: https://auth0.com/docs/protocols/saml/saml-configuration/design-considerations#considerations-for-using-auth0-as-identity-provider -->
 
-
-_TODO: Add a link_
-
-**How do I configure authentication such as Auth0 or SAML?**
-
-_TODO: Configure Auth0 as an IdP: https://auth0.com/docs/protocols/saml/saml-configuration/design-considerations#considerations-for-using-auth0-as-identity-provider_
-
-_TODO: Link to docs on configuring SAML_
+<!-- TODO: Link to docs on configuring SAML -->
 
 **How do I create a new version/release of my project?**
 
-_TODO: Git branches_
+In NEXT, the versioning and releases feature was built on top of [git branching](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging). To accomplish the same in Platform, you can create a git branch in your project using Stoplight Studio or your favorite git tool.
+
+<!-- TODO: Add a link to multi-branch support -->
 
 **How do I configure a Prism mock server?**
 
-Every OpenAPI file in your Workspace has a mock server configured automatically. All you need to do is send requests to the API's unique mock URL.
+Every OpenAPI file in your Workspace has a mock server configured automatically. All you need to do is send requests to the API's unique mock URL. For more information, please read this [guide on mocking in Stoplight](./d.setting-up-a-mock-server.md).
 
-_TODO: Add a link_
+<!-- TODO: Add a link -->
