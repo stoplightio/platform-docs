@@ -12,20 +12,20 @@ If any of the following features are critical to your workflow, we suggest you w
 
 <!-- TODO: Add productboard links for each feature -->
 
-|                                     |  Timeline   | Description                                                                        |
-| ----------------------------------- | :---------: | ---------------------------------------------------------------------------------- |
-| Docs: Theming                       |  Immediate  | Customize the theme colors for your Workspace's sidebar                            |
-| Docs: Versioning                    |  Immediate  | Show/hide specific branches in each project's docs                                 |
-| Docs: Table of contents ordering    | Short-term  | Customize the ordering of items in the sidebar                                     |
-| Docs: Custom CSS, JS, and HTML      | Short-term  | Rich component library for composing custom API docs                               |
-| Design: Shared parameters/responses |  Mid-term   | Form based editing for OpenAPI shared components                                   |
-| Design: Lifecycle tags              |  Mid-term   | Add tags to build workflows around the API lifecycle                               |
-| Docs: TryIt auth token generation   |  Mid-term   | Generate OAuth 1 & 2 tokens for HTTP requests in TryIt                             |
-| Discussions                         |  Mid-term   | Create and resolve discussions on API designs and docs                             |
-| Docs: Custom variables              | Considering | Allow users to set variable once and have it used everywhere                       |
-| Docs: Redirects                     | Considering | Automatic redirects when docs routes are changed                                   |
-| Docs: Integrations                  | Considering | First class support for integrations like Google analytics, Segment, Intercom, etc |
-| Design: CRUD Builder                | Considering | Automatically generate a list of CRUD endpoints for a schema                       |
+|                                     |  Timeline   | Description                                                                                                                               |
+| ----------------------------------- | :---------: | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| Docs: Theming                       |  Immediate  | Customize the theme colors for your Workspace's sidebar                                                                                   |
+| Docs: Versioning                    |  Immediate  | Show/hide specific branches in each project's docs                                                                                        |
+| Docs: Table of contents ordering    | Short-term  | Completely custom ordering of your docs sidebar. By default, files will be organized alphabetically, matching the order in the filesystem |
+| Docs: Custom CSS, JS, and HTML      | Short-term  | Rich component library for composing custom API docs                                                                                      |
+| Design: Shared parameters/responses |  Mid-term   | Form based editing for OpenAPI shared components                                                                                          |
+| Design: Lifecycle tags              |  Mid-term   | Add tags to build workflows around the API lifecycle                                                                                      |
+| Docs: TryIt auth token generation   |  Mid-term   | Generate OAuth 1 & 2 tokens for HTTP requests in TryIt                                                                                    |
+| Discussions                         |  Mid-term   | Create and resolve discussions on API designs and docs                                                                                    |
+| Docs: Custom variables              | Considering | Allow users to set variable once and have it used everywhere                                                                              |
+| Docs: Redirects                     | Considering | Automatic redirects when docs routes are changed                                                                                          |
+| Docs: Integrations                  | Considering | First class support for integrations like Google analytics, Segment, Intercom, etc                                                        |
+| Design: CRUD Builder                | Considering | Automatically generate a list of CRUD endpoints for a schema                                                                              |
 
 ## How do I migrate?
 
