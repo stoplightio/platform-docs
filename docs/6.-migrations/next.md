@@ -4,7 +4,7 @@
 
 One of the main goals for this new version of the Stoplight Platform has been to make it easier for you to integrate Stoplight into your existing workflows. In NEXT, we were locked into a single VCS provider, GitLab. Under the hood, every NEXT project is connected to a Stoplight hosted GitLab repository.
 
-So, the biggest difference between NEXT and the new Stoplight Platform is now you have control over which VCS provider your projects are stored in, making it easier for non-Stoplight users to contribute while continuing to use whatever tools they're comfortable with.
+The biggest difference between NEXT and the new Stoplight Platform is now you have control over what VCS provider your projects are stored in. This allows you to keep your source of truth in one location, making it easier for non-Stoplight users to contribute while continuing to use the tools they're comfortable with.
 
 ## When can I migrate?
 
@@ -55,9 +55,11 @@ Finally, let's invite your team. The fastest way is to [configure an email domai
 
 ## FAQ
 
-**How do I create an organization?**
+Below are some commonly asked questions that draw comparisons between concepts in NEXT and the new Stoplight Platform.
 
-In Next, you were a member of an organization where you created projects and invited team members. In the new Stoplight Platform, we've renamed organizations to "workspaces", but the concept is still the same. In your workspace, you invite team members and connect to your VCS provider (Github, Gitlab, Bitbucket, etc) to add projects.
+**Is a Workspace similar to an Organization in NEXT?**
+
+
 
 **How do the members roles compare to the ones in NEXT?**
 
