@@ -25,7 +25,7 @@ If any of the following features are critical to your workflow, we suggest you w
 
 ## How do I migrate?
 
-1. Choose which Stoplight project you want to migrate
+1. Open the Stoplight project you want to migrate in Stoplight Classic
 2. Export the OpenAPI v2 file with Stoplight extensions
 3. Create a new project in Stoplight Platform
 4. Import the file into the new project
