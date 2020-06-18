@@ -21,7 +21,7 @@ If any of the following features are critical to your workflow, we suggest you w
 | Docs: Redirects                     | Considering | Automatic redirects when docs routes are changed                                                                                          |
 | Docs: Integrations                  | Considering | First class support for integrations like Google analytics, Segment, Intercom, etc                                                        |
 | Design: CRUD Builder                | Considering | Automatically generate a list of CRUD endpoints for a schema                                                                              |
-| API Discovery                       | Considering | Automatically create an OpenAPI file by proxying requests through an existing API                                                         |
+| API Discovery                       | Considering | Automatically create an OpenAPI document by proxying requests through an existing API                                                         |
 
 ## How do I migrate?
 
