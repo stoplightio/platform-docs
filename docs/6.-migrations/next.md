@@ -128,6 +128,6 @@ In NEXT, the versioning and releases feature was built on top of [git branching]
 
 **How do I configure a Prism mock server?**
 
-Every OpenAPI file in your Workspace has a mock server configured automatically. All you need to do is send requests to the API's unique mock URL. For more information, please read this [guide on mocking in Stoplight](./d.setting-up-a-mock-server.md).
+Every OpenAPI file in your Workspace has a mock server configured automatically. All you need to do is send requests to the API's unique mock URL. For more information, please read this [guide on mocking in Stoplight](../4.-design/d.setting-up-a-mock-server.md).
 
 <!-- TODO: Add a link -->
