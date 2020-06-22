@@ -6,7 +6,7 @@ The new Stoplight Platform is the third generation of our product, and fundament
 
 When we began developing the new platform, our primary goal was to make it as easy as possible to integrate Stoplight into your existing workflows. Stoplight should enrich - not replace - these workflows, thus reducing the friction involved with rolling out a modern API development strategy at your company.
 
-To that end, the new Stoplight Platform was built to act as a layer on top of the version control system(s) at your company - GitHub, GitLab, Bitbucket, etc. In NEXT, your API designs and docs are stored in Stoplight. In the new Stoplight Platform, these assets are stored in your own version control system. 
+To that end, the new Stoplight Platform was built to act as a layer on top of the version control system(s) at your company - GitHub, GitLab, Bitbucket, etc. In NEXT, your API designs and docs are stored in Stoplight. In the new Stoplight Platform, these assets are stored in your own version control system.
 
 <!-- TODO [[image]] -->
 
@@ -25,25 +25,25 @@ While the new Stoplight Platform includes a lot of new functionality, there are 
 
 Each feature is linked to a card on our public roadmap, and we encourage you to follow the features relevant to you - we'll notify you as each is released.
 
-|                                     |  Timeline   | Description                                                                        |
-| ----------------------------------- | :---------: | ---------------------------------------------------------------------------------- |
-| [Docs: Theming](https://roadmap.stoplight.io/c/52-theming-and-branding)                       |  Immediate  | Customize the branding and colors                            |
-| [Docs: Versioning](https://roadmap.stoplight.io/c/60-multiple-branches)                    |  Immediate  | Show/hide specific branches in each project's docs                                 |
-| [Docs: Table of contents ordering](https://roadmap.stoplight.io/c/59-customize-docs-sidebar-ordering)    | Short-term  | Completely custom ordering of your docs sidebar. By default, files will be organized alphabetically, matching the order in the filesystem                                     |
-| [Docs: Custom CSS, JS, and HTML](https://roadmap.stoplight.io/c/57-embeddable-component-library)      | Short-term  | Rich component library for creating custom API docs site                              |
-| [Design: Shared parameters/responses](https://roadmap.stoplight.io/c/10-openapi-shared-components) |  Mid-term   | Form based editing for OpenAPI shared components                                   |
-| [Design: Lifecycle tags](https://roadmap.stoplight.io/c/65-lifecycle-tags)              |  Mid-term   | Add tags to build workflows around your API lifecycle                               |
-| [Docs: Try It OAuth token generation](https://roadmap.stoplight.io/c/58-request-maker-authentication)   |  Mid-term   | Generate OAuth 1 & 2 tokens for HTTP requests in Try It                             |
-| [Discussions](https://roadmap.stoplight.io/c/61-discussions-comments)                         |  Mid-term   | Create and resolve discussions on API designs and docs                             |
-| [Docs: Custom variables](https://roadmap.stoplight.io/c/47-custom-variables)              | Considering | Allow users to set a variable once and have it used everywhere                       |
-| [Docs: Redirects](https://roadmap.stoplight.io/c/68-redirects)                     | Considering | Automatic redirects when docs routes are changed                                   |
-| [Docs: Integrations](https://roadmap.stoplight.io/c/64-analytics-integrations)                  | Considering | First class support for integrations like Google analytics, Segment, Intercom, etc |
-| [Design: CRUD Builder](https://roadmap.stoplight.io/c/63-crud-builder)                | Considering | Automatically generate a list of CRUD endpoints for a schema                       |
+|                                                                                                       |  Timeline   | Description                                                                                                                               |
+| ----------------------------------------------------------------------------------------------------- | :---------: | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| [Docs: Theming](https://roadmap.stoplight.io/c/52-theming-and-branding)                               |  Immediate  | Customize the branding and colors                                                                                                         |
+| [Docs: Versioning](https://roadmap.stoplight.io/c/60-multiple-branches)                               |  Immediate  | Show/hide specific branches in each project's docs                                                                                        |
+| [Docs: Table of contents ordering](https://roadmap.stoplight.io/c/59-customize-docs-sidebar-ordering) | Short-term  | Completely custom ordering of your docs sidebar. By default, files will be organized alphabetically, matching the order in the filesystem |
+| [Docs: Custom CSS, JS, and HTML](https://roadmap.stoplight.io/c/57-embeddable-component-library)      | Short-term  | Rich component library for creating custom API docs site                                                                                  |
+| [Design: Shared parameters/responses](https://roadmap.stoplight.io/c/10-openapi-shared-components)    |  Mid-term   | Form based editing for OpenAPI shared components                                                                                          |
+| [Design: Lifecycle tags](https://roadmap.stoplight.io/c/65-lifecycle-tags)                            |  Mid-term   | Add tags to build workflows around your API lifecycle                                                                                     |
+| [Docs: Try It OAuth token generation](https://roadmap.stoplight.io/c/58-request-maker-authentication) |  Mid-term   | Generate OAuth 1 & 2 tokens for HTTP requests in Try It                                                                                   |
+| [Discussions](https://roadmap.stoplight.io/c/61-discussions-comments)                                 |  Mid-term   | Create and resolve discussions on API designs and docs                                                                                    |
+| [Docs: Custom variables](https://roadmap.stoplight.io/c/47-custom-variables)                          | Considering | Allow users to set a variable once and have it used everywhere                                                                            |
+| [Docs: Redirects](https://roadmap.stoplight.io/c/68-redirects)                                        | Considering | Automatic redirects when docs routes are changed                                                                                          |
+| [Docs: Integrations](https://roadmap.stoplight.io/c/64-analytics-integrations)                        | Considering | First class support for integrations like Google analytics, Segment, Intercom, etc                                                        |
+| [Design: CRUD Builder](https://roadmap.stoplight.io/c/63-crud-builder)                                | Considering | Automatically generate a list of CRUD endpoints for a schema                                                                              |
 
 ## How do I migrate?
 
 > If you feel comfortable and ready to migrate, please follow the steps below. If you have any questions concerns, please don't hesitate to [reach out](mailto:support@stoplight.io) and we will schedule time to assist you. We understand that this not a trivial migration, and are here to help!
-> 
+>
 > Also keep in mind that you can of course copy API design files from NEXT into your existing Git repositories. This approach makes sense if you want to start managing these design assets in the same Git repos that store the code. If you are wondering which approach is best for you, please get in touch and we'll schedule some time to help you decide.
 
 Because we've updated our approach to where your data is stored and managed (your VCS rather than our homegrown backend), this migration is a bit more involved. The goal of this migration is to move your data from Stoplight NEXT to Git repos in your VCS, and then to connect those Git repos to your new Stoplight Workspace.
@@ -67,7 +67,7 @@ git push -u origin $(git rev-parse --abbrev-ref HEAD)
 
 Now, let's create a Stoplight Workspace and add your projects.
 
-5. [Create](https://stoplight.io/welcome/create) your new [Stoplight Workspace](./a.creating-a-workspace.md).
+5. [Create](https://stoplight.io/welcome/create) your new [Stoplight Workspace](../2.-workspaces/a.creating-a-workspace.md).
 6. Please follow this [step-by-step guide](../1.-quickstarts/add-projects-quickstart.md#connect-an-existing-git-project) to connect your VCS account and add the projects from step 4.
 
 Finally, let's invite your team to your new Stoplight workspace. The fastest way is to [configure an email domain](../2.-workspaces/d.inviting-your-team.md#make-your-workspace-discoverable) and share a link to your workspace's signup page. Alternatively, you can also [invite members](../2.-workspaces/d.inviting-your-team.md) individually using their email.
