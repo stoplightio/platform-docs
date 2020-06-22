@@ -8,7 +8,7 @@ When we began developing the new platform, our primary goal was to make it as ea
 
 To that end, the new Stoplight Platform was built to act as a layer on top of the version control system(s) at your company - GitHub, GitLab, Bitbucket, etc. In NEXT, your API designs and docs are stored in Stoplight. In the new Stoplight Platform, these assets are stored in your own version control system. 
 
-TODO [[image]]
+<!-- TODO [[image]] -->
 
 This shift leads to a number of benefits:
 
@@ -74,7 +74,7 @@ Finally, let's invite your team to your new Stoplight workspace. The fastest way
 
 If you have published docs for external stakeholders (customers, the general public, etc), there are a couple of things to consider before migrating.
 
-TODO
+<!-- TODO -->
 
 ## FAQ
 
