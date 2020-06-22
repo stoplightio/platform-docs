@@ -1,4 +1,4 @@
-# Migrating from Classic (app.stoplight.io)
+# Migrating from Classic
 
 ## Introduction
 

@@ -1,4 +1,4 @@
-# Migrating from NEXT (next.stoplight.io)
+# Migrating from NEXT
 
 ## Introduction
 
