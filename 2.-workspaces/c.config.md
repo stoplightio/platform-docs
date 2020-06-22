@@ -10,7 +10,7 @@ There is a `.stoplight.json` config file, which can help with that, using an `"e
 
 There's also a `"formats"` keyword to instruments which files are supposed to be read and parsed as APIs, documentation, or other content. When you create an API in Studio, it can use this configuration to know where to put that file, so it's not just shoved into the root along with everything else.
 
-![](../../assets/images/create-api-with-config.gif)
+![](../assets/images/create-api-with-config.gif)
 
 ## How it Works
 

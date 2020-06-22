@@ -34,7 +34,7 @@ To talk to the HTTP mock servers, there's a few options.
 
 Docs and Explorer both have a HTTP Client available in the Try it Now tab. This has hosted mocking built right in. You just need to enable mocking from the **Mocking** tab, and you're good to go.
 
-![Try it Now](../../assets/images/enable-mock.png)
+![Try it Now](../assets/images/enable-mock.png)
 
 Within "Try it Now" you can talk to any server, but if you want to talk to the mock server open up the "Mocking" tab and enable it. Now any requests will be sent to the mock server, so you can get a feel for how this API is going to respond. 
 
@@ -44,13 +44,13 @@ Pretend it's real, is this a good API? Should you make any changes before you ge
 
 You don't have to use our HTTP client, you can bring any. You can use the Code Generation tab to export the request in the programming language of your choice, and if you like doing things on the command line you can copy the curl command.
 
-![Curl command](../../assets/images/curl-command.png)
+![Curl command](../assets/images/curl-command.png)
 
 ### Any HTTP Client
 
 If none of that seems useful, you can just grab the Mock Server URL and compose the whole URL yourself.
 
-![Hosted Mock URL](../../assets/images/hosted-mock-url.gif)
+![Hosted Mock URL](../assets/images/hosted-mock-url.gif)
 
 Consider the mock server to be a special server, just one that's not mentioned in your API description. So if you had an OpenAPI description with the following servers...
 

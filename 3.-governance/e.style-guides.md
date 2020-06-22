@@ -144,7 +144,7 @@ rules:
 
 Done early enough, this will shape the actual API as it is being developed. The ruleset will come into effect in Studio, so that as people are typing they get feedback if they break a style guide rule. 
 
-![Spectral in Studio](../../assets/images/spectral-studio.gif)
+![Spectral in Studio](../assets/images/spectral-studio.gif)
 
 If you're a code-first team then this is not ideal, as you'll potentially need to change code which exists in production just to get it to match this style guide.
 

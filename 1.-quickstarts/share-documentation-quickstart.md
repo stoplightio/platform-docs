@@ -2,7 +2,7 @@
 
 With your project ready, you can share the documentation with internal and external stakeholders. Your workspaces are your developer hub, viewable by anonymous, guest, and internal users. Users would see different projects depending on their permissions and project visibility settings. 
 
-![update-visibility](../../assets/images/manage-access.gif)
+![update-visibility](../assets/images/manage-access.gif)
 
 To update the visibility settings for a project, navigate to the `Manage Access` tab in the project settings screen using the cogwheel beside the `Edit in Studio` button.
 
@@ -26,7 +26,7 @@ If it's `Private`, only users with direct access would be able to view the docum
 
 The Home Screen would be the landing page for users landing on the documentation. This can be used to highlight important APIs, getting start guides, or give a quick overview of the API platform. 
 
-![landing-page-content](../../assets/images/landing-page.gif)
+![landing-page-content](../assets/images/landing-page.gif)
 
 There's a template available to get you quickly started. You can edit or completely replace the default template using [Stoplight Flavoured Markdown](https://stoplight.io/p/docs/gh/stoplightio/studio/docs/Documentation/03a-stoplight-flavored-markdown.md) from the workspace settings.
 
@@ -34,7 +34,7 @@ There's a template available to get you quickly started. You can edit or complet
 
 In the workspace settings, add a URL to your logo. It's recommended to use a logo with the company name. 
 
-![change-logo](../../assets/images/change-logo.png)
+![change-logo](../assets/images/change-logo.png)
 
 ## Share with Users
 
