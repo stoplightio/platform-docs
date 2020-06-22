@@ -28,14 +28,29 @@ Each feature is linked to a card on our public roadmap, and we encourage you to 
 
 ## How do I migrate?
 
-1. Open the Stoplight project you want to migrate in Stoplight Classic
-2. Export the OpenAPI v2 file with Stoplight extensions. https://help.stoplight.io/docs/design/exporting-to-swagger-or-raml
-3. Create a new project in Stoplight Platform
-4. Import the file into the new project
-5. Promote to a git repo
+> If you feel comfortable and ready to migrate, please follow the steps below. If you have any questions concerns, please don't hesitate to [reach out](mailto:support@stoplight.io) and we will schedule time to assist you. We understand that this not a trivial migration, and are here to help!
+> 
+> Also keep in mind that you can of course copy API design files from Classic into your existing Git repositories. This approach makes sense if you want to start managing these design assets in the same Git repos that store the code. If you are wondering which approach is best for you, please get in touch and we'll schedule some time to help you decide.
 
-<!-- TODO: Would be nice to convert text sections to markdown files -->
-<!-- TODO: Images (2) and link to relevant docs articles (3) -->
+Because we've updated our approach to where your data is stored and managed (your VCS rather than our homegrown backend), this migration is a bit more involved. The goal of this migration is to move your data from Stoplight Classic to Git repos in your VCS, and then to connect those Git repos to your new Stoplight Workspace.
+
+### Migrating project contents
+
+First, let's export the contents from one of your Classic projects.
+
+1. Choose which Classic project you want to migrate.
+2. Follow [this guide](https://help.stoplight.io/docs/design/exporting-to-swagger-or-raml) to export the project's OpenAPI v2 file with the Stoplight extensions included. If you have multiple versions, you'll want to export each one individually.
+
+Now you have the exported OpenAPI file(s), let's add them to your new Stoplight Workspace.
+
+3. You can choose to either create a new Git repository or import the file to an existing one. Follow [this guide](../1.-quickstarts/add-projects-quickstart.md) to learn how.
+
+### Migrating published docs
+
+If you have published docs for external stakeholders (customers, the general public, etc), there are a couple of things to consider before migrating.
+
+<!-- TODO -->
+
 
 ## FAQ
 

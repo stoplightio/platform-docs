@@ -48,6 +48,8 @@ Each feature is linked to a card on our public roadmap, and we encourage you to 
 
 Because we've updated our approach to where your data is stored and managed (your VCS rather than our homegrown backend), this migration is a bit more involved. The goal of this migration is to move your data from Stoplight NEXT to Git repos in your VCS, and then to connect those Git repos to your new Stoplight Workspace.
 
+### Migrating project contents
+
 First, let's move the contents of your NEXT project into your own VCS provider.
 
 1. Choose which NEXT project you want to migrate.
