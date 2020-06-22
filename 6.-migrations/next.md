@@ -8,8 +8,6 @@ When we began developing the new platform, our primary goal was to make it as ea
 
 To that end, the new Stoplight Platform was built to act as a layer on top of the version control system(s) at your company - GitHub, GitLab, Bitbucket, etc. In NEXT, your API designs and docs are stored in Stoplight. In the new Stoplight Platform, these assets are stored in your own version control system.
 
-<!-- TODO [[image]] -->
-
 This shift leads to a number of benefits:
 
 1. **No lock-in:** Your data is your own, stored in your Git repositories.
@@ -55,15 +53,18 @@ First, let's move the contents of your NEXT project into your own VCS provider.
 1. Choose which NEXT project you want to migrate.
 2. Follow [this guide](https://docs.stoplight.io/platform/projects/git-repo#how-to-clone-your-stoplight-git-repository) to git clone the project's contents to a folder on your computer.
 3. Create a new git repository in your VCS provider ([Github](https://help.github.com/en/github/getting-started-with-github/create-a-repo), [Gitlab](https://docs.gitlab.com/ee/gitlab-basics/create-project.html), [Bitbucket](https://confluence.atlassian.com/bitbucket/create-a-git-repository-759857290.html), etc).
-4. Push the project contents from your computer into your new git repository.
+4. Push the project contents from your computer into your new git repository. In your terminal, while in the root of your project folder, run the following commands to push the files and history into your new Git repository.
 
 ```bash
 git remote rename origin upstream
+
+# make sure to update the URL here with the http url to the Git repo you created in step 3!
 git remote add origin https://github.com/{organization}/{url}.git
+
 git push -u origin $(git rev-parse --abbrev-ref HEAD)
 ```
 
-5. Repeat these steps for each of the NEXT projects you want to migrate.
+5. Once step 4 is complete, you should see the contents of your project in your new Git repository in your VCS. Repeat these steps for each of the NEXT projects you want to migrate.
 
 Now, let's create a Stoplight Workspace and add your projects.
 
@@ -76,7 +77,10 @@ Finally, let's invite your team to your new Stoplight workspace. The fastest way
 
 If you have published docs for external stakeholders (customers, the general public, etc), there are a couple of things to consider before migrating.
 
-<!-- TODO -->
+1. Are you using a hub file (versus publishing an OpenAPI file)? If the answer is yes, then we recommend you wait until we release our hub migration tool (short term).
+2. Are you using a lot of custom CSS or custom JS? If the answer is yes, then we recommend you wait until we release our new [web components](https://roadmap.stoplight.io/c/57-embeddable-component-library), which will allow for a similar level of cutomizability.
+
+If neither of the above are relevant to your use case, then you can probably migrate! We recommend that you [reach out](mailto:support@stoplight.io) and we will schedule some time to meet and make your migration as smooth as possible.
 
 ## FAQ
 
