@@ -50,7 +50,7 @@ API consumers generally don't enjoy guessing subtle differences between various 
 - If one API uses JSON:API and another uses Siren, maybe that's something to call out. 
 - If one uses camelCase for properties and another uses snake_case, maybe that could be mentioned.
 
-Spectral can help with a lot of this, allowing you to [create style guides for workspaces](../3.-governance/e.style-guides.md). This will catch a lot of trouble sooner, but humans can still check the results after for anything which doesn't have a Spectral rule.
+Spectral can help with a lot of this, allowing you to [create style guides for workspaces](../4.-governance/d.style-guides.md). This will catch a lot of trouble sooner, but humans can still check the results after for anything which doesn't have a Spectral rule.
 
 **Is this easy to implement?**
 
@@ -70,11 +70,11 @@ A lot of Git repositories (especially those on GitHub) are configured to use [pr
 
 ![New branch in Studio](../assets/images/new-branch-studio.gif)
 
-Read more about [creating and switching branches](TODO 04-common-git-tasks.md#switching-branches).
+Read more about [creating and switching branches](https://meta.stoplight.io/docs/studio/docs/Basics/04-common-git-tasks.md#switching-branches).
 
 ### 3. Make Changes, Commit, & Push
 
-When you're done making changes, [commit them, then push](TODO 04-common-git-tasks.md#committing-changes) the branch to the remote repository. 
+When you're done making changes, [commit them, then push](https://meta.stoplight.io/docs/studio/docs/Basics/04-common-git-tasks.md#committing-changes) the branch to the remote repository. 
 
 ### 4. Open a Pull Request
 
@@ -87,13 +87,15 @@ How you create a pull request depends on where the project's repository is hoste
 
 ### 5. Link to Branch Documentation
 
-You can publish from any branch, so click "Publish" and once the docs are published you will see a "View Docs". This will give you a link like this:
+If Webhooks have been set up in Project Settings > Automation then any branch will be analyzed, meaning you can see documentation for any of those branches. 
+
+By the time you've made a pull request for this branch, the analyzer has probably had enough time to run (check the Automation log to be certain) then you can construct a URL like this:
 
 ```
-https://{workspace}.stoplight.io/p/docs/your-project?group=your-branch
+https://{workspace}.stoplight.io/docs/{project}/branches/{branch}
 ```
 
-Put that link into the pull request you've just made so people can eyeball the documents instead of reading a bunch of YAML, making the review process much easier.
+Put that link into the pull request you've just made, and people will be able to eyeball the documents instead of reading a bunch of YAML, making the review process much easier.
 
 ### 6. Review & Merge
 

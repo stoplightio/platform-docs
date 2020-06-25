@@ -4,13 +4,13 @@ tags: [Design]
 
 # Overview
 
-Stoplight has an editor called Studio, which doubles as both a Markdown editor, and a visual API Designer. An API designer is a piece of software which helps you work with API Descriptions, specifically most popular formats: OpenAPI (both v2 and v3), and AsyncAPI. 
+Stoplight has an editor called [Stoplight Studio](https://stoplight.io/studio), which doubles as both a Markdown editor, and a visual API Designer. An API designer is a piece of software which helps you work with API Descriptions, specifically the most popular formats: OpenAPI (both v2 and v3), and AsyncAPI. 
 
 ## What is an API Description
 
 API Descriptions usually take the form of a YAML or JSON document, which can explain the "I" part of API: the interface. This covers HTTP methods, endpoints, headers, authentication schemes, request bodies, example responses, and every other part of an API, including callbacks and webhooks!
 
-For years folks would be stuck writing this YAML or JSON by hand in a text editor, but API Design software like Stoplight Studio aims to make that be a thing of the past, providing a graphical interface that reduces the redundancy of working with plain text. 
+For years folks would be stuck writing this YAML or JSON by hand in a text-editor, but API Design software like Stoplight Studio aims to make that be a thing of the past, providing a graphical interface that reduces the redundancy of working with plain text. 
 
 ## API Design-First
 
@@ -18,15 +18,15 @@ API descriptions can be created before you build an API, or afterward. In ye old
 
 API Design-First is the concept of planning out the API before you build it.  Instead of doing that in some Google Document or on the back of a napkin, you can do it in a reusable, machine-readable format which can power functionality at every stage of the API lifecycle:
 
-1. Generate Documentation - beautiful API reference documentation
-1. Mock Servers - early API consumer feedback
-1. Request Validation - why write all those rules twice
-1. Contract Testing - ensure API is doing its job
-1. Code Generation - computers have learned to program themselves
-1. SDK Generation - let API consumers talk in their programming language of choice
-1. Server Stubs - generators can do the redundant work for your developers
+1. **Generate Documentation** - beautiful API reference documentation
+2. **Mock Servers** - get API consumers feedback from simple prototypes
+3. **Request Validation** - why write all that validation logic more than once
+4. **Contract Testing** - ensure the API is doing what it says it should be doing
+5. **Code Generation** - computers have learned to program themselves
+6. **SDK Generation** - let API consumers talk in their programming language of choice
+7. **Server Stubs** - generators can do the application boilerplate for developers
 
-With an API Design-First strategy in place, you can:
+With an API Design-First strategy in place, you can...
 
 #### Get Early Feedback
 
@@ -36,7 +36,7 @@ When an API has been designed upfront, API consumers get a chance to play with a
 
 Catching potential problems for clients early on avoids wasting time and money writing code which is not going to solve a problem. These early iterations are a game-changer because changing the API description takes minutes, not hours or days! It also reduces the chances of noticing major issues shortly after v1 launches, meaning you can put off v2 and v3 for a while, maybe indefinitely.
 
-What is the cost of a bad API? Try multiplying all of your tech debt by your number of users.
+What is the cost of a bad API? Try multiplying all of your tech debt by your number of API consumers.
 
 #### Put Consumers First
 
@@ -73,4 +73,4 @@ Stoplight Studio comes in two flavors:
 - Studio Web - A module available as part of Stoplight Platform
 - Studio Desktop - A downloadable desktop application for offline use, supporting macOS, Windows and Linux
 
-They both do the same job: help you create and modify content in your workspace's projects, and push changes back. Stoplight Studio chooses to do away with awkward two-way syncs introduced by some tools, and stick to tried and tested Git-based workflows.
+They both do the same job: help you create and modify content in your workspace's projects, and push changes back. Stoplight Studio chooses to do away with awkward two-way syncs introduced by some tools, and sticks to tried and tested Git-based workflows.

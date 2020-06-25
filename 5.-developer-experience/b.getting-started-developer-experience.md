@@ -8,7 +8,7 @@ tags: [Documentation]
 
 Stoplight automatically generates an API reference from your API description. 
 
-> If you don't already have a API description ready, get started by [starting a new API design](../4.-design/b.starting-a-new-api-design.md).
+> If you don't already have a API description ready, get started by [starting a new API design](../3.-design/b.starting-a-new-api-design.md).
 
 It's essential to populate and validate various parts of your API description to create a top-notch API reference. Open up your API in Studio and let's start going through the pieces required to take your docs up a notch:
 
@@ -39,7 +39,7 @@ Applies to: `Endpoint` , `Endpoint Parameters` (Path, Header, Query), `Request B
 
 Descriptions are a critical piece to create proper documentation. Use these fields across the API description to explain important things to the user. The API designer should have added small descriptions as pointers, but the more detail you go into, the better it is. You can use [Markdown](https://meta.stoplight.io/docs/studio/docs/Documentation/03a-stoplight-flavored-markdown.md) to create informative and aesthetically pleasing descriptions. 
 
-Applies to: `Endpoint` , `Endpoint Parameters` (Path, Header, Query), `Request Body`, `Responses`, `Response Fields`, `Models`, `Model Fields`
+Applies to: `Endpoint` , `Endpoint Parameters` (Path, Header, Query), `Request Body`, `Responses`, `Response Fields`, and `Models`
 
 #### Other Properties
 

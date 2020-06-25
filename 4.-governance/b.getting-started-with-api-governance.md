@@ -45,14 +45,14 @@ One of the biggest reasons for inconsistency across your API program stems from 
 
 An important discovery while exploring your API landscape is the current state of API descriptions being used in your organization. API descriptions have become an industry-wide practice, and their adoption should be pushed in any organization. You should:
 
-- Evangelize the advantages of creating and updating API descriptions for all existing APIs. [Stoplight Studio](../4.-design/a.overview.md) is a powerful tool to start creating and managing your designs. 
+- Evangelize the advantages of creating and updating API descriptions for all existing APIs. [Stoplight Studio](../3.-design/a.overview.md) is a powerful tool to start creating and managing your designs. 
 - Converge teams on a single API description format. We recommend moving to OpenAPI v3 due to its extensive support and adoption. 
 
 As your API program matures and adoption for API descriptions becomes common, you can choose to make it mandatory to maintain an OpenAPI v3 for every API. As with most of your governance effort, you should take an incremental approach with this. 
 
 #### Create Style Guidelines 
 
-It's important to standardize your API design to ensure consistency across your APIs. You can start that by [creating style guides](e.style-guides.md) in Stoplight that can be used to validate your API designs. 
+It's important to standardize your API design to ensure consistency across your APIs. You can start that by [creating style guides](d.style-guides.md) in Stoplight that can be used to validate your API designs. 
 
 While the goal is to have one set of enterprise-wide API governance rules, your learnings from previous steps would help you take a prudent step-by-step approach to this. Gauging what your teams are already doing, start converging them on a set of rules. You can start with a combination of mandatory rules and optional guidelines to help folks make better decisions. 
 
@@ -63,24 +63,24 @@ Examples of rules that you can apply:
 - Mandatory security for all paths
 - Only use a type of OAuth as the security scheme
 
-Learn more about [Style Guides](e.style-guides.md).
+Learn more about [Style Guides](d.style-guides.md).
 
 #### Create a Design Library
 
-Often developers without access to existing resources end up creating duplicate code that leads to inconsistencies and maintenance nightmares. You need to identify reusable design components and put them in a central repository. You can do this by [creating a design library]<!--To-Do: Add link-->() in the Stoplight Platform. This can then be used in APIs across your organization.   
+Often developers without access to existing resources end up creating duplicate code that leads to inconsistencies and maintenance nightmares. You need to identify reusable design components and put them in a central repository. You can do this by [creating a design library](c.creating-a-design-library.md) in Stoplight Platform. This can then be used in APIs across your organization.   
 
 #### Enable API Discovery
 
 As the number of APIs in your portfolio grows, folks need to have an easy way to discover your APIs. To enable this, you should make a catalog of APIs with up to date documentation. 
 
-Using the Stoplight Platform, you can:
+Using Stoplight Platform, you can:
 
 - [Create Documentation](../5.-developer-experience/b.getting-started-developer-experience.md) where teams can publish their APIs for internal and external consumption.
 - Add team members to your workspace to help them keep track of dependencies using Explorer. 
 
 #### Promote Design-First for New APIs
 
-While enforcing API descriptions for your existing APIs is helpful, the true power of API descriptions is realized by following an [API Design-First](../4.-design/a.overview.md) policy. Designing your APIs before development helps you get quick feedback, lets Frontend and Backend teams work in parallel, and test automatically. Help your architects get started with a new API design by sharing this [guide](../4.-design/b.starting-a-new-api-design.md). 
+While enforcing API descriptions for your existing APIs is helpful, the true power of API descriptions is realized by following an [API Design-First](../3.-design/a.overview.md) policy. Designing your APIs before development helps you get quick feedback, lets Frontend and Backend teams work in parallel, and test automatically. Help your architects get started with a new API design by sharing this [guide](../3.-design/b.starting-a-new-api-design.md). 
 
 #### Implement Versioning
 
@@ -91,8 +91,8 @@ APIs often need modifications or sometimes deprecating, and versioning is theref
 Having to rely on your teams to manually apply your API governance rules is no fun for anyone, and not feasible when you're developing APIs at scale. Ensure your API governance rules are met before an API can be deployed. Deploying APIs with governance violations even internally is not recommended.
 
 Stoplight Platform makes this easy along the lifecycle using:
-- Automatic Style Guides[creating style guides](e.style-guides.md)
-- Contract Testing powered by [automatic mock servers](../4.-design/d.setting-up-a-mock-server.md)
+- Automatic Style Guides[creating style guides](d.style-guides.md)
+- Contract Testing powered by [automatic mock servers](../3.-design/d.setting-up-a-mock-server.md)
 
 #### Analyze and Improve
 

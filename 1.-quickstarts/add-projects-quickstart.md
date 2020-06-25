@@ -1,8 +1,6 @@
-# Add API Descriptions and Documentation
+# Add Projects
 
-## What is a Project
-
-Projects can contain anything you would expect to find in a repository: source code, API descriptions, images, Markdown articles, maybe some excel spreadsheets. Stoplight will analyze the contents of a project looking for things it knows what to do with, and ignore the rest.
+Projects can contain anything you would expect to find in a repository: source code, API descriptions, images, Markdown articles, maybe some Excel spreadsheets. Stoplight will analyze the contents of a project looking for things it knows what to do with, and ignore the rest.
 
 Stoplight looks for: 
 

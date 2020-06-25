@@ -38,7 +38,7 @@ With all your API artifacts in a single place, you can use this to:
 ### Promote consistency
 When API designers can find existing models and example styles, they build more consistent interfaces. Engineers integrate more quickly, but also they'll have the information to design thoughtful APIs from the start. Technical writers can discover documentation for dor references. API designers can spot inconsistencies in their design and work towards making them consistent. 
 
-With a good view of your current state of design and documentation, you can [create custom style guides](e.style-guides.md) to enforce consistency without drilling down too hard on the current practices. 
+With a good view of your current state of design and documentation, you can [create custom style guides](d.style-guides.md) to enforce consistency without drilling down too hard on the current practices. 
 
 Having all these assets discoverable for all APIs allows for the delivery of consistent API design, documentation, code samples, tests, and other essential aspects of operating an API. 
 
@@ -55,5 +55,4 @@ Explorer allows users to Star what's important, which enables easy discovery of 
 <!--To-do:Add screenshot of starred view-->
 
 ### Share with consumers
-Provide role-based access to your consumers in Explorer, providing a single place for your team to work on them while consumers try them out. Get feedback early in your API lifecycle on your new API designs by sharing projects with guests in your workspace. They can read the API documentation, play with the hosted mock server, and even start building out potential solutions. [Add team memebers](../2.-workspaces/d.inviting-your-team.md) to get started. 
-
+Provide role-based access to your consumers in Explorer, providing a single place for your team to work on them while consumers try them out. Get feedback early in your API lifecycle on your new API designs by sharing projects with guests in your workspace. They can read the API documentation, play with the hosted mock server, and even start building out potential solutions. [Add team members](../2.-workspaces/d.inviting-your-team.md) to get started. 

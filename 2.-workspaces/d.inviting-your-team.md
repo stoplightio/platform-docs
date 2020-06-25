@@ -16,13 +16,14 @@ Stoplight Platform has been built with the modern API workflow in mind. It provi
 2. To add a member, enter the work email address of the person you want to add and select a role.
 <!--To-Do: Screenshot-->
 
-Now that you know how to invite your team to Stoplight. Let's give you an overview of how various folks in your team can use the Stoplight Platform. This would help you to decide how (and when) to onboard each stakeholder in your organization. 
 
 ### Onboard Your Team
 
-#### Champion / Landscape Manager
+Now that you know how to invite your team to Stoplight. Let's give you an overview of how various folks in your team can use Stoplight to decide how (and when) to onboard each stakeholder in your organization. 
 
-API Champions in an organization are key proponents of bringing API change across an organization. Successful API programs have seen leaders evangelizing the need for key changes in the API lifecycle, leading initiatives among cross-functional teams. For these individuals, Stoplight Platform is a key tool in their armory as it gives them the required visibility across their organization. 
+#### API Champion / Landscape Manager
+
+API Champions in an organization are key proponents of bringing API change across an organization. Successful API programs have seen leaders evangelizing the need for key changes in the API lifecycle, identifying issues in the API ecosystem, and leading initiatives among cross-functional teams to solve those. For these individuals, Stoplight Platform is a key tool in their armory as it gives them the required visibility across their organization. 
 
 Champions can:
 - Explore APIs across their organization using Explorer
@@ -32,9 +33,9 @@ Champions can:
 - Invite API teams working in silos to the workspace bringing them into governance initiatives
 - Use the explorer and documentation to evangelize the business value of APIs to other leaders in the company
 
-Champions are normally the first to be onboarded to the Stoplight Platform. We recommend giving them the **admin** role to give them visibility across teams and getting different API teams onboarded. 
+Champions are normally the first to be onboarded to Stoplight. We recommend giving them the **admin** role to give them visibility across teams and getting different API teams onboarded. 
 
-Are you a Champion? Get your fellow Champions on board. 
+Are you an Champion? Get your fellow Champions on board. 
 
 #### Product Manager
 
@@ -97,15 +98,18 @@ Developers are usually invited by Product Managers or Architects of their API te
 
 ### Make Your Workspace Discoverable
 
-Inviting and managing team members in large teams can become a cumbersome process. We recommend whitelisting your company domain to allow folks in your organization get started quickly with predefined privileges and start contributing to your API program. 
+Inviting and managing team members in large teams can become a cumbersome process, but there are a few ways to simplify this. 
 
-Do remember to share the workspace URL over your company email, Slack, or some other messaging service. Let everybody know your APIs have a friend now! 
+Integrations can be set up for SAML or LDAP if these are already in use at your organization, or even easier is the "Approved Email Domain" approach. 
+
+We recommend approving your company domain to allow folks in your organization get started quickly with predefined privileges and start contributing to your API program. Anyone with an email for the domain you add to this list will automatically be approved with whatever default permissions are configured.
+
+![](../assets/images/approved-email.png)
+
+Do remember to share the workspace URL over your company email, Slack, or some other messaging service, so that people can start exploring all the APIs!
 
 1. Navigate to the Settings of the workspace. 
 
 2. Click on **Add Domain**
-<!--To-do:Whitelist Gif-->
 
-3. Enter the domain you want to whitelist. e.g. yourcompany.com and select the default role for members who sign up. You can change their roles later. The recommended role would be a viewer or maker. 
-
-This can also be used to give quick access to your customers to view your API projects. To do that whitelist your customers domain with *guest* priveleges. 
+3. Enter the domain you want to approve. e.g. "yourcompany.com" and select the default role for members who sign up. You can change their roles later. The recommended role would be a viewer or maker. 

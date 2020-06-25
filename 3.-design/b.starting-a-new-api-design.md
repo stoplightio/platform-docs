@@ -4,20 +4,27 @@ tags: [Design]
 
 # Start a new API design
 
-Following the [API Design-first](./a.overview.md#API-Design-First) workflow, 
+Following the [API Design-first](./a.overview.md#API-Design-First) workflow, you are creating an API Descriptions before the API exists. This can be a bit daunting at first, but grab a whiteboard, notepad, or however you like to keep notes, and lets think about what this API is going to do.
 
 ## Define the intent of the API
 
-The first step to making a new API is defining the purpose of the API. Typically you'd work with various stakeholders in your organization to define abstract requirements and the type of consumers (Internal, Partner, or External) it would cater. For example, you could be:
+The first step to making a new API is defining the purpose of the API. Typically you'd work with various stakeholders in your organization to define abstract requirements and the type of consumers (Internal, Partner, or External) it would cater. 
 
-- Solving a use-case for external customers
+For example, you could be:
+
+- Solving a use-case for external customers that will not effect internal systems
 - Providing a reusable service for use across your organization
+- Creating a unique integration API for a single partnership
+- Splitting an internal monolith into microservices
+- Glueing some internal microservices into a monolith
 
-This would also be an excellent time to identify a few critical consumers for this API. 
+Depending on the scope of this API, the API design process begins by finding out the critical consumers for this API.
 
 ## Understand your consumers
 
-The goal is to provide an API that solves consumer problems in the most efficient way. This could be achieved by sending out a survey to your consumers to understand their needs. Do this with a few key consumers covering a range of use cases, preferably. The questions you could be asking are:
+The goal is to provide an API that solves consumer problems in the most efficient way, but how you go about designing the API will depend on a few things.
+
+This could be achieved by sending out a survey to your consumers to understand their needs. Do this with a few key consumers covering a range of use cases, preferably. The questions you could be asking are:
 
 - What are the key business needs and workflows you are trying to solve?
 - What existing APIs are you talking to, if any?
@@ -26,13 +33,15 @@ The goal is to provide an API that solves consumer problems in the most efficien
 
 The responses to these questions should get you thinking about how an API needs to function, and knowing what sort of clients you're primarily dealing with can help think about the size of payloads. 
 
-For example, if it's primarily backends and web apps and HTTP/2 multiplexing is an option, the API should contain more endpoints with smaller payloads, whereas mostly mobile clients could be better off with a smaller number of slightly larger calls.
+For example, if it's primarily backend services and web-apps then HTTP/2 multiplexing is a great option. The API can contain a larger number of endpoints with vary levels of cacheability, no longer constrained by "number of requests" being a limiting factor due to the nature of HTTP/2 multiplexing and Server Push.
+
+Conversely, if the API is serving mostly clients on low latency networks, a more traditional approach could be taken where HTTP/1.1 style "mega endpoints" are used to keep the number of requests down.
 
 A typical output of this exercise would be detailed requirements of the API and a user persona that would act as your reference when designing your API. 
 
 ## Explore Existing APIs
 
-A lot of the time, you can end up creating duplicate services to solve a similar problem, which leads to inconsistencies, code duplication, and wasted time. You want to be doing the least work to solve the problem. 
+Sometimes organizations end up creating similar services to solve similar problems, which is usually down to teams simply not knowing what other teams are working on, leading to inconsistencies, code duplication, and wasted time. Seeing as time is money, it's ideal to do the least work to solve the problem.
 
 Use the Explorer in your Stoplight workspace to find any endpoints that can fulfill this use-case or can help you in solving it. You could find an endpoint that:
 
@@ -63,7 +72,7 @@ Get started by creating an API. Give it a title and a description. There are oth
 
 API security schemes protect your API resources by authenticating apps or users that consume your API. There are a number of standard authentication protocols you can pick from, each with their own strengths and weaknesses. 
 
-It's recommended to choose an authentication type that is already being used in other APIs in your organization. This promotes ease-of-use and consistency for developers consuming different APIs. Read more about security [here](<!--To-do:security docs-->).
+It's recommended to choose an authentication type that is already being used in other APIs in your organization. This promotes ease-of-use and consistency for developers consuming different APIs. Read more about security [here](https://meta.stoplight.io/docs/studio/docs/Design-and-Modeling/10-api-security.md).
 
 ### Create Models
 
@@ -73,7 +82,7 @@ You need a *Flight* and a *Passenger* model for this API. You already found a *F
 
 - Start by creating a new model. Give it a name and define tags. Tags are used to group models in an API, which makes it easier for users to find them. 
 
-Before you save it, take a look at how naming and tagging is done in your organization in the Explorer. Make sure you're consistent with that. You can make rules for this by creating [custom style guides](../3.-governance/e.style-guides.md) to enforce it automatically.
+Before you save it, take a look at how naming and tagging is done in your organization in the Explorer. Make sure you're consistent with that. You can make rules for this by creating [custom style guides](../4.-governance/d.style-guides.md) to enforce it automatically.
 
 - Next, add a field to the model. Give it a name, a short description, and choose a type. You can either use a native type or refer to another model using `$ref`. 
 - Add validations to enforce constraints or formats on data like enums or DateTime. These validations provide the user with the required context and guardrails to reduce mistakes. 
@@ -103,7 +112,7 @@ You just designed your first endpoint. Preview how it would look to consumers. R
 
 While you're busy designing your APIs, Studio validates your designs on the fly. Keep a lookout on the side for warnings and errors. It would point out if you made any mistakes like a missing description or skipping a response. 
 
-By default, linting is done based on a predefined ruleset. Are you having trouble spotting inconsistencies in your design particular to your organization? [Create a custom style guide](../3.-governance/e.style-guides.md) to define rules that are specific to your organization. Some example rules can be:
+By default, linting is done based on a predefined ruleset. Are you having trouble spotting inconsistencies in your design particular to your organization? [Create a custom style guide](../4.-governance/d.style-guides.md) to define rules that are specific to your organization. Some example rules can be:
 
 - `Enforce` having at least one global security scheme
 - `Warn` against using an authentication except for OAuth

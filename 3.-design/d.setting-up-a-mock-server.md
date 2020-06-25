@@ -77,4 +77,4 @@ The actual contents of the responses depends on the examples in the API Descript
 
 ## More on Mocking
 
-To read more on mocking, check out [Prism's HTTP Mocking Guide](https://stoplight.io/p/docs/gh/stoplightio/prism/docs/guides/01-mocking.md).
+To read more on mocking, check out [Prism's HTTP Mocking Guide](https://meta.stoplight.io/docs/prism/docs/guides/01-mocking.md).

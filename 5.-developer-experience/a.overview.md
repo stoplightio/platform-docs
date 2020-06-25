@@ -14,7 +14,7 @@ DX matters for the same reasons that good UX matters. Users of your API are happ
 
 #### **A good/consistent API design**
 
-We can't stress this enough; **no amount of documentation can make up for a poorly designed API**. If you haven't already, read more about [designing APIs](../4.-design/a.overview.md). 
+We can't stress this enough; **no amount of documentation can make up for a poorly designed API**. If you haven't already, read more about [designing APIs](../3.-design/a.overview.md). 
 
 #### **Your Audience**
 

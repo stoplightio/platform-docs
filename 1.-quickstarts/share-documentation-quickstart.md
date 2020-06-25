@@ -8,15 +8,15 @@ To update the visibility settings for a project, navigate to the `Manage Access`
 
 ## Public Documentation
 
-Under the visibility section, set the project visibility as `Public`. This would allow everybody, including anonymous users, to view this project. 
+Set the project visibility as `Public` to allow anyone on the Internet, including anonymous users, to view this project. 
 
 ## Internal Documentation
 
-Under the visibility section, set the project visibility as `Internal`. This would allow everybody in the workspace to view the project. 
+Set the project visibility as `Internal`, to allow everybody logged in as a user of the workspace to view the project. 
 
 ## Partner Documentation
 
-Under the visibility section, set the project visibility as `Internal` or `Private`. Next, give guests or partners access to the project documentation by adding them in `Members with Direct Access` section. 
+Set the project visibility as `Internal` or `Private`. Next, give guests or partners access to the project documentation by adding them in `Members with Direct Access` section. 
 
 If the project is set to `Internal`, everybody in your workspace and users who have direct access would be able to view the documentation. 
 
@@ -24,11 +24,11 @@ If it's `Private`, only users with direct access would be able to view the docum
 
 ## Create a Landing Page
 
-The Home Screen would be the landing page for users landing on the documentation. This can be used to highlight important APIs, getting start guides, or give a quick overview of the API platform. 
+The Home Screen is the landing page for all users coming to the documentation. This can be used to highlight important APIs, getting started guides, or even embed some tutorial videos if you're feeling creative.
 
 ![landing-page-content](../assets/images/landing-page.gif)
 
-There's a template available to get you quickly started. You can edit or completely replace the default template using [Stoplight Flavoured Markdown](https://stoplight.io/p/docs/gh/stoplightio/studio/docs/Documentation/03a-stoplight-flavored-markdown.md) from the workspace settings.
+There's an example template available to get started quickly. You can edit or completely replace the default template using [Stoplight Flavoured Markdown](https://meta.stoplight.io/docs/studio/docs/Documentation/03a-stoplight-flavored-markdown.md) from the workspace settings.
 
 ## Add Company Logo
 

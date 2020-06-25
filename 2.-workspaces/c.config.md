@@ -89,3 +89,5 @@ To exclude the test files and make it clear which other files are which, the fol
   "exclude": ["test"]
 }
 ```
+
+Next, lets [invite team members](./d.inviting-your-team.md) to these excellently configured projects. 
