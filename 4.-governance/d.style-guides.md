@@ -46,7 +46,7 @@ Unless you expect all API developers to regularly re-read the API Style Guide co
 - [api-linter](https://github.com/googleapis/api-linter) by Google
 - [graphql-schema-linter](https://github.com/cjoudrey/graphql-schema-linter) by [Christian Joudrey](https://twitter.com/cjoudrey)
 
-We've talk about Spectral here, because we quite like it. It's been designed to let you create style guides for anything in the form of "Rulesets", and comes with a few default rulesets for popular API Description formats like OpenAPI, AsyncAPI, and JSON Schema.
+We talk about Spectral here, because we quite like it, and because it's been designed to let you create style guides for anything in the form of "Rulesets". It comes with a few default rulesets for popular API Description formats like OpenAPI, AsyncAPI, and JSON Schema out of the box, and you can make your own.
 
 <!-- theme: info -->
 > Seeing as Spectral works with JSON/YAML-based data, you could write custom rulesets for RAML, Kubernetes config, or any other structured data, but we're gonna focus on APIs here.
