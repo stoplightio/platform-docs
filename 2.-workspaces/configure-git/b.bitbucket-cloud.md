@@ -29,8 +29,9 @@ If you receive an error verify the following and try again:
 - Client ID and Client Secret are correct
 - Host and API URL is correct
 
-Read more about creating an OAuth consumer [here](https://support.atlassian.com/bitbucket-cloud/docs/integrate-another-application-through-oauth/).
+Read more about [creating a BitBucket OAuth consumer](https://support.atlassian.com/bitbucket-cloud/docs/integrate-another-application-through-oauth/).
 
 If connected behind a firewall verify the following:
 
 Stoplight's IP addresses are added to your [allowlist](../e.whitelisting-ips.md) on port 443. 
+

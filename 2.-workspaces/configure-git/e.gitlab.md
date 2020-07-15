@@ -1,6 +1,6 @@
 # GitLab
 
-> This feature is available on the **Pro** plan and above
+> This feature is available on the Stoplight **Pro** plan, and above
 
 Configure your GitLab integration by following the instructions below:
 
@@ -27,7 +27,7 @@ If you receive an error verify the following and try again:
 - Client ID and Client Secret are correct
 - Host and API URL is correct
 
-Read more about creating an OAuth App [here](https://docs.gitlab.com/ee/integration/oauth_provider.html#adding-an-application-through-the-profile).
+Read more about [creating a GitLab OAuth App](https://docs.gitlab.com/ee/integration/oauth_provider.html#adding-an-application-through-the-profile).
 
 If connected behind a firewall verify the following:
 

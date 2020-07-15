@@ -10,7 +10,7 @@ Configure your GitHub Enterprise integration by following the instructions below
 2. In the left sidebar, click Developer settings. Then, click OAuth Apps.
 3. Click New OAuth App.
 > If you haven't created an app before, this button will say, Register a new application.
-4. In "Application name", type the name of your app. e.g `Stoplight Integration`. In "Homepage URL", type the full URL to your app's website. e.e `https//stoplight.io`
+4. In "Application name", type the name of your app. e.g `Stoplight Integration`. In "Homepage URL", type the full URL to your app's website. e.g.: `https//stoplight.io`
 5. Set the Authorization callback URL as: `https://stoplight.io/oauth/callback`. Click **Register application**.
 
 **Stoplight Workspace**
@@ -31,8 +31,9 @@ If you receive an error verify the following and try again:
 - Client ID and Client Secret are correct
 - Host and API URL is correct
 
-Read more about creating an OAuth App [here](https://developer.github.com/apps/building-oauth-apps/creating-an-oauth-app/).
+Read more about [creating a GitHub OAuth App](https://developer.github.com/apps/building-oauth-apps/creating-an-oauth-app/).
 
 If connected behind a firewall verify the following:
 
 Stoplight's IP addresses are added to your [allowlist](../e.whitelisting-ips.md) on port 443. 
+
