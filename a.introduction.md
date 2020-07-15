@@ -11,7 +11,7 @@ Stoplight Platform is first and foremost an API design management tool, which ca
 1. [Creating a Workspace](2.-workspaces/a.creating-a-workspace.md)
 1. [Adding Projects](2.-workspaces/b.adding-projects.md)
 1. [Inviting your Team](2.-workspaces/d.inviting-your-team.md)
-1. [Configuring Git](2.-workspaces/1.-git-configuration/a.configuring-git.md)
+1. [Configuring Git](2.-workspaces/configure-git/a.configuring-git.md)
 
 #### Design with Stoplight
 1. [Overview](3.-design/a.overview.md)

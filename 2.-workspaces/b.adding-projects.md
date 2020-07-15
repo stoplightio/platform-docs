@@ -66,7 +66,7 @@ You can add this command to your Continuous Integration server to update the con
 2. Click **Configure** in front of the Git provider you're looking to set up a custom configuration for. 
 3. Select **Customize integration settings** and add your desired configuration. Test it out by clicking `Test Settings`. Press `Save`. You're good to go! Happy [adding projects](#add-projects-from-Git-Provider).
 
-Read more about [configuring Git](1.-git-configuration/a.configuring-git.md).
+Read more about [configuring Git](2.-workspaces/configure-git/a.configuring-git.md).
 
 If you didn't find a Git provider of your choice or your project isn't on Git, follow the instructions in **Projects without Git** section. 
 
