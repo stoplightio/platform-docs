@@ -15,7 +15,7 @@ We support the following Auth providers currently.
 - Gitea
 - Azure Devops (*Coming Soon*)
 
-To configure popular Git providers as auth providers follow [this guide](1.-git-configuration/a.configuring-git.md).
+To configure popular Git providers as auth providers follow [this guide](configure-git/a.configuring-git.md).
 
 ## Configuring LDAP
 
@@ -43,7 +43,7 @@ Organizations that need enhanced security requirements can configure SAML SSO al
 1. Navigate to the Integrations section in your Stoplight workspace settings. 
 2. Click **Install/Configure** beside SAML. 
 3. Provide the following information:
- - **Entry Point**: HTTPS endpoint of your IdP for single sign-on requests. This value is available in your IdP configuration. e.g. https://www.yourcompany.com/saml . If the entry point is behind a firewall, you may need to [whitelist our IPs](e.whitelisting-ips.md).
+ - **Entry Point**: HTTPS endpoint of your IdP for single sign-on requests. This value is available in your IdP configuration. e.g. <!-- markdown-link-check-disable --> https://www.yourcompany.com/saml <!-- markdown-link-check-enable-->. If the entry point is behind a firewall, you may need to [whitelist our IPs](e.whitelisting-ips.md).
  - **Identifier Format** 
  - **Identity Provider Public Certificate**: The authentication certificate issued by your identity provider. PEM-encoded X.509, 'BEGIN/END CERTIFICATE' lines should be stripped out and the certificate should be provided on a single line.
  - **Issuer**: Set the value here in your SAML server.
