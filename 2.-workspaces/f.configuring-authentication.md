@@ -19,7 +19,7 @@ To configure popular Git providers as auth providers follow [this guide](configu
 
 ## Configuring LDAP
 
-> This feature is available on the **Pro** plan and above
+> This feature is available on the Stoplight **Pro** plan, and above
 
 You can use a Lightweight Directory Access Protocol (LDAP) authentication server to authenticate users with Stoplight. LDAP is an open-standard protocol for use with online directory services.
 
