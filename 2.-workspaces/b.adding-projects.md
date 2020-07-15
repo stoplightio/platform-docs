@@ -56,6 +56,8 @@ Stoplight CLI is a command-line tool, built as an NPM module, which can publish 
 2. Give this project a name, and click **Add Project**. This is going to create an empty project where you can then push data. 
 3. **Copy the command** on the screen. Next, navigate to the root folder of the project and **run this command**. This should push data to this project, and you can view it in Explorer. 
 
+Read more about [working with local projects](g.working-with-local-projects.md).
+
 You can add this command to your Continuous Integration server to update the contents whenever something changes.
 
 ## Custom configuration for Git
@@ -63,6 +65,8 @@ You can add this command to your Continuous Integration server to update the con
 1. Click on **Add Integrations** in the **Add projects from your Git Provider** section or the **Integrations** section in your workspace settings. 
 2. Click **Configure** in front of the Git provider you're looking to set up a custom configuration for. 
 3. Select **Customize integration settings** and add your desired configuration. Test it out by clicking `Test Settings`. Press `Save`. You're good to go! Happy [adding projects](#add-projects-from-Git-Provider).
+
+Read more about [configuring Git](1.-git-configuration/a.configuring-git.md).
 
 If you didn't find a Git provider of your choice or your project isn't on Git, follow the instructions in **Projects without Git** section. 
 
