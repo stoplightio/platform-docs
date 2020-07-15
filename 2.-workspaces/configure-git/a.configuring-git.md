@@ -4,7 +4,7 @@ Stoplight can connect with popular Git Providers hosted publically or on your se
 
 ## Git Provider Support
 
-We support the following Git providers currently.
+We support the following Git providers.
 
 - Bitbucket Cloud
 - Bitbucket Server
