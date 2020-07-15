@@ -25,7 +25,7 @@ Cloud-hosted Git providers are configured out of the box in Stoplight. The follo
 
 1. Install your desired Git provider from the integrations section in your workspace settings. 
 
-![install-integration](../../assets/images/git-integrations.png)
+![Install integrations from Workspace Settings > Integrations](../../assets/images/git-integrations.png)
 
 2. Select **Use Default Configuration** and click **Install**. 
 
@@ -33,7 +33,7 @@ If you have a self-hosted deployment or are looking for custom integration setti
 
 ## Configure Self Hosted Git Providers
 
-> If your self hosted Git provider is behind a firewall, please [whitelist our IPs](../e.whitelisting-ips.md) on port 443 over HTTPS. 
+> If your self hosted Git provider is behind a firewall, please [add our IPs to your allowlist](../e.whitelisting-ips.md) on port 443 over HTTPS. 
 
 > This feature is available on the **Pro** plan and above
 

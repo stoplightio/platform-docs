@@ -33,4 +33,5 @@ Read more about [creating a BitBucket OAuth consumer](https://support.atlassian.
 
 If connected behind a firewall verify the following:
 
-Stoplight's IP addresses are [whitelisted](../e.whitelisting-ips.md) on port 443. 
+Stoplight's IP addresses are added to your [allowlist](../e.whitelisting-ips.md) on port 443. 
+

@@ -35,4 +35,5 @@ Read more about [creating a GitHub OAuth App](https://developer.github.com/apps/
 
 If connected behind a firewall verify the following:
 
-Stoplight's IP addresses are [whitelisted](../e.whitelisting-ips.md) on port 443. 
+Stoplight's IP addresses are added to your [allowlist](../e.whitelisting-ips.md) on port 443. 
+
