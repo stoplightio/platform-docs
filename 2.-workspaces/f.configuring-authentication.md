@@ -1,4 +1,4 @@
-# Configure SSO
+# Single Sign-On
 
 Stoplight can connect with popular auth providers to simplify your authentication flows. 
 
@@ -49,4 +49,3 @@ Organizations that need enhanced security requirements can configure SAML SSO al
  - **Issuer**: Set the value here in your SAML server.
  - **Callback URL**: Set `https://{workspace-name}.stoplight.io/oauth/callback` as callback URL on your SAML server.
 4. Click **Install**.
-
