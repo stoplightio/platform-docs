@@ -22,7 +22,7 @@ Configure your Bitbucket Cloud integration by following the instructions below:
  - **Client Secret**: You can find this as `Secret` under the OAuth consumers' settings for the newly created consumer. 
 10. Click **Install**. 
 
-If successful, [add projects](2.-workspaces/b.adding-projects.md) to start working with projects from your Bitbucket Cloud instance.
+If successful, [add projects](../b.adding-projects.md) to start working with projects from your Bitbucket Cloud instance.
 
 If you receive an error verify the following and try again:
 

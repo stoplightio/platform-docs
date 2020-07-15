@@ -20,7 +20,7 @@ Configure your Gitea integration by following the instructions below:
  - **Client Secret**: You can find this as `Secret` under the application settings for the newly created app. 
 6. Click **Install**. 
 
-If successful, [add projects](2.-workspaces/b.adding-projects.md) to start working with projects from your Gitea instance.
+If successful, [add projects](../b.adding-projects.md) to start working with projects from your Gitea instance.
 
 If you receive an error verify the following and try again:
 
