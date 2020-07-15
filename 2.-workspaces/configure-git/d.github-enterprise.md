@@ -31,7 +31,7 @@ If you receive an error verify the following and try again:
 - Client ID and Client Secret are correct
 - Host and API URL is correct
 
-Read more about creating an OAuth App [here](https://developer.github.com/apps/building-oauth-apps/creating-an-oauth-app/).
+Read more about [creating a GitHub OAuth App](https://developer.github.com/apps/building-oauth-apps/creating-an-oauth-app/).
 
 If connected behind a firewall verify the following:
 
