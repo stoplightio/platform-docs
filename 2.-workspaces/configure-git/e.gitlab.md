@@ -1,6 +1,6 @@
 # GitLab
 
-> This feature is available on the **Pro** plan and above
+> This feature is available on the Stoplight **Pro** plan, and above
 
 Configure your GitLab integration by following the instructions below:
 
