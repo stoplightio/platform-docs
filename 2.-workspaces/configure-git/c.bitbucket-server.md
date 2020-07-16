@@ -16,4 +16,4 @@ If you receive an error verify the following and try again:
 
 If connected behind a firewall verify the following:
 
-Stoplight's IP addresses are added to your [allowlist](../e.whitelisting-ips.md) on port 443. 
+Stoplight's IP addresses are added to your [allowlist](../h.allowlisting-ips.md) on port 443. 
