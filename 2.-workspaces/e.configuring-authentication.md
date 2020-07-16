@@ -19,7 +19,7 @@ To configure popular Git providers as auth providers follow [this guide](configu
 
 ## Configure LDAP
 
-> This feature is available on the Stoplight **Pro** plan, and above
+> This feature is available on the Stoplight **Pro** plan, and above. [View Pricing](https://stoplight.io/pricing/)
 
 You can use a Lightweight Directory Access Protocol (LDAP) authentication server to authenticate users with Stoplight. LDAP is an open-standard protocol for use with online directory services.
 
@@ -36,7 +36,7 @@ You can use a Lightweight Directory Access Protocol (LDAP) authentication server
 
 ## Configure SAML
 
-> This feature is available on the Stoplight **Pro** plan, and above
+> This feature is available on the Stoplight **Pro** plan, and above. [View Pricing](https://stoplight.io/pricing/)
 
 Organizations that need enhanced security requirements can configure SAML SSO allowing you to authenticate users with Stoplight. Security Assertion Markup Language (SAML) is a security standard for logging into applications. 
 

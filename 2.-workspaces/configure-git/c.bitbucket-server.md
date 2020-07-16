@@ -1,6 +1,6 @@
 # Bitbucket Server
 
-> This feature is only available on the **Pro** plan and above.
+> This feature is only available on the Stoplight **Pro** plan and above. [View Pricing](https://stoplight.io/pricing/)
 
 Configure your Bitbucket Server integration by following the instructions below:
 
