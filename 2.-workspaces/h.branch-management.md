@@ -12,11 +12,13 @@ Regardless of the model, there is always a default branch. Branches could be nam
 
 > This feature is available on the Stoplight **Starter** plan, and above.
 
-The [publishing process](g.automating-publishing.md) updates all sorts of things: Explorer, Documentation, Mock Servers, and Design Library. By default, these things all run off of the default branch, and there is only one default branch, but you can enable more branches for publishing.
+The [publishing process](g.automating-publishing.md) is automatically enabled for the default branch. When the default branch is published it updates all sorts of things: Explorer, Documentation, Mock Servers, and Design Library. 
+
+You can enable more branches for publishing than just the default branch.
 
 ![](../assets/images/enable-publishing.png)
 
-When another branch has publishing enabled, you're not going to see it pop up in explorer, mock servers, or the design library (yet? 🤔) but anyone viewing your documentation will be able to pick between branches.
+Currently explorer, mock servers, and the design library will only show content for the default branch, but documentation lets viewers pick between branches, using the "Versions" dropdown (because this sort of thing is usually used for showing different versions!)
 
 ![](../assets/images/docs-selecting-branches.png)
 
@@ -24,6 +26,19 @@ There are two types of branches shown in the versions dropdown:
 
 - **Published branches** (called "Versions") are viewable to everyone including Guest and Viewer roles
 - **Unpublished branches** are only viewable to workspace Makers, Admins, and Owners.
+
+If you don't like the branch names as they're displayed, you can give them a display name within Stoplight.
+
+## Renaming Branches
+
+Changes the name that's viewed in the Versions dropdown
+Does not change the underlying Git branch's name
+
+## Track Branch
+
+Freeform input to enter the name of an existing Git branch to track
+Tracking a Git branch will analyze it and add it to your list of branches
+Does not allow you to create new Git branches
 
 
 ## Changing Default Branches
@@ -56,3 +71,8 @@ git push origin :master
 ```
 
 6. If [webhooks](./g.automating-publishing.md) have been setup then this branch has already been automatically removed from Stoplight. If webhooks are not enabled, you will need to delete the branch from the list by clicking on the cog and clicking the "Remove from Stoplight" button.
+
+## Remove Branch
+
+Removes the branch from Stoplight
+Does not remove the Git branch
