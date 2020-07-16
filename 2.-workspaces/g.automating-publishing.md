@@ -45,7 +45,7 @@ cd /home/src/my-project/
 2. Run the push command, passing in the project token associated with this project. This will send all the API design and documentation related files to Stoplight, and ignore any unrelated files.
 
 ```bash
-npx @stoplight/cli@4 push --ci-token {project-token} --url https://meta.stoplight.io
+npx @stoplight/cli@4 push --ci-token {project-token} --url https://{workspace-name}.stoplight.io
 ```
 
 To find this token, head to `https://{workspace}.stoplight.io/settings/{project}/automation` in your browser. 
