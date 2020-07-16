@@ -31,4 +31,4 @@ Read more about [creating a GitLab OAuth App](https://docs.gitlab.com/ee/integra
 
 If connected behind a firewall verify the following:
 
-Stoplight's IP addresses are added to your [allowlist](../h.allowlisting-ips.md) on port 443. 
+Stoplight's IP addresses are added to your [allowlist](../i.allowlisting-ips.md) on port 443. 

@@ -18,7 +18,7 @@ Either way, any incoming Webhooks will show up in the Automation tab of your pro
 
 ![The Webhook Events header on the automation tab showing history of two recent "events", both completed quickly and successfully.](../assets/images/webhook-events.png)
 
-If changes are not publishing, you can look at Webhook Events to debug the problem. Maybe it's a [firewall](../2.-workspaces/h.allowlisting-ips.md) issue, or webhooks are not being triggered at all.
+If changes are not publishing, you can look at Webhook Events to debug the problem. Maybe it's a [firewall](../2.-workspaces/i.allowlisting-ips.md) issue, or webhooks are not being triggered at all.
 
 ## Continuous Integration
 

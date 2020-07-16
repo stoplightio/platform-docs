@@ -33,7 +33,7 @@ If you have a self-hosted deployment or are looking for custom integration setti
 
 ## Configure Self Hosted Git Providers
 
-> If your self hosted Git provider is behind a firewall, please [add our IPs to your allowlist](../h.allowlisting-ips.md) on port 443 over HTTPS. 
+> If your self hosted Git provider is behind a firewall, please [add our IPs to your allowlist](../i.allowlisting-ips.md) on port 443 over HTTPS. 
 
 > This feature is available on the **Pro** plan and above
 
