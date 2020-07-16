@@ -1,6 +1,6 @@
 # Gitea
 
-> This feature is available on the Stoplight **Pro** plan, and above
+> This feature is available on the Stoplight **Pro** plan, and above. [View Pricing](https://stoplight.io/pricing/)
 
 Configure your Gitea integration by following the instructions below:
 
