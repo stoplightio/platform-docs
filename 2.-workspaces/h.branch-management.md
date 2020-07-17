@@ -20,12 +20,14 @@ You can enable more branches for publishing than just the default branch.
 
 Currently, explorer, mock servers, and the design library will only show content for the default branch, but documentation lets viewers pick between branches, using the "Versions" dropdown (because this sort of thing is usually used for showing different versions!)
 
-![](../assets/images/docs-selecting-branches.png)
+![The version dropdown in documentation showing various unpublished branches](../assets/images/docs-selecting-branches.png)
 
 There are two types of branches shown in the versions dropdown:
 
-- **Published branches** (called "Versions") are viewable to everyone including Guest and Viewer roles
+- **Published branches** (called "Versions") are viewable to everyone including Guest and Viewer roles.
 - **Unpublished branches** are only viewable to workspace Makers, Admins, and Owners.
+
+One use-case for unpublished branches is checking how documentation looks in a Pull Request before merging it. If you do [API Design Reviews](../3.-design/c.reviewing-your-api-design.md), unpublished branches would be part of that process.
 
 If you don't like the branch names as they're displayed, you can give them a display name within Stoplight.
 
@@ -48,7 +50,7 @@ When viewed in documentation:
 
 ![](../assets/images/docs-versions.png)
 
-Another example might be keeping different versions of APIs in different branches, and you want to advertise which API's people should be using without changing the names in Git:
+Another example might be keeping different versions of APIs in different branches, and you want to advertise which APIs people should be using without changing the names in Git:
 
 git | Stoplight
 ---------|----------

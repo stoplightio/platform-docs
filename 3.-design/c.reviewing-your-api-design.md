@@ -87,15 +87,19 @@ How you create a pull request depends on where the project's repository is hoste
 
 ### 5. Link to Branch Documentation
 
-If Webhooks have been set up in Project Settings > Automation then any branch will be analyzed, meaning you can see documentation for any of those branches. 
+If [webhooks are enabled](../2.-workspaces/g.automating-publishing.md) the branch should appear in the documentation almost immediately. The branch name will appear in the versions dropdown, probably under "Unpublished Branches".
 
-By the time you've made a pull request for this branch, the analyzer has probably had enough time to run (check the Automation log to be certain) then you can construct a URL like this:
+![The version dropdown in documentation showing various unpublished branches](../assets/images/docs-selecting-branches.png)
+
+_Read more about [branch management](../2.-workspaces/h.branch-management.md) if you would like to know the different between published and unpublished branches, and the versions dropdown._
+
+Selecting your new branch from the Versions dropdown should take you to a URL like this:
 
 ```
 https://{workspace}.stoplight.io/docs/{project}/branches/{branch}
 ```
 
-Put that link into the pull request you've just made, and people will be able to eyeball the documents instead of reading a bunch of YAML, making the review process much easier.
+Copy and paste that link into the pull request, so API reviewers can eyeball the rendered documentation instead of having to read a bunch of YAML.
 
 ### 6. Review & Merge
 
