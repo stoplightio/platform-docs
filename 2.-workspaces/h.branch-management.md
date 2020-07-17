@@ -4,7 +4,7 @@ Projects powered by Git can leverage the awesome power of [Git branches](https:/
 
 Sometimes branches are used for versioning, so a repository might have a `v4` and a `v5` branch.
 
-Sometimes branches follow certain "branching models" for common workflows such as [Git Flow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow). These repository will have a `master` and a `develop` branch, along with all sorts of "feature branches" in the format of `feature/adding-a-thing`.
+Sometimes branches follow certain "branching models" for common workflows such as [Git Flow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow). These repositories will have a `master` and a `develop` branch, along with all sorts of "feature branches" in the format of `feature/adding-a-thing`.
 
 Regardless of the model, there is always a default branch. Branches could be named absolutely anything, but there are some common default branch names used by most of the popular Git providers: `trunk`, `main`, or `master`.
 
@@ -18,7 +18,7 @@ You can enable more branches for publishing than just the default branch.
 
 ![](../assets/images/enable-publishing.png)
 
-Currently explorer, mock servers, and the design library will only show content for the default branch, but documentation lets viewers pick between branches, using the "Versions" dropdown (because this sort of thing is usually used for showing different versions!)
+Currently, explorer, mock servers, and the design library will only show content for the default branch, but documentation lets viewers pick between branches, using the "Versions" dropdown (because this sort of thing is usually used for showing different versions!)
 
 ![](../assets/images/docs-selecting-branches.png)
 
@@ -96,8 +96,8 @@ There's a freeform text box input to enter the name of an existing Git branch to
 
 Tracking a Git branch will analyze it, and add it to your list of branches in Stoplight. 
 
-This won't create a new Git branch, it's just going to tell Stoplight to keep an eye out for webhooks mentining a branch of that name.
+This won't create a new Git branch, it's just going to tell Stoplight to keep an eye out for webhooks mentioning a branch of that name.
 
 ## Remove Branch
 
-Similarly, Stoplight will allow you to removes a branch from being displayed in Platform, but this does not remove the branch from Git itself. Once you've removed a branch, you can add it back using the Track Branch functionality.
+Similarly, Stoplight will allow you to remove a branch from being displayed in Platform, but this does not remove the branch from Git itself. Once you've removed a branch, you can add it back using the Track Branch functionality.
