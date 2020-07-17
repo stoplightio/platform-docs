@@ -31,15 +31,32 @@ If you don't like the branch names as they're displayed, you can give them a dis
 
 ## Renaming Branches
 
-Changes the name that's viewed in the Versions dropdown
-Does not change the underlying Git branch's name
+Changing the name of the branch will only update what is viewed in the Versions dropdown, it does not change the underlying Git branch's name. Think of it as giving them an alias. 
 
-## Track Branch
+Doing this can make things more clear for end-users of your software, API, etc. who might not be familiar with your branching model or workflow.
 
-Freeform input to enter the name of an existing Git branch to track
-Tracking a Git branch will analyze it and add it to your list of branches
-Does not allow you to create new Git branches
+For example, if you are using Git Flow, you could name your branches this:
 
+git | Stoplight
+---------|----------
+master | Stable
+develop | Development
+
+![](../assets/images/edit-branch.png)
+
+When viewed in documentation:
+
+![](../assets/images/docs-versions.png)
+
+Another example might be keeping different versions of APIs in different branches, and you want to advertise which API's people should be using without changing the names in Git:
+
+git | Stoplight
+---------|----------
+v4 | v4 (Legacy)
+v5 | v5 (Stable)
+v6 | v6 (Beta)
+
+Maybe the v5 branch is marked as stable, then when v6 is deployed ti production the default is changed.
 
 ## Changing Default Branches
 
@@ -72,7 +89,15 @@ git push origin :master
 
 6. If [webhooks](./g.automating-publishing.md) have been setup then this branch has already been automatically removed from Stoplight. If webhooks are not enabled, you will need to delete the branch from the list by clicking on the cog and clicking the "Remove from Stoplight" button.
 
+
+## Track Branches
+
+There's a freeform text box input to enter the name of an existing Git branch to track. 
+
+Tracking a Git branch will analyze it, and add it to your list of branches in Stoplight. 
+
+This won't create a new Git branch, it's just going to tell Stoplight to keep an eye out for webhooks mentining a branch of that name.
+
 ## Remove Branch
 
-Removes the branch from Stoplight
-Does not remove the Git branch
+Similarly, Stoplight will allow you to removes a branch from being displayed in Platform, but this does not remove the branch from Git itself. Once you've removed a branch, you can add it back using the Track Branch functionality.
