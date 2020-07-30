@@ -4,15 +4,13 @@ tags: [Documentation]
 
 # Overview
 
-The aggregate experience of the user **discovering**, **learning to use**, and finally **integrating** with an API is termed as Developer Experience. 
+The aggregate experience of the user **discovering**, **learning to use**, and finally **integrating** with an API is termed as Developer Experience (DX). 
 
 DX is the equivalent to User Experience (UX) for your APIs, and is the key to a useful, usable API. Good documentation is the first step towards a good DX, because an API could be all-powerful, solving a problem and sublimely implemented, yet it won't matter one bit if users can't figure out how to make it work. 
 
 Users of your API are happier, promote it more, and stay longer when the API has good DX. Your API is a means to an end for the user, and they want to integrate as quickly as possible to move forward in their product development, meaning **they should immediately understand the value and usage of your API**.
 
 ### Components of Good DX
-
-#### A good/consistent API design
 
 We can't stress this enough; **no amount of documentation can make up for a poorly designed API**. If you haven't already, read more about [designing APIs](../3.-design/a.overview.md). 
 
@@ -36,14 +34,15 @@ An accurate, up-to-date, and detailed API reference is one of the essential piec
 - Models
 - Error messages
 
+_Learn more about [API reference documentation with Stoplight](./b.types-of-documentation.md)._
 
-#### Quick Start Guides
+#### Guides & Tutorials
 
 The API reference with code samples is excellent for developers in the later stage of integration. For a newcomer starting with your API, you want to make it easy for them to navigate to creating their first integration. Developers learn best by doing. Create a quick start guide with the minimum steps required to perform the first action with your API. This can be a step-by-step guide on authentication, calling your most straightforward endpoint fulfilling the most common use case. Do not forget the code samples for these steps, and keep it easy.  
 
-#### Tutorials
+While your API is used by developers to fulfill many use cases, there are always some that are more popular. Once you have identified those, create tutorials that explain them in more depth. The description of steps should be easy to follow and concise. Clarity and brevity support the learning process and are a best practice for all kinds of documentation. It's also useful to create a sample application that you can add to GitHub. 
 
-While your API is used by developers to fulfill many use cases, there are always some that are more popular. It's best to identify those and create a tutorial for them. The description of steps should be easy to follow and concise. Clarity and brevity support the learning process and are a best practice for all kinds of documentation. It's also useful to create a sample application that you can add to GitHub. 
+_Learn more about [creating guides and tutorials with Stoplight](./b.types-of-documentation.md)._
 
 #### Test environment
 
@@ -133,7 +132,9 @@ Marketing pages are for the business audience. You want these to be high level a
 
 #### Changelog
 
-The Changelog section of your API documentation lets your users know how stable your API is. It also lets them know if anything's changed, in the instance that one of their calls stops working. These are also very helpful for existing users migrating to a newer version of your API. You can take a look at [GitHub's changelog](https://developer.github.com/changes/) for an example of thorough changelog documentation. Stoplight Platform automatically generates changelogs for your Artifacts that can be used to keep these up to date. We'll talk about this in detail later. 
+The Changelog section of your API documentation lets your users know how stable your API is. It also lets them know if anything's changed, in the instance that one of their calls stops working. These are also very helpful for existing users migrating to a newer version of your API. 
+
+You can take a look at [GitHub's changelog](https://developer.github.com/changes/) for an example of thorough changelog documentation. Stoplight Platform automatically generates changelogs for your artifacts that can be used to keep these up to date. We'll talk about this in detail later. 
 
 #### Terms of Use
 
@@ -142,12 +143,6 @@ Terms of Use are the legal agreement between you and your users. In the Terms of
 #### Status Page
 
 It's never pretty for developers trying to interact with your API and facing errors that they can't put a reason to. Being clear about the current status of your service is very helpful. You can use a service like [Statuspage](https://www.statuspage.io/) to create one or build it yourself and make it part of your DX offering. 
-
-#### Software Development Kits (SDKs)
-
-With your previous steps sorted, it always helps to reduce the redundant tasks that a developer needs to perform. For that, providing SDKs in popular languages helps keep your developers happy and productive. With an OpenAPI description ready and validated by Stoplight tooling, you can use this to generate and publish SDKs without much extra work. We'll stick to our promise of not locking you down in our platform and letting you use all the fantastic tooling out there. 
-
-Ready to get started checking these boxes with Stoplight? [Get Started](b.getting-started-developer-experience.md)
 
 ### Make your APIs discoverable
 

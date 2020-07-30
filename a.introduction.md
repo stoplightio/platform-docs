@@ -17,14 +17,15 @@ Stoplight Platform is first and foremost an API design management tool, which ca
 ### Design with Stoplight
 
 1. [Overview](3.-design/a.overview.md)
-1. [Starting a new API Design](3.-design/b.starting-a-new-api-design.md)
-1. [Reviewing your API Design](3.-design/c.reviewing-your-api-design.md)
-1. [Setting up a Mock Server](3.-design/d.setting-up-a-mock-server.md)
+2. [Starting an API Design](3.-design/b.starting-a-new-api-design.md)
+3. [Reviewing an API Design](3.-design/c.reviewing-your-api-design.md)
+4. [Setting up a Mock Server](3.-design/d.setting-up-a-mock-server.md)
 
 ### Documentation with Stoplight
 
 1. [Overview](4.-documentation/a.overview.md)
-1. [Getting Started with Developer Experience](4.-documentation/b.getting-started-developer-experience.md)
+1. [Types of Documentation](4.-documentation/b.types-of-documentation.md)
+2. [Quality API Reference Documentation](4.-documentation/c.quality-api-reference-docs.md)
 
 ### Governance with Stoplight
 
