@@ -126,4 +126,4 @@ Documentation is a very important part of the API lifecycle and should start ear
 
 With your design in shape, share it with technical writers early so that they can start writing the docs. You can also share relevant articles from Explorer with tech writers. The Explorer will let all stakeholders stay up to date with how the API is coming along. 
 
-While Studio is good at helping designers write API descriptions, it is also built to support writing markdown documentation. [Get started with Documentation](../4.-documentation/b.getting-started-developer-experience.md)
+While Studio is good at helping designers write API descriptions, it is also built to support writing markdown documentation. [Get started with Documentation](../4.-documentation/a.overview.md)
