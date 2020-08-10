@@ -1,0 +1,204 @@
+{
+  "items": [
+    {
+      "type": "item",
+      "title": "Welcome to the Stoplight Docs!",
+      "uri": "a.introduction.md"
+    },
+    {
+      "type": "item",
+      "title": "Introduction to Stoplight Platform",
+      "uri": "b.overview.md"
+    },
+    {
+      "type": "item",
+      "title": "Troubleshooting",
+      "uri": "c.troubleshooting.md"
+    },
+    {
+      "type": "divider",
+      "title": "QUICKSTARTS"
+    },
+    {
+      "type": "item",
+      "title": "Add Projects",
+      "uri": "1.-quickstarts/add-projects-quickstart.md"
+    },
+    {
+      "type": "item",
+      "title": "Share Documentation",
+      "uri": "1.-quickstarts/share-documentation-quickstart.md"
+    },
+    {
+      "type": "divider",
+      "title": "Workspaces"
+    },
+    {
+      "type": "item",
+      "title": "Creating a workspace",
+      "uri": "2.-workspaces/a.creating-a-workspace.md"
+    },
+    {
+      "type": "item",
+      "title": "Add Projects",
+      "uri": "2.-workspaces/b.adding-projects.md"
+    },
+    {
+      "type": "item",
+      "title": "Configure Projects",
+      "uri": "2.-workspaces/c.config.md"
+    },
+    {
+      "type": "group",
+      "title": "Configure Git",
+      "items": [
+        {
+          "type": "item",
+          "title": "Overview",
+          "uri": "2.-workspaces/configure-git/a.configuring-git.md"
+        },
+        {
+          "type": "item",
+          "title": "Bitbucket Cloud",
+          "uri": "2.-workspaces/configure-git/b.bitbucket-cloud.md"
+        },
+        {
+          "type": "item",
+          "title": "Bitbucket Server",
+          "uri": "2.-workspaces/configure-git/c.bitbucket-server.md"
+        },
+        {
+          "type": "item",
+          "title": "GitHub Enterprise",
+          "uri": "2.-workspaces/configure-git/d.github-enterprise.md"
+        },
+        {
+          "type": "item",
+          "title": "GitLab",
+          "uri": "2.-workspaces/configure-git/e.gitlab.md"
+        },
+        {
+          "type": "item",
+          "title": "Gitea",
+          "uri": "2.-workspaces/configure-git/f.gitea.md"
+        }
+      ]
+    },
+    {
+      "type": "item",
+      "title": "Organize Your Team",
+      "uri": "2.-workspaces/d.inviting-your-team.md"
+    },
+    {
+      "type": "item",
+      "title": "Single Sign-On",
+      "uri": "2.-workspaces/e.configuring-authentication.md"
+    },
+    {
+      "type": "item",
+      "title": "Work with Local Projects",
+      "uri": "2.-workspaces/f.working-with-local-projects.md"
+    },
+    {
+      "type": "item",
+      "title": "Publishing",
+      "uri": "2.-workspaces/g.automating-publishing.md"
+    },
+    {
+      "type": "item",
+      "title": "Branch Management",
+      "uri": "2.-workspaces/h.branch-management.md"
+    },
+    {
+      "type": "item",
+      "title": "Integrate Behind the Firewall",
+      "uri": "2.-workspaces/i.allowlisting-ips.md"
+    },
+    {
+      "type": "divider",
+      "title": "Design"
+    },
+    {
+      "type": "item",
+      "title": "Overview",
+      "uri": "3.-design/a.overview.md"
+    },
+    {
+      "type": "item",
+      "title": "Start a new API design",
+      "uri": "3.-design/b.starting-a-new-api-design.md"
+    },
+    {
+      "type": "item",
+      "title": "Review API Designs",
+      "uri": "3.-design/c.reviewing-your-api-design.md"
+    },
+    {
+      "type": "item",
+      "title": "Working with Mock Servers",
+      "uri": "3.-design/d.setting-up-a-mock-server.md"
+    },
+    {
+      "type": "divider",
+      "title": "Documentation"
+    },
+    {
+      "type": "item",
+      "title": "Overview",
+      "uri": "4.-documentation/a.overview.md"
+    },
+    {
+      "type": "item",
+      "title": "Types of Documentation",
+      "uri": "4.-documentation/b.types-of-documentation.md"
+    },
+    {
+      "type": "item",
+      "title": "Quality API Reference Documentation",
+      "uri": "4.-documentation/c.quality-api-reference-docs.md"
+    },
+    {
+      "type": "divider",
+      "title": "Governance"
+    },
+    {
+      "type": "item",
+      "title": "Overview",
+      "uri": "5.-governance/a.overview.md"
+    },
+    {
+      "type": "item",
+      "title": "Get Started with API Governance",
+      "uri": "5.-governance/b.getting-started-with-api-governance.md"
+    },
+    {
+      "type": "item",
+      "title": "Exploring your API projects",
+      "uri": "5.-governance/bb.exploring-your-api-projects.md"
+    },
+    {
+      "type": "item",
+      "title": "Creating a Design Library",
+      "uri": "5.-governance/c.creating-a-design-library.md"
+    },
+    {
+      "type": "item",
+      "title": "Style Guides",
+      "uri": "5.-governance/d.style-guides.md"
+    },
+    {
+      "type": "divider",
+      "title": "Migrations"
+    },
+    {
+      "type": "item",
+      "title": "Migrating from NEXT",
+      "uri": "6.-migrations/next.md"
+    },
+    {
+      "type": "item",
+      "title": "Migrating from Postman",
+      "uri": "6.-migrations/postman.md"
+    }
+  ]
+}
