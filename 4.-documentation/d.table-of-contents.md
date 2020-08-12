@@ -1,6 +1,6 @@
 # Content Structure
 
-Every project's documentation contains a single left sidebar called the **Table of Contents** (or TOC). A [default structure](#default-structure) matches the same ordering as the filesystem but with a few exceptions. If you need to customize the structure without changing the ordering of the filesystem, you can create a [custom structure](#custom-structure).
+Every project's documentation contains a single left sidebar called the **Table of Contents** (or TOC). The [default structure](#default-structure) loosely follows the filesystem, with a few exceptions for APIs and models. If you want to customize how your files are organized, you can create a [custom structure](#custom-structure).
 
 ![studio demo documentation](../assets/images/studio-demo-docs.png)
 
