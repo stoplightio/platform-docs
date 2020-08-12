@@ -158,6 +158,11 @@
       "uri": "4.-documentation/c.quality-api-reference-docs.md"
     },
     {
+      "type": "item",
+      "title": "Content Structure",
+      "uri": "4.-documentation/d.table-of-contents.md"
+    },
+    {
       "type": "divider",
       "title": "Governance"
     },
