@@ -10,11 +10,11 @@ There are three types of entities in the table of contents structure:
 
 ### Dividers
 
-Dividers are bold, non-clickable items that provide a distinct separation to signify the start of a section within the content structure.
+Dividers are bold, non-clickable items that signify the start of a section of content within the sidebar.
 
 ### Groups
 
-Groups are non-linkable, collabsible items containing other groups, items, and dividers that all deal with the same subject.
+Groups are non-linkable, collabsible items containing dividers, items, and other groups that all relate to the same subject matter.
 
 ### Items
 
@@ -22,7 +22,7 @@ Items are links to articles, APIs, and models within the project or external lin
 
 ## Default Structure
 
-The default structure is ordered based on a few factors, such as the file type, but primarily follows the same alphanumeric ordering as the filesystem.
+The default structure is organized based on a few factors, such as the file type, but primarily follows the same alphanumeric ordering as the filesystem.
 
 ### Articles
 
@@ -30,13 +30,13 @@ Markdown articles come first in the table of contents and are ordered alphanumer
 
 ### APIs
 
-Next in the list below articles are your APIs. Each API's title will be represented as a [divider](#dividers) followed by an item titled "Overview". The overview item will contain the API's description, contact, licensing, servers and global security. 
+Next in the list below articles are your APIs. Each API's title is represented as a [divider](#dividers) followed by an item titled "Overview". The overview item contains the API's description, contact, licensing, servers and global security. 
 
-All of the API endpoints and models will be nested inside [groups](#groups) titled after their first tag. Any without tags will be placed into a group titled "other". 
+All of the API endpoints and models are nested inside [groups](#groups) titled after their first tag. Any without tags are placed into a group titled "other". 
 
 ### Models
 
-Finally at the bottom of the table of contents are the JSON Schema files, sorted alphabetically under a [divider](#dividers) titled "Models".
+Finally at the bottom of the table of contents are JSON Schema files, sorted alphabetically under a [divider](#dividers) titled "Models".
 
 ## Custom Structure
 
@@ -46,11 +46,11 @@ theme: warning
 
 > This feature is in private beta. If you would like to join the beta, please [submit a request](https://roadmap.stoplight.io/c/59-completely-custom-ordering-of-your-docs-sidebar) on our public roadmap.
 
-If you need more control over the ordering of your project's content structure, you can create a custom table of contents. To get started, create a `toc.json` file in the root of your project's directory.
+If you want to customize the organization of your project's content structure, you can create a custom table of contents. To get started, create a `toc.json` file in your project's root directory.
 
 ### Rules
 
-The root of the `toc.json` file will start with an empty `items` array where you will define your content structure using [dividers](#dividers), [groups](#groups) and [items](#items).
+The `toc.json` file should start off with an empty `items` array where you will define your content structure using [dividers](#dividers), [groups](#groups) and [items](#items).
 
 <!-- title: toc.json -->
 ```json
@@ -59,7 +59,7 @@ The root of the `toc.json` file will start with an empty `items` array where you
 }
 ```
 
-Each entity will have a `type` and a `title` property. Items will have an additional `uri` property that either points to a file somewhere within the project or an external link to another website. Groups will have an `items` property allowing you to futher nest items, dividers and groups.
+Each entity should have a `type` and a `title` property. Items should also have a `uri` property that either points to a file somewhere within the project or an external link to another website. Groups should have an `items` property allowing you to futher nest more items, dividers and groups.
 
 > **TIP**: The easiest way to get a file's URI in Studio is to click the `...` button next to the file, click the "copy path" menu item then paste the contents.
 
@@ -104,7 +104,7 @@ title: toc.json
 }
 ```
 
-The above `toc.json` file will display the following structure in the docs sidebar.
+The above `toc.json` file displays the following structure in the docs sidebar.
 
 ![custom toc example](../assets/images/custom-toc-example.png)
 
@@ -113,7 +113,7 @@ The above `toc.json` file will display the following structure in the docs sideb
 
 There are a few known limitations with the custom table of contents that we are working to address.
 
-1. **An item's `uri` property cannot point to contents within a file.** This means you cannot create an [item](#items) for endpoints or models. Items pointing to API files will follow the [default structure](#default-structure) for grouping their inner contents.
+1. **An item's `uri` property cannot point to contents within a file.** This means you cannot create an [item](#items) for endpoints or models. Items whose `uri` points to an API file will follow the [default structure](#default-structure) for organizing their inner contents.
 2. **Studio does not validate the `toc.json` file format.** Since the TOC must be written by hand means it can be easy to break the formatting, so please make sure to follow the [rules of the structure](#rules). We are planning a drag and drop editor within Studio to make it easier to edit the TOC.
 3. **Renaming or moving a file does not automatically update the `toc.json` file.** You'll need to remember to update your TOC whenever a file is renamed or your docs sidebar will contain broken links.
 4. **The table of contents does not allow configuring the docs routing structure.** Routing will still reflect the filesystem meaning the docs URLs to a file's docs will show the file path in the URL.
