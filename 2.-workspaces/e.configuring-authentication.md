@@ -13,7 +13,7 @@ We support the following Auth providers currently.
 - GitHub
 - GitLab
 - Gitea
-- Azure Devops (*Coming Soon*)
+- Azure Devops
 
 To configure popular Git providers as auth providers follow [this guide](configure-git/a.configuring-git.md).
 

@@ -93,6 +93,14 @@ If you have published documentation for external stakeholders (customers, the ge
 
 If neither of the above are relevant to your use case, then you can probably migrate! We recommend that you [reach out](mailto:support@stoplight.io) and we will schedule some time to meet and make your migration as smooth as possible.
 
+### Delete your Next Account
+
+Once you're satisfied all your projects are migrated from Next to Platform, there's an option to delete your old Next account under [account settings](https://next.stoplight.io/profile).
+
+![Under Next account settings there is a button labeled Remove Account](../assets/images/next-delete-account.png)
+
+Make sure you're an owner of the organizations you want to remove when you delete your account, otherwise it will still be there.
+
 ## FAQ
 
 The concepts in the new Stoplight Platform should be very similar to what you're used to in NEXT. Here are some commonly asked questions to help clarify those similarities and differences. If you have any additional questions, please don't hesitate to [contact us](mailto:support@stoplight.io).
@@ -129,19 +137,26 @@ When adding a project to your Stoplight Workspace, a git webhook will be install
 
 The contents of the project can then be updated from any one of your favorite tools such as Stoplight Studio or even directly in the VCS provider. As long as the changes are pushed to the git repository, they will be automatically synced with your Stoplight Workspace.
 
-<!-- **How do I add a custom domain to my documentation?** -->
+<!-- TODO **How do I add a custom domain to my documentation?** -->
 
-<!-- **How do I configure authentication such as Auth0 or SAML?** -->
+**How do I configure authentication such as Auth0 or SAML?**
 
-<!-- TODO: Configure Auth0 as an IdP: https://auth0.com/docs/protocols/saml/saml-configuration/design-considerations#considerations-for-using-auth0-as-identity-provider -->
+Currently Stoplight Platform supports the following Auth providers:
 
-<!-- TODO: Link to docs on configuring SAML -->
+- LDAP
+- SAML
+- Bitbucket Cloud
+- Bitbucket Server
+- GitHub
+- GitLab
+- Gitea
+- Azure Devops
+
+For more information on how this all works, read our [Single Sign-on Documentation](../2.-workspaces/e.configuring-authentication.md).
 
 **How do I create a new version/release of my project?**
 
-In NEXT, the versioning and releases feature was built on top of [git branching](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging). To accomplish the same in Platform, you can create a git branch in your project using Stoplight Studio or your favorite git tool.
-
-<!-- TODO: Add a link to multi-branch support -->
+In NEXT, the versioning and releases feature was built on top of [git branching](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging). To accomplish the same in Platform, you can use [multiple branches in your project](../2.-workspaces/h.branch-management.md).
 
 **How do I configure a Prism mock server?**
 
