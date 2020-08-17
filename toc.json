@@ -17,7 +17,7 @@
     },
     {
       "type": "divider",
-      "title": "QUICKSTARTS"
+      "title": "Quickstarts"
     },
     {
       "type": "item",
@@ -111,7 +111,7 @@
     },
     {
       "type": "item",
-      "title": "Integrate Behind the Firewall",
+      "title": "Integrate Behind a Firewall",
       "uri": "2.-workspaces/i.allowlisting-ips.md"
     },
     {
