@@ -1,4 +1,4 @@
-# Content Structure
+# Table of Contents
 
 Every project's documentation contains a single left sidebar called the **Table of Contents** (or TOC). The [default structure](#default-structure) loosely follows the filesystem, with a few exceptions for APIs and models. If you want to customize how your files are organized, you can create a [custom structure](#custom-structure).
 
@@ -120,4 +120,3 @@ There are a few known limitations with the custom table of contents that we are 
 5. **Studio does not allow previewing the `toc.json` file.** We are working to add previewing in the short term and a drag and drop editor in the mid term.
 
 If you find any more limitations or would like to make a suggestion, please submit your idea on our [public roadmap](https://roadmap.stoplight.io/tabs/7-under-consideration/submit-idea)!
-
