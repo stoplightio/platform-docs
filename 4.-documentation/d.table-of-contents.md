@@ -18,7 +18,7 @@ Groups are non-linkable, collabsible items containing dividers, items, and other
 
 ### Items
 
-Items are links to articles, APIs, and models within the project or external links to content outside of the documentation.
+Items are links to articles, APIs, and model files located within the project directory or external links to content outside of the documentation.
 
 ## Default Structure
 
@@ -26,17 +26,19 @@ The default structure is organized based on a few factors, such as the file type
 
 ### Articles
 
-Markdown articles come first in the table of contents and are ordered alphanumerically by their file path. The first directory is represented as a [divider](#dividers) and any directories after appear as [groups](#groups). There's one exception, if a "docs" folder exists it is flattened and not represented in the table of contents.
+Markdown articles come first in the table of contents and are ordered alphabetically by their file path. The first directory is represented as a [divider](#dividers) and any directories after appear as [groups](#groups). 
+
+There are a few exceptions. If a "docs" folder exists, it is flattened and not represented in the table of contents. Any articles located in the root of the project are sorted to the top. If a "README.md" file exists, it is put in the first position.
 
 ### APIs
 
 Next in the list below articles are your APIs. Each API's title is represented as a [divider](#dividers) followed by an item titled "Overview". The overview item contains the API's description, contact, licensing, servers and global security. 
 
-All of the API endpoints and models are nested inside [groups](#groups) titled after their first tag. Any without tags are placed into a group titled "other". 
+All of the API endpoints and models are nested inside [groups](#groups) titled after their first tag. Any without tags are placed into a group titled "other". If none of your endpoints or models contain tags, they are placed into groups titled "Endpoints" and "Models" respectively.
 
 ### Models
 
-Finally at the bottom of the table of contents are JSON Schema files, sorted alphabetically under a [divider](#dividers) titled "Models".
+Finally at the bottom of the table of contents are JSON Schema model files, sorted alphabetically under a [divider](#dividers) titled "Models".
 
 ## Custom Structure
 
@@ -113,10 +115,12 @@ The above `toc.json` file displays the following structure in the docs sidebar.
 
 There are a few known limitations with the custom table of contents that we are working to address.
 
-1. **An item's `uri` property cannot point to contents within a file.** This means you cannot create an [item](#items) for endpoints or models. Items whose `uri` points to an API file will follow the [default structure](#default-structure) for organizing their inner contents.
-2. **Studio does not validate the `toc.json` file format.** Since the TOC must be written by hand means it can be easy to break the formatting, so please make sure to follow the [rules of the structure](#rules). We are planning a drag and drop editor within Studio to make it easier to edit the TOC.
-3. **Renaming or moving a file does not automatically update the `toc.json` file.** You'll need to remember to update your TOC whenever a file is renamed or your docs sidebar will contain broken links.
-4. **The table of contents does not allow configuring the docs routing structure.** Routing will still reflect the filesystem meaning the docs URLs to a file's docs will show the file path in the URL.
-5. **Studio does not allow previewing the `toc.json` file.** We are working to add previewing in the short term and a drag and drop editor in the mid term.
+1. **You can only reorder articles, APIs, and model files.** Endpoints and internal models will follow the [default structure](#default-structure) described for APIs. If you're interested in customizing your endpints or models, please [vote for this feature](https://roadmap.stoplight.io/c/110-custom-ordering-for-endpoints-and-models).
+2. **The `toc.json` file must be written by hand.** We are considering adding a drag & drop editor within Studio to make it easier to create and edit your table of contents, so if you're interested please [vote for this feature](https://roadmap.stoplight.io/c/112-table-of-contents-editor).
+3. **Renaming a file does not automatically update the `toc.json` file.** You'll need to remember to update your TOC whenever a file is renamed or your docs sidebar will contain broken links. We are considering automatically rewriting pointers as you change your filenames, so if you're interested please [vote for this feature](https://roadmap.stoplight.io/c/96-automatically-rewrite-references-and-links-on-filename-change).
+4. **Renaming a file does not automatically redirect to the new docs url**. This means a filename change will result in a dead link in your docs. We are considering adding automatic redirects, so if you're interested please [vote for this feature](https://roadmap.stoplight.io/c/68-automatic-redirects).
+5. **You cannot customize the docs routing structure.** A file's docs url will match it's file path within the project directory. We are considering adding support for customizing the routing structure, so if you're interested please [vote for this feature](https://roadmap.stoplight.io/c/111-custom-docs-routing-structure).
 
-If you find any more limitations or would like to make a suggestion, please submit your idea on our [public roadmap](https://roadmap.stoplight.io/tabs/7-under-consideration/submit-idea)!
+
+If you have an new idea or would like to make a suggestion, please submit it our [public roadmap](https://roadmap.stoplight.io/tabs/7-under-consideration/submit-idea)!
+
