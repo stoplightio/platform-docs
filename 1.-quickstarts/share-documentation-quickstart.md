@@ -1,10 +1,15 @@
-# Share Documentation
+# Sharing Documentation
 
-With your project ready, you can share the documentation with internal and external stakeholders. Your workspaces are your developer hub, viewable by anonymous, guest, and internal users. Users would see different projects depending on their permissions and project visibility settings. 
+With your project added to Stoplight, you are now ready to share your API documentation. You can think of your [workspace](./../2.-workspaces/a.creating-a-workspace.md) as a developer hub, which can be viewed by either authenticated or anonymous users depending on your project visibility settings.
 
-![update-visibility](../assets/images/manage-access.gif)
+## Managing Project-Level Access
 
-To update the visibility settings for a project, navigate to the `Manage Access` tab in the project settings screen using the cogwheel beside the `Edit in Studio` button.
+To update the project visibility or add users to a project, navigate to the `Manage Access` tab in the project settings screen (using the cog icon next to `Edit in Studio`). From this screen, you will be able to modify the visibility settings of a project
+
+> Keep in mind that users will see different projects depending on:
+> - Their permissions in the workspace, or
+> - Their permissions in the project, or
+> - The visibility settings of the project (private, public, or internal)
 
 ## Public Documentation
 
