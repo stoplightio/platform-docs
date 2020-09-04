@@ -4,28 +4,26 @@ With your project added to Stoplight, you are now ready to share your API docume
 
 ## Managing Project-Level Access
 
-To update the project visibility or add users to a project, navigate to the `Manage Access` tab in the project settings screen (using the cog icon next to `Edit in Studio`). From this screen, you will be able to modify the visibility settings of a project
+To update the project visibility or add users to a project, navigate to the **Manage Access** tab in the project settings screen (using the cog icon next to **Edit in Studio**). From this screen, you will be able to modify the visibility settings of a project
 
-> Keep in mind that users will see different projects depending on:
-> - Their permissions in the workspace, or
-> - Their permissions in the project, or
-> - The visibility settings of the project (private, public, or internal)
+![](../assets/images/manage-project-access.png)
 
-## Public Documentation
+> Keep in mind that users will see different projects depending on the following criteria:
+> - Their permissions in the **workspace**, or
+> - Their permissions in the **project**, or
+> - The **visibility settings** of the project (private, public, or internal)
 
-Set the project visibility as `Public` to allow anyone on the Internet, including anonymous users, to view this project. 
+### Public Documentation
 
-## Internal Documentation
+Set the project visibility as **Public** to allow anyone on the Internet, including anonymous users, to view the project contents.
 
-Set the project visibility as `Internal`, to allow everybody logged in as a user of the workspace to view the project. 
+### Internal Documentation
 
-## Partner Documentation
+Set the project visibility as **Internal** to allow everybody logged in as a user of the workspace to view the project. Projects with **Internal** visibility will not be accessible to unauthenticated users.
 
-Set the project visibility as `Internal` or `Private`. Next, give guests or partners access to the project documentation by adding them in `Members with Direct Access` section. 
+### Private Documentation
 
-If the project is set to `Internal`, everybody in your workspace and users who have direct access would be able to view the documentation. 
-
-If it's `Private`, only users with direct access would be able to view the documentation. 
+Set the project visibility as **Private** to restrict access only to users with direct access. Give authenticated users access to the project documentation by adding them under the **Manage Access** tab under the project settings.
 
 ## Create a Landing Page
 
