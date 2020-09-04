@@ -19,7 +19,7 @@ Set the project visibility as **Public** to allow anyone on the Internet, includ
 
 ### Internal Documentation
 
-Set the project visibility as **Internal** to allow everybody logged in as a user of the workspace to view the project. Projects with **Internal** visibility will not be accessible to unauthenticated users.
+Set the project visibility as **Internal** to allow *authenticated workspace members* to access the project. Projects with **Internal** visibility will not be accessible to unauthenticated users.
 
 ### Private Documentation
 
