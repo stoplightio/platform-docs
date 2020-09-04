@@ -25,20 +25,20 @@ Set the project visibility as **Internal** to allow everybody logged in as a use
 
 Set the project visibility as **Private** to restrict access only to users with direct access. Give authenticated users access to the project documentation by adding them under the **Manage Access** tab under the project settings.
 
-## Create a Landing Page
+## Customizing your Landing Page
 
-The Home Screen is the landing page for all users coming to the documentation. This can be used to highlight important APIs, getting started guides, or even embed some tutorial videos if you're feeling creative.
+The **Home Screen** is the landing page for your workspace and the first thing users coming to your documentation will see. This can be used to highlight important APIs, getting started guides, or even embed some tutorial videos if you're feeling creative.
 
-![landing-page-content](../assets/images/landing-page.gif)
+![landing-page-content](../assets/images/customizing-the-landing-page.png)
 
-There's an example template available to get started quickly. You can edit or completely replace the default template using [Stoplight Flavoured Markdown](https://meta.stoplight.io/docs/studio/docs/Documentation/03a-stoplight-flavored-markdown.md) from the workspace settings.
+> There's an example template available to get started quickly. You can edit or completely replace the default template using [Stoplight Flavored Markdown](https://meta.stoplight.io/docs/studio/docs/Documentation/03a-stoplight-flavored-markdown.md) from the workspace settings.
 
-## Add Company Logo
+## Add a Company Logo
 
-In the workspace settings, add a URL to your logo. It's recommended to use a logo with the company name. 
+In the workspace settings, add a URL to your logo. It's recommended to use a logo with the company name.
 
 ![change-logo](../assets/images/change-logo.png)
 
-## Share with Users
+## Sharing with Users
 
-With your landing page ready, and projects set to the correct visibility, **share the link to your workspace with users** to let them access the documentation. For internal team members [invite them](../2.-workspaces/d.inviting-your-team.md) to the workspace. 
+With your landing page ready and projects set to the correct visibility, **share your workspace URL with users** to let them access your documentation. For internal or private projects, [invite users](../2.-workspaces/d.inviting-your-team.md) to the workspace directly. 
