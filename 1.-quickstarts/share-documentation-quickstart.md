@@ -33,7 +33,7 @@ The **Home Screen** is the landing page for your workspace and the first thing u
 
 > There's an example template available to get started quickly. You can edit or completely replace the default template using [Stoplight Flavored Markdown](https://meta.stoplight.io/docs/studio/docs/Documentation/03a-stoplight-flavored-markdown.md) from the workspace settings.
 
-## Add a Company Logo
+## Adding a Company Logo
 
 In the workspace settings, add a URL to your logo. It's recommended to use a logo with the company name.
 
