@@ -8,28 +8,72 @@ With the rise in importance means **shipping poorly planned APIs isn't an option
 
 Stoplight Platform offers tooling across the API lifecycle that helps them build quality APIs efficiently. With Stoplight Platform your team can:
 
-- `Design`: Help API architects **design excellent APIs quickly** providing machine readable API descriptions using standards (like OpenAPI), through an easy to use intuitive UI. 
-		
+<!--
+type: tab
+title: Design
+-->
 
-- `Develop`: Allow your API developers to create prototype APIs with no code using our out-of-the-box mocking servers, to **develop APIs and API clients in parallel** instead of using the waterfall model.
-		
+# <i class="fas fa-magic"> </i> Design
 
-- `Document`: **Provide an amazing developer experience for your internal and external developers** by publishing beautiful documentation, with a built in HTTP client and code samples.
-		
+Help API architects **design excellent APIs quickly** providing machine readable API descriptions using standards (like OpenAPI), through an easy to use intuitive UI.
 
-- `Collaborate`: Create workspaces, manage roles, and permissions, powered by integrated tooling on top of your favorite version control system to **collaborate in real-time without losing your single source of truth**. 
-		
+<!--
+type: tab
+title: Develop
+-->
 
-- `Govern`: **Promote reuse, consistency, and quality across your company** by exploring artifacts, creating common design libraries using our powerful Explorer, and leveraging automated style guides to make sure your APIs are the best they can be. 
-		
+# <i class="fas fa-laptop-code"> </i> Develop
 
-- `Integrate`: Stoplight is powered by industry-leading standards that help your team on board quickly and use our tooling without being locked in at any part of the lifecycle. Our tooling is based on:
+Allow your API developers to create prototype APIs with no code using our out-of-the-box mocking servers, to **develop APIs and API clients in parallel** instead of using the waterfall model.
+
+<!--
+type: tab
+title: Document
+-->
+
+# <i class="fad fa-book"> </i> Document
+
+**Provide an amazing developer experience for your internal and external developers** by publishing beautiful documentation, with a built in HTTP client and code samples.
+
+<!--
+type: tab
+title: Collaborate
+-->
+
+# <i class="fas fa-users-class"> </i> Collaborate
+
+Create workspaces, manage roles, and permissions, powered by integrated tooling on top of your favorite version control system to **collaborate in real-time without losing your single source of truth**.
+
+<!--
+type: tab
+title: Govern
+-->
+
+# <i class="fas fa-crown"> </i> Govern
+
+**Promote reuse, consistency, and quality across your company** by exploring artifacts, creating common design libraries using our powerful Explorer, and leveraging automated style guides to make sure your APIs are the best they can be.
+
+<!--
+type: tab
+title: Integrate
+-->
+
+# <i class="fas fa-sitemap"> </i> Integrate 
+
+Stoplight is powered by industry-leading standards that help your team on board quickly and use our tooling without being locked in at any part of the lifecycle. Our tooling is based on:
 		
   * OpenAPI Specification
   * JSON Schema
   * Markdown
   * Git
 
-All of these files can live in your existing version control systems so you maintain full control over your source of truth at all times, no awkward syncs, or repetitive import/export cycles.
+
+<!-- type: tab-end -->
+
+<!-- theme: info -->
+
+>All of these files can live in your existing version control systems so you maintain full control over your source of truth at all times, no awkward syncs, or repetitive import/export cycles.
 
 Ready to start planning and creating APIs? Let's [get started](2.-workspaces/a.creating-a-workspace.md)!
+
+
