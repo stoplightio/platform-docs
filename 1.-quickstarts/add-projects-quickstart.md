@@ -25,7 +25,7 @@ Next, lets [share this project](share-documentation-quickstart.md).
 
 ## Create a Blank Project/Import Local Files
 
-If you don't have your API artifacts like OpenAPI or JSON schema on a Git repository or want to get started with creating a new one, you can get started in Studio. 
+If you don't have your API artifacts like OpenAPI or JSON Schema on a Git repository or want to get started with creating a new one, you can get started in Studio. 
 
 <!-- theme: warning -->
 
