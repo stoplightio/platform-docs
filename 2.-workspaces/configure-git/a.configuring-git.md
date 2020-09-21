@@ -32,10 +32,6 @@ Cloud-hosted Git providers are configured out of the box in Stoplight. The follo
 
 1. Install your desired Git provider from the integrations section in your workspace settings. 
 
-<p align="center">
-  <img width="100" height="300" src="http://www.fillmurray.com/460/300">
-</p>
-
 ![Install integrations from Workspace Settings > Integrations](../../assets/images/git_integrations.png)
 
 2. Select **Use Default Configuration** and click **Install**. 
