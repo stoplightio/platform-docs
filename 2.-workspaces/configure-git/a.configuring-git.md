@@ -8,7 +8,7 @@ We support the following Git providers.
 
 - <i class="Icon fab fa-bitbucket fa-2x" style="color: rgb(32, 80, 129);"> </i> Bitbucket Cloud
 
-- <i class="Icon fab fa-bitbucket fa-2x" > </i> Bitbucket Server
+- <i class="Icon fab fa-bitbucket fa-2x" style="color: rgb(32, 80, 129);" > </i> Bitbucket Server
 
 - <i class="fab fa-github fa-2x"> </i> Github
 
@@ -24,7 +24,7 @@ If you don't see the Git Provider you're looking for, take a look at our [roadma
 
 Cloud-hosted Git providers are configured out of the box in Stoplight. The following cloud Git providers are supported:
 
-- <i class="Icon fab fa-bitbucket fa-2x" > </i> Bitbucket Cloud
+- <i class="Icon fab fa-bitbucket fa-2x" style="color: rgb(32, 80, 129);" > </i> Bitbucket Cloud
 
 - <i class="fab fa-github fa-2x"> </i> Github
 
