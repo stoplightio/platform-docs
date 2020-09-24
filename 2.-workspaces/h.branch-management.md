@@ -39,10 +39,10 @@ Doing this can make things more clear for end-users of your software, API, etc. 
 
 For example, if you are using Git Flow, you could name your branches this:
 
-git | Stoplight
----------|----------
-master | Stable
-develop | Development
+| git     | Stoplight   |
+| ------- | ----------- |
+| master  | Stable      |
+| develop | Development |
 
 ![](../assets/images/edit-branch.png)
 
@@ -52,11 +52,11 @@ When viewed in documentation:
 
 Another example might be keeping different versions of APIs in different branches, and you want to advertise which APIs people should be using without changing the names in Git:
 
-git | Stoplight
----------|----------
-v4 | v4 (Legacy)
-v5 | v5 (Stable)
-v6 | v6 (Beta)
+| git | Stoplight   |
+| --- | ----------- |
+| v4  | v4 (Legacy) |
+| v5  | v5 (Stable) |
+| v6  | v6 (Beta)   |
 
 Maybe the v5 branch is marked as stable, then when v6 is deployed ti production the default is changed.
 
@@ -81,7 +81,7 @@ git push origin master:main
 - [GitHub Cloud Instructions](https://docs.github.com/en/github/administering-a-repository/setting-the-default-branch)
 - [GitHub Enterprise Instructions](https://docs.github.com/en/enterprise/2.21/user/github/administering-a-repository/setting-the-default-branch)
 - [GitLab Cloud Instructions](https://docs.gitlab.com/ee/user/project/repository/branches/)
-- [GitLab Server Instructions](https://docs.gitlab.com/13.1/ee/user/project/repository/branches/index.html)
+- [GitLab Server Instructions](https://docs.gitlab.com/ee/user/project/repository/branches/#default-branch)
 
 5. Remove the old branch from your Git repository.
 
