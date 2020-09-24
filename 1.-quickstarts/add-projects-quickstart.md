@@ -56,7 +56,7 @@ Once done, choose your desired Git provider, organization, repo name, and then c
 
 <!-- theme: warning -->
 
-> After making change within Studio please ensure you commit changes so nothing is lost. Click **Push** and follow the prompts.
+> After making change within Studio please ensure you push the changes to avoid any work being lost. Click **Push** and follow prompts to do this.
 > ![commit-to-git](../assets/images/git_commit.png)
 
 Next, lets [share this project](share-documentation-quickstart.md). 
