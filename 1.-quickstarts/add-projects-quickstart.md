@@ -8,68 +8,70 @@ Stoplight looks for:
 - Markdown articles
 - Images
 
-## Connect an Existing Git Project
+## Connecting a Git Repo
 
 The quickest and recommended way to get projects into Stoplight is to pull them in from Git.
 
-1. Select **+** on the top left, then click **Add Git Project**.
+1. Select **+** on the top left, then click an option under **Add Git Project**.
 
 ![add-projects](../assets/images/add_git_project.png)
 
 2. Select your Git provider of choice and then click **Connect with Your Git Provider**. Follow the instructions on the pop-up screen to authenticate.
+
 3. Upon successful authentication, you should see your organizations listed. Choose the organization and select the repositories you want to import. Click **Add Projects**.
 
-If the repository has Markdown articles or API descriptions, then you will see them show up.
+Once the repository data has been analyzed, your workspace landing page should now contain projects populated with data.
 
 Next, lets [share this project](share-documentation-quickstart.md). 
 
-## Create a Blank Project/Import Local Files
+## Creating a Blank Project
 
-If you don't have your API artifacts like OpenAPI or JSON Schema on a Git repository or want to get started with creating a new one, you can get started in Studio. 
+If you don't have your API artifacts, like OpenAPI or JSON Schema, on a Git repository or want to get started with creating a new one, you can get started directly from Studio by selecting the **+** on the top left of the screen, and then clicking an option under **Create Local Project**.
 
-<!-- theme: warning -->
+<!-- theme: danger -->
 
-> ### Warning! 
+> ### Warning!
 >
-> This project will only be editable via the current browser. If you need to edit on multiple browsers or collaborate with others, please promote to a Git project.
-
-1. Select **+** on the top left, then click **Create Local Project**.
+> Projects *not connected* to a Git repository will **only be editable on your current browser session**. This means that you could potentially lose the ability to edit your project should you lose your session data.
+> 
+> If you either need to edit your content on multiple browsers or collaborate with others, it is strongly recommended that you use the "**Connecting a Git Repo**" option listed above.
 
 ![start a new project](../assets/images/add_local_project.png)
 
-### Import Existing Files and Create new API Descriptions or Documentation
+### Importing Files
 
-
-From within studion - Click **+ (ADD)** to Import existing OpenAPI descriptions, JSON Schemas, Images, or Documentation.
+From within Studio - Click **+** at the top of the screen and then "Import File" in order to open existing OpenAPI, JSON Schema, Image, or Markdown files.
 
 ![import existing file](../assets/images/import_files.png)
 
-Play around, design, and edit using the intuitive interface.  
+### Promoting to Git
 
-
-### Promote to a Git repo (Recommended)
-To start sharing this project you can promote it to a Git repository. This would create a Git repo and push the imported/newly created content always keeping it in sync with the changes within or outside Studio. 
+To start sharing this project, you can promote it to a new Git repository. This will create a new private Git repository under your VCS of choice and push the newly-created content to it.
 
 ![promote-to-git](../assets/images/git_promote.png)
 
-Click **Push**, then click **Promote to  Git repo**. 
+Click the **Push** icon, and then click **Promote to Git Repo** to use this option.
 
-Choose your desired Git provider, organization, and name and click **Create Git Repository**.
+Once done, choose your desired Git provider, organization, repo name, and then click **Create Git Repository**.
 
 <!-- theme: warning -->
 
-> ### Warning! 
->
-> After making change within Studio please ensure you commit changes so nothing is lost. Click **Push** and follow prompts
-
-![commit-to-git](../assets/images/git_commit.png)
- 
+> After making change within Studio please ensure you commit changes so nothing is lost. Click **Push** and follow the prompts.
+> ![commit-to-git](../assets/images/git_commit.png)
 
 Next, lets [share this project](share-documentation-quickstart.md). 
 
-### Push to workspace
+### Push to Workspace
 
-If you don't want to push this content to a Git repo, you can push it to the workspace to start sharing it.
+If you don't want to push this content to a Git repo, you can push it to the workspace to start sharing it immediately.
+
+<!-- theme: danger -->
+
+> ### Warning!
+>
+> Projects *not connected* to a Git repository will **only be editable on your current browser session**. This means that you could potentially lose the ability to edit your project should you lose your session data.
+> 
+> If you either need to edit your content on multiple browsers or collaborate with others, it is strongly recommended that you use the "**Connecting a Git Repo**" option listed above.
 
 ![push-to-workspace](../assets/images/push_to_workspace.png)
 

@@ -1,12 +1,12 @@
-# Introduction to Stoplight Platform 
-		
-APIs have become the cornerstone of growth across organizations of all shapes and sizes. In the past APIs might have been an afterthought, created to satisfy integration requirements at a later point, but now they drive core new business models, providing critical integrations and improving efficiency throughout multiple products. 
+# Introduction to Stoplight 
+
+APIs have become the cornerstone of growth across organizations of all shapes and sizes. In the past, APIs might have been an afterthought, created to satisfy integration requirements at a later point. Now they drive core new business models, providing critical integrations, and improving efficiency throughout multiple products.
 
 With the rise in importance means **shipping poorly planned APIs isn't an option anymore**, and Stoplight aims to bring together all the tools you need to make sure you're APIs are the best they can be.
 		
-### What is Stoplight Platform?
+### What is Stoplight?
 
-Stoplight Platform offers tooling across the API lifecycle that helps them build quality APIs efficiently. With Stoplight Platform your team can:
+Stoplight offers tooling across the API lifecycle that helps you build quality APIs efficiently. With Stoplight, your team can:
 
 <!--
 type: tab
@@ -67,13 +67,10 @@ Stoplight is powered by industry-leading standards that help your team on board 
   * Markdown
   * Git
 
-
 <!-- type: tab-end -->
 
 <!-- theme: info -->
 
->All of these files can live in your existing version control systems so you maintain full control over your source of truth at all times, no awkward syncs, or repetitive import/export cycles.
+All of these files can live in your existing version control systems so you maintain full control over your source of truth at all times, no awkward syncs, or repetitive import/export cycles.
 
 Ready to start planning and creating APIs? Let's [get started](2.-workspaces/a.creating-a-workspace.md)!
-
-
