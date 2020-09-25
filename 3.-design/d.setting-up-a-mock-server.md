@@ -7,7 +7,7 @@ tags: [Design]
 
 Stoplight offers free, automatically updated HTTP mock servers for every API published in your workspace. These mock servers simulates real APIs, by providing endpoints and validation rules described in your API description document. 
 
-This allows client developers to begin writing code for frontend services like web, mobile, or other backend applications, whilst the API developers are still writing their code. This can help find and solve problems early on, before the API is built, because changing all that code can be expensive (time is money).
+This allows client developers to begin writing code for frontend services like web, mobile, or other backend applications. In tandem, the API developers can continue writing their code. This can help find and solve problems early on before the API is built.
 
 Our hosted mock servers are powered by our [open-source mock server Prism](https://stoplight.io/open-source/prism), so if you are familiar with this tool then you'll be familiar with hosted mocking.
 
