@@ -1,13 +1,13 @@
 # Branch Management
-
-Projects powered by Git can leverage the awesome power of [Git branches](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell). 
+<!-- Is this needed? -->
+Projects powered by Git can leverage the use of [Git branches](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell). 
 
 Sometimes branches are used for versioning, so a repository might have a `v4` and a `v5` branch.
 
 Sometimes branches follow certain "branching models" for common workflows such as [Git Flow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow). These repositories will have a `master` and a `develop` branch, along with all sorts of "feature branches" in the format of `feature/adding-a-thing`.
 
 Regardless of the model, there is always a default branch. Branches could be named absolutely anything, but there are some common default branch names used by most of the popular Git providers: `trunk`, `main`, or `master`.
-
+<!--  -->
 ## Publishing Multiple Branches
 
 > This feature is available on the Stoplight **Starter** plan, and above.
