@@ -58,8 +58,8 @@ Note:
 - Groups should have an `items` property allowing you to futher nest more items, dividers, and groups.
 
 > **TIP**: The easiest way to get a file's URI in Studio is to click the `...` button next to the file, click the "copy path" menu item then paste the contents.
-
-![studio copy path](../assets/images/studio-copy-path.gif)
+>
+> ![studio copy path](../assets/images/studio-copy-path.gif)
 
 ### Example
 
