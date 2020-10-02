@@ -45,3 +45,4 @@ This could be due to missing permissions in GitHub. Navigate to https://github.c
 ![GitHub Organization Access](assets/images/organization-access.png)
 
 Notice the organization access at the bottom. Grant access to the organization you're looking to add repos from. You should then be able to add projects from your organization.
+
