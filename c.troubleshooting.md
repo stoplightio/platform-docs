@@ -4,22 +4,26 @@ Below you will find answers to commonly encountered questions.
 
 > If you are having trouble and cannot find a suitable answer, don't hesitate to [let us know](mailto:support@stoplight.io).
 
-## Why is there an "Other" section in the sidebar?
+## Why is there an "Others" section in the sidebar?
 
-If you're seeing an "Other" section in the sidebar of your project documentation...
+If you're seeing an "Others" section in the sidebar of your project documentation...
 
-*screenshot*
+![Others](assets/images/others_missing_tag.png)
 
 Discuss:
 
-- Need to apply tags in Studio.
-- Link to ToC article that discusses the default ordering
+- Tags will need to be added to the models and endpoints to prevent them from being placed into the Others section of the Table of Contents
+- [Default Ordering](https://meta.stoplight.io/docs/platform/4.-documentation/d.table-of-contents.md) of the table of contents
 
 ## How do I export a file from Stoplight?
 
 If you need to retrieve a file published in Stoplight, the quickest way to do so is using the **Export** buttons found in both Explore and your project documentation.
 
-*screenshot*
+***Exporting using Explorer***
+![Export through Explorer](assets/images/export_explorer.png)
+
+***Exporting within Studio***
+![Export through Studio](assets/images/export_studio.png)
 
 Discuss:
 
