@@ -10,10 +10,8 @@ If you're seeing an "Others" section in the sidebar of your project documentatio
 
 ![Others](assets/images/others_missing_tag.png)
 
-Discuss:
-
-- Tags will need to be added to the models and endpoints to prevent them from being placed into the Others section of the Table of Contents
-- [Default Ordering](https://meta.stoplight.io/docs/platform/4.-documentation/d.table-of-contents.md) of the table of contents
+- Tags will need to be added to the models and/or endpoints to prevent them from being placed into the Others section of the Table of Contents
+- View [Default Ordering](https://meta.stoplight.io/docs/platform/4.-documentation/d.table-of-contents.md#the-default-structure) of the table of contents
 
 ## How do I export a file from Stoplight?
 
@@ -25,15 +23,16 @@ If you need to retrieve a file published in Stoplight, the quickest way to do so
 ***Exporting within Studio***
 ![Export through Studio](assets/images/export_studio.png)
 
-Discuss:
-
-- Differences between Original, Bundled, Dereferenced.
+### What are the differences between Original, Bundled, Dereferenced.
+1. Original - is the raw file keeping the $refs
+2. Bundled - only resolves remote $refs 
+3. Dereferenced- resolves all remote and inline $refs
 
 ## Does Stoplight support adding HTML to documentation?
 
-Discuss:
+HTML support within Markdown is limited.
 
-- Link to section in markdown docs around HTML support.
+See our [Markdown Documentation](https://meta.stoplight.io/docs/studio-demo/docs/markdown/basic-syntax.md) for more information.
 
 ## How do I allow Stoplight to access an internal Git provider?
 
