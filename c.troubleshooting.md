@@ -27,7 +27,7 @@ If you need to retrieve a file published in Stoplight, the quickest way to do so
 ### What are the differences between Original, Bundled, Dereferenced.
 1. Original - is the raw file keeping the $refs
 2. Bundled - resolves remote $refs once, re-referencing the same objects in subsequent references (producing a smaller file)
-3. Dereferenced- resolves all remote and inline $refs
+3. Dereferenced - resolves all $refs, inserting each resolved reference inline
 
 ## Does Stoplight support adding HTML to documentation?
 
