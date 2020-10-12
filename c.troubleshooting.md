@@ -10,8 +10,9 @@ If you're seeing an "Others" section in the sidebar of your project documentatio
 
 ![Others](assets/images/others_missing_tag.png)
 
-- Tags will need to be added to the models and/or endpoints to prevent them from being placed into the Others section of the Table of Contents
-- View [Default Ordering](https://meta.stoplight.io/docs/platform/4.-documentation/d.table-of-contents.md#the-default-structure) of the table of contents
+Grouping of endpoints and models is done with [tags](https://swagger.io/docs/specification/grouping-operations-with-tags/). To prevent an "Others" section from being generated, be sure to add at least one tag to each endpoint and model in your project.
+
+You can find more information on the default order of the project sidebar (as well as how to customize it) [here](https://meta.stoplight.io/docs/platform/4.-documentation/d.table-of-contents.md).
 
 ## How do I export a file from Stoplight?
 
