@@ -31,9 +31,7 @@ If you need to retrieve a file published in Stoplight, the quickest way to do so
 
 ## Does Stoplight support adding HTML to documentation?
 
-HTML support within Markdown is limited.
-
-See our [Markdown Documentation](https://meta.stoplight.io/docs/studio-demo/docs/markdown/basic-syntax.md) for more information.
+HTML support within Markdown is limited. See our [Markdown documentation](https://meta.stoplight.io/docs/studio-demo/docs/markdown/basic-syntax.md) for more information.
 
 ## How do I allow Stoplight to access an internal Git provider?
 
