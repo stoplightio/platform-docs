@@ -1,7 +1,7 @@
 # Using a Custom Domain
 ## Setting up a custom domain
-1. Select Workpaces settings
-2. Under Settings > Basics > Custom Domain
+1. Select Workspace settings
+2. In Settings > Basics > Custom Domain
 3. Enter the custom domain to be used 
   (Note: Add a CNAME record to the DNS that points to "ingress.stoplight.io".)
 
