@@ -110,11 +110,6 @@
       "uri": "2.-workspaces/h.branch-management.md"
     },
     {
-      "type": "item",
-      "title": "Integrate Behind a Firewall",
-      "uri": "2.-workspaces/i.allowlisting-ips.md"
-    },
-    {
       "type": "divider",
       "title": "Design"
     },

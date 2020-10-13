@@ -50,4 +50,4 @@ Configure your Git Provider using the guides below:
 - [GitLab](e.gitlab.md)
 - [Gitea](f.gitea.md)
 
-> If your self hosted Git provider is behind a firewall, please [add our IPs to your allowlist](../i.allowlisting-ips.md) on port 443 over HTTPS. 
+> If your self hosted Git provider is behind a firewall, please [add our IPs to your allowlist](../../c.troubleshooting.md#how-do-i-allow-stoplight-to-access-an-internal-git-provider) on port 443 over HTTPS. 

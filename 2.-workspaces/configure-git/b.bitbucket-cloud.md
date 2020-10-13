@@ -34,4 +34,4 @@ Read more about [creating a BitBucket OAuth consumer](https://support.atlassian.
 <!-- theme: info -->
 > #### **If connected behind a firewall verify the following:**
 >
-> Stoplight's IP addresses are added to your [allowlist](../i.allowlisting-ips.md) on port 443. 
+> Stoplight's IP addresses are added to your [allowlist](../../c.troubleshooting.md#how-do-i-allow-stoplight-to-access-an-internal-git-provider) on port 443. 
