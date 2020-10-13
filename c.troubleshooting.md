@@ -59,7 +59,7 @@ If something is not working in a version listed here (or newer) please [contact 
 
 Local projects in Stoplight are stored in the browser cache. If you are on a different computer/browser, you won't be able to edit the project. 
 
-Preferably [connect to a Git provider](2.-workspaces/e.configure-git.md) that Stoplight supports. Once you've done that go into studio from the browser/computer you used to first create this project, and then promote it to a Git repo.
+Preferably [connect to a Git provider](2.-workspaces/configure-git/a.configuring-git.md) that Stoplight supports. Once you've done that go into studio from the browser/computer you used to first create this project, and then promote it to a Git repo.
 
 ![Promote to Git](assets/images/git_promote.png)
 
