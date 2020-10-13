@@ -16,7 +16,7 @@ You can find more information on the default order of the project sidebar (as we
 
 ## How do I export a file from Stoplight?
 
-If you need to retrieve a file published in Stoplight, the quickest way to do so is using the **Export** buttons found in both Explore and your project documentation.
+If you need to retrieve a file published in Stoplight, the quickest way to do so is using the **Export** buttons found in both Explorer and your project documentation.
 
 ***Exporting using Explorer***
 ![Export through Explorer](assets/images/export_explorer.png)
@@ -82,4 +82,3 @@ This could be due to missing permissions in GitHub. Navigate to https://github.c
 ![GitHub Organization Access](assets/images/organization-access.png)
 
 Notice the organization access at the bottom. Grant access to the organization you're looking to add repos from. You should then be able to add projects from your organization.
-
