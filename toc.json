@@ -110,6 +110,11 @@
       "uri": "2.-workspaces/h.branch-management.md"
     },
     {
+      "type": "item",
+      "title": "Custom Domains",
+      "uri": "2.-workspaces/j.custom-domains.md"
+    },
+    {
       "type": "divider",
       "title": "Design"
     },
