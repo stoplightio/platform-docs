@@ -9,7 +9,9 @@ means that a CAA DNS record is present on your domain, which is preventing the
 TLS verification process from completing.
 
 > To learn more about CAA records and what they are used for, see the Let's
-> Encrypt documentation [here](https://letsencrypt.org/docs/caa/).
+> Encrypt documentation [here](https://letsencrypt.org/docs/caa/). You can
+> perform a CAA lookup on your domain [here](https://dnslookup.online/caa.html)
+> for reference.
 
 To resolve this issue, use either option below:
 
