@@ -1,13 +1,27 @@
 # Using a Custom Domain
-## Setting up a custom domain
-1. Select Workspace settings
-2. In Settings > Basics > Custom Domain
-3. Enter the custom domain to be used 
-  (Note: Add a CNAME record to the DNS that points to "ingress.stoplight.io".)
+
+To setup a custom domain for your Stoplight workspace, follow the steps below:
 
 ![](../assets/images/custom_domain.png)
 
+1. Select Workspace settings from the top-left drop-down
+2. In Settings > Basics > Custom Domain
+3. Enter the custom domain you would like to use. To complete the configuration
+   process, you will need to create a CNAME DNS record for your domain that
+   points to `ingress.stoplight.io`.
+
 ## Troubleshooting
+
+### Cloudflare-hosted domains
+
+If you are using [Cloudflare](https://cloudflare.com/), be sure to set your
+CNAME record to "DNS Only" (signified by a grey cloud, and **not** an orange
+cloud).
+
+![](../assets/images/custom_domain_cloudflare.png)
+
+You can read more about what this means in the CloudFlare documentation
+[here](https://support.cloudflare.com/hc/en-us/articles/200169626-What-subdomains-are-appropriate-for-orange-gray-clouds-).
 
 ### The connection has timed out
 
