@@ -78,6 +78,4 @@ If you are using a "monorepo" approach, you might have one project, with a direc
 
 If you are using a "multirepo" approach, you might have one project for each API, and contain the source code and API description inside each project in any directory structure you like.
 
-You could use a mixture of both, where multiple repositories exist, but there are a couple of APIs in there. Maybe one project known as the "Locations Service" has a "Public API" and an "Admin API" for managing it.
-
 Next, lets learn about [configuring projects](c.config.md). 
