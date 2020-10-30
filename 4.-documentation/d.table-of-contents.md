@@ -1,6 +1,6 @@
 # Customizing the Sidebar
 
-Project documentation contains a single left sidebar called the **Table of Contents** (or ToC). The [default structure](#default-structure) of this sidebar loosely follows the filesystem of the project, with a few exceptions for APIs and models. You can [customize the appearance](#customizing-the-sidebar) of this sidebar using a Table of Contents file (`toc.json`), which supports:
+Project documentation contains a single left sidebar called the **Table of Contents** (or ToC). The [default structure](#the-default-structure) of this sidebar loosely follows the filesystem of the project, with a few exceptions for APIs and models. You can [customize the appearance](#customizing-the-sidebar) of this sidebar using a Table of Contents file (`toc.json`), which supports:
 
 - Customizing the order of files in the sidebar
 - Overriding the title of a file in the sidebar
@@ -12,7 +12,7 @@ Project documentation contains a single left sidebar called the **Table of Conte
 > 
 > There are a few known limitations with this functionality:
 > 
-> 1. **You can only reorder articles, APIs, and model files.** Endpoints and internal models will follow the [default structure](#default-structure) outlined above. [(roadmap)](https://roadmap.stoplight.io/c/110-custom-ordering-for-endpoints-and-models)
+> 1. **You can only reorder articles, APIs, and model files.** Endpoints and internal models will follow the [default structure](#the-default-structure) outlined below. [(roadmap)](https://roadmap.stoplight.io/c/110-custom-ordering-for-endpoints-and-models)
 > 2. **The `toc.json` file must be written by hand.** [(roadmap)](https://roadmap.stoplight.io/c/112-table-of-contents-editor)
 > 3. **Renaming a file does not automatically update the `toc.json`.** You'll need to remember to update your TOC whenever a file is renamed. Otherwise your project sidebar might contain broken links. [(roadmap)](https://roadmap.stoplight.io/c/96-automatically-rewrite-references-and-links-on-filename-change)
 > 4. **Renaming a file does not automatically redirect to the new docs url**. This means changing a filename might result in broken links. [(roadmap)](https://roadmap.stoplight.io/c/68-automatic-redirects)
