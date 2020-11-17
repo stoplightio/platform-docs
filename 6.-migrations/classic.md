@@ -67,8 +67,8 @@ repository which can then be added to your new Stoplight Workspace.
 
 > If you are interested in upgrading from OpenAPI v2 (otherwise known as
 > Swagger) to the latest OpenAPI v3 format, there is free conversion tool
-> available [here](https://openapi-converter.herokuapp.com/). The latest version
-> of Stoplight Studio supports either format.
+> available [here]( https://www.npmjs.com/package/swagger2openapi). The latest
+> version of Stoplight Studio supports either format.
 
 ## FAQ
 
