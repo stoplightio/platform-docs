@@ -10,21 +10,18 @@ While the new Stoplight Platform includes a lot of new functionality, there are 
 
 Each feature is linked to a card on our public roadmap, and we encourage you to follow the features relevant to you - we'll notify you as each is released.
 
-|                                                                                                       |  Timeline   | Description                                                                                                                               |
-| ----------------------------------------------------------------------------------------------------- | :---------: | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| [Docs: Theming](https://roadmap.stoplight.io/c/52-theming-and-branding)                               |  Immediate  | Customize the branding and colors                                                                                                         |
-| [Docs: Versioning](https://roadmap.stoplight.io/c/60-multiple-branches)                               |  Immediate  | Show/hide specific branches in each project's docs                                                                                        |
-| [Docs: Table of contents ordering](https://roadmap.stoplight.io/c/59-customize-docs-sidebar-ordering) | Short-term  | Completely custom ordering of your docs sidebar. By default, files will be organized alphabetically, matching the order in the filesystem |
-| [Docs: Custom CSS, JS, and HTML](https://roadmap.stoplight.io/c/57-embeddable-component-library)      | Short-term  | Rich component library for creating custom API docs site                                                                                  |
-| [Design: Shared parameters/responses](https://roadmap.stoplight.io/c/10-openapi-shared-components)    |  Mid-term   | Form based editing for OpenAPI shared components                                                                                          |
-| [Design: Lifecycle tags](https://roadmap.stoplight.io/c/65-lifecycle-tags)                            |  Mid-term   | Add tags to build workflows around your API lifecycle                                                                                     |
-| [Docs: Try It OAuth token generation](https://roadmap.stoplight.io/c/58-request-maker-authentication) |  Mid-term   | Generate OAuth 1 & 2 tokens for HTTP requests in Try It                                                                                   |
-| [Discussions](https://roadmap.stoplight.io/c/61-discussions-comments)                                 |  Mid-term   | Create and resolve discussions on API designs and docs                                                                                    |
-| [Docs: Custom variables](https://roadmap.stoplight.io/c/47-custom-variables)                          | Considering | Allow users to set a variable once and have it used everywhere                                                                            |
-| [Docs: Redirects](https://roadmap.stoplight.io/c/68-redirects)                                        | Considering | Automatic redirects when docs routes are changed                                                                                          |
-| [Docs: Integrations](https://roadmap.stoplight.io/c/64-analytics-integrations)                        | Considering | First class support for integrations like Google analytics, Segment, Intercom, etc                                                        |
-| [Design: CRUD Builder](https://roadmap.stoplight.io/c/63-crud-builder)                                | Considering | Automatically generate a list of CRUD endpoints for a schema                                                                              |
-| [API Discovery](https://roadmap.stoplight.io/c/66-learning-recording)                                 | Considering | Automatically create an OpenAPI document by proxying requests to an existing API                                                          |
+|                                                                                                       |  Timeline   | Description                                                                        |
+| ----------------------------------------------------------------------------------------------------- | :---------: | ---------------------------------------------------------------------------------- |
+| [Docs: Custom CSS, JS, and HTML](https://roadmap.stoplight.io/c/57-embeddable-component-library)      | Short-term  | Rich component library for creating custom API docs site                           |
+| [Design: Shared parameters/responses](https://roadmap.stoplight.io/c/10-openapi-shared-components)    |  Mid-term   | Form based editing for OpenAPI shared components                                   |
+| [Design: Lifecycle tags](https://roadmap.stoplight.io/c/65-lifecycle-tags)                            |  Mid-term   | Add tags to build workflows around your API lifecycle                              |
+| [Docs: Try It OAuth token generation](https://roadmap.stoplight.io/c/58-request-maker-authentication) |  Mid-term   | Generate OAuth 1 & 2 tokens for HTTP requests in Try It                            |
+| [Discussions](https://roadmap.stoplight.io/c/61-discussions-comments)                                 |  Mid-term   | Create and resolve discussions on API designs and docs                             |
+| [Docs: Custom variables](https://roadmap.stoplight.io/c/47-custom-variables)                          | Considering | Allow users to set a variable once and have it used everywhere                     |
+| [Docs: Redirects](https://roadmap.stoplight.io/c/68-redirects)                                        | Considering | Automatic redirects when docs routes are changed                                   |
+| [Docs: Integrations](https://roadmap.stoplight.io/c/64-analytics-integrations)                        | Considering | First class support for integrations like Google analytics, Segment, Intercom, etc |
+| [Design: CRUD Builder](https://roadmap.stoplight.io/c/63-crud-builder)                                | Considering | Automatically generate a list of CRUD endpoints for a schema                       |
+| [API Discovery](https://roadmap.stoplight.io/c/66-learning-recording)                                 | Considering | Automatically create an OpenAPI document by proxying requests to an existing API   |
 
 ## How do I migrate?
 
@@ -39,13 +36,15 @@ Because we've updated our approach to where your data is stored and managed (you
 First, let's export the contents from one of your Classic projects.
 
 1. Choose which Classic project you want to migrate.
-2. Follow [this guide](https://help.stoplight.io/docs/design/exporting-to-swagger-or-raml) to export the project's OpenAPI v2 file with the Stoplight extensions included. If you have multiple versions, you'll want to export each one individually.
+2. Follow [this guide](https://help.stoplight.io/docs/design/exporting-to-swagger-or-raml) to export the project's **OpenAPI v2 file with the Stoplight extensions included**. If you have multiple versions, you'll want to export each one individually.
 
 Now you have the exported OpenAPI file(s), let's add them to your new Stoplight Workspace.
 
 3. You can choose to either create a new Git repository or import the file to an existing one. Follow [this guide](../1.-quickstarts/add-projects-quickstart.md) to learn how.
 
 ### Migrating published docs
+
+For published documentation, 
 
 If you have published docs for external stakeholders (customers, the general public, etc), there are a couple of things to consider before migrating.
 
@@ -66,13 +65,13 @@ The roles and permissions work similar to Classic, but some of the role names ha
 
 Below is a mapping of Classic to Platform roles:
 
-| Classic | Platform |                                   |
-| ------- | -------- | --------------------------------- |
-| Owner   | Owner    | Can change workspace settings     |
-| Admin   | Admin    | Can manage members                |
-| Member  | Maker    | Can add projects                  |
-| Guest   | Viewer   | Can view projects                 |
-|         | Guest    | Can be granted access to projects |
+| Stoplight Classic | Latest Stoplight |                                   |
+| ----------------- | ---------------- | --------------------------------- |
+| Owner             | Owner            | Can change workspace settings     |
+| Admin             | Admin            | Can manage members                |
+| Member            | Maker            | Can add projects                  |
+| Guest             | Viewer           | Can view projects                 |
+|                   | Guest            | Can be granted access to projects |
 
 **How do I publish my API documentation?**
 
