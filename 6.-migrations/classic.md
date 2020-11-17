@@ -1,17 +1,20 @@
-# Migrating from Classic
+# Migrating from Stoplight Classic
 
 ## Introduction
 
 One of the main goals for this new version of the Stoplight Platform has been to
-make it easier for you to integrate Stoplight into your existing git workflows.
-In Classic, projects were hosted in the Stoplight cloud with no connection to
-git.
+make it easier for you to integrate Stoplight into your existing Git-based
+workflows. In Stoplight Classic, projects were hosted in the Stoplight cloud
+with no connection to Git. With the latest version of Stoplight, all of your
+designs and related assets can be fully managed directly in your Git VCS
+provider.
 
 ## When can I migrate?
 
 While the new Stoplight Platform includes a lot of new functionality, there are
 some features from Classic that have not yet made their way over. For a full
-feature parity breakdown, please review the guide here.
+feature parity breakdown, please review the guide
+[here](https://support.stoplight.io/hc/en-us/articles/360035390511-What-are-the-differences-between-the-Stoplight-products-).
 
 Below are several features that were available in Classic that are linked to our
 upcoming roadmap. We encourage you to follow the features relevant to you -
@@ -32,22 +35,18 @@ we'll notify you as each is released.
 
 ## How do I migrate?
 
-> If you feel comfortable and ready to migrate, please follow the steps below.
-> If you have any questions concerns, please don't hesitate to [reach
-> out](mailto:support@stoplight.io).
->
-> Also keep in mind that you can of course copy API design files from Classic
-> into your existing Git repositories. This approach makes sense if you want to
-> start managing these design assets in the same Git repos that store the code.
-> If you are wondering which approach is best for you, please get in touch and
-> we'll schedule some time to help you decide.
-
 Because we've updated our approach to where your data is stored and managed
-(your VCS rather than our homegrown backend), this migration is a bit more
+(your VCS rather, than our homegrown backend), this migration is a bit more
 involved. The goal of this migration is to move your data from Stoplight Classic
 to Git repos in your VCS, and then to connect those Git repos to your new
 Stoplight Workspace.
 
+If you have not already done so, you can create a free Stoplight workspace
+[here](https://stoplight.io/welcome).
+
+> If you feel comfortable and ready to migrate, please follow the steps below.
+> If you have any questions concerns, please don't hesitate to [reach
+> out](mailto:support@stoplight.io).
 ### Migrating project contents
 
 First, let's export the contents from one of your Classic projects.
@@ -59,10 +58,10 @@ First, let's export the contents from one of your Classic projects.
    included**. If you have multiple versions, you'll want to export each one
    individually.
 
-Now you have the exported OpenAPI file(s), let's add them to your new Stoplight
-Workspace.
+Now that you have the exported OpenAPI file(s), you can now add them to a Git
+repository which can then be added to your new Stoplight Workspace.
 
-3. You can choose to either create a new Git repository or import the file to an
+1. You can choose to either create a new Git repository or import the file to an
    existing one. Follow [this
    guide](../1.-quickstarts/add-projects-quickstart.md) to learn how.
 
@@ -103,8 +102,6 @@ For example, if you want a project to only be visible by Workspace members, you
 can set the project's visibility to `internal`. You can also give members and
 guests explicit access to view specific private or internal projects.
 
-<!-- TODO: add a docs article on project visibility settings -->
-
 **How do I update the contents of my project's documentation?**
 
 When adding a project to your Stoplight Workspace, a webhook will be installed
@@ -113,7 +110,7 @@ documentation when any of the API design assets in the repository have changed.
 
 The contents of the project can then be updated from any one of your favorite
 tools, such as Stoplight Studio or even directly in the VCS provider. As long as
-the changes are pushed to the git repository, they will be automatically synced
+the changes are pushed to the Git repository, they will be automatically synced
 with your Stoplight Workspace.
 
 If you need more control over when documentation is updated, see our publishing
