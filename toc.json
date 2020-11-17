@@ -197,7 +197,12 @@
     },
     {
       "type": "item",
-      "title": "Migrating from NEXT",
+      "title": "Migrating from Stoplight Classic",
+      "uri": "6.-migrations/classic.md"
+    },
+    {
+      "type": "item",
+      "title": "Migrating from Stoplight NEXT",
       "uri": "6.-migrations/next.md"
     },
     {

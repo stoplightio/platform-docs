@@ -65,6 +65,11 @@ repository which can then be added to your new Stoplight Workspace.
    existing one. Follow [this
    guide](../1.-quickstarts/add-projects-quickstart.md) to learn how.
 
+> If you are interested in upgrading from OpenAPI v2 (otherwise known as
+> Swagger) to the latest OpenAPI v3 format, there is free conversion tool
+> available [here](https://openapi-converter.herokuapp.com/). The latest version
+> of Stoplight Studio supports either format.
+
 ## FAQ
 
 The concepts in the new Stoplight Platform should be very similar to what you're
