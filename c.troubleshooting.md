@@ -4,6 +4,59 @@ Below you will find answers to commonly encountered questions.
 
 > If you are having trouble and cannot find a suitable answer, don't hesitate to [let us know](mailto:support@stoplight.io).
 
+## Why are files missing from my project documentation?
+
+Below are a few common reasons why APIs/models/articles may not show up in the
+documentation for a Stoplight project.
+
+### Is there a `.stoplight.json` configuration file present in your repo?
+
+The `.stoplight.json` (or `.stoplight.yaml`) file can be used to include or
+exclude paths in your repository from being exposed in the documentation. Double
+check the project configuration to make sure the file you are looking for have
+not been excluded (or the file is in the include path).
+
+For more information on this feature, see [here](../2.-workspaces/c.config.md).
+
+### Is there a `toc.json` file present in your repo?
+
+The `toc.json` file can be used to restrict what is published in the
+documentation view for a project. This is useful for controlling the
+presentation of the sidebar, however it can also be a common source of
+confusion.
+
+If you have a `toc.json` file present in your project, double check the contents
+to make sure the files you want to publish are listed. 
+
+For more information on this feature, see
+[here](../4.-documentation/d.table-of-contents.md).
+
+### Is the branch you are on published in the project settings?
+
+Verify that the branch you are pushing your updates to is published and
+available. The published and available branches can be found under the project
+Settings tab.
+
+<img width="80%" src="assets/images/branches_overview.png"/>
+
+For more information on how to manage, expose, and re-label branches, see here.
+
+### If all else fails, check the "Automation" tab
+
+If your project is connected to a Git repository, there is an "Automation" tab
+available in the project settings which should provide more information on what
+events were received and if they were successfully published.
+
+<img width="80%" src="assets/images/automation_tab.png"/>
+
+When reviewing the Automation tab, ask yourself if your recent pushes to the
+repository are showing up. If not, it may point to an issue with the webhook
+configuration. Try re-installing the webhook to resolve.
+
+Errors will be highlighted in red. Pending tasks are highlighted in purple. 
+
+> If you are seeing errors or other issues, don't hesitate to reach out to
+[support@stoplight.io](mailto:support@stoplight.io) to investigate further.
 ## Why is there an "Others" section in the sidebar?
 
 If you're seeing an "Others" section in the sidebar of your project documentation...
