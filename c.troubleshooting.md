@@ -16,7 +16,7 @@ exclude paths in your repository from being exposed in the documentation. Double
 check the project configuration to make sure the file you are looking for have
 not been excluded (or the file is in the include path).
 
-For more information on this feature, see [here](../2.-workspaces/c.config.md).
+For more information on this feature, see [here](./2.-workspaces/c.config.md).
 
 ### Is there a `toc.json` file present in your repo?
 
@@ -29,7 +29,7 @@ If you have a `toc.json` file present in your project, double check the contents
 to make sure the files you want to publish are listed. 
 
 For more information on this feature, see
-[here](../4.-documentation/d.table-of-contents.md).
+[here](./4.-documentation/d.table-of-contents.md).
 
 ### Is the branch you are on published in the project settings?
 
