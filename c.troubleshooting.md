@@ -37,7 +37,7 @@ Verify that the branch you are pushing your updates to is published and
 available. The published and available branches can be found under the project
 Settings tab.
 
-<img width="80%" src="assets/images/branches_overview.png"/>
+![Branch Overview](assets/images/branches_overview.png)
 
 For more information on how to manage, expose, and re-label branches, see here.
 
@@ -47,7 +47,7 @@ If your project is connected to a Git repository, there is an "Automation" tab
 available in the project settings which should provide more information on what
 events were received and if they were successfully published.
 
-<img width="80%" src="assets/images/automation_tab.png"/>
+![Automation Tab](assets/images/automation_tab.png)
 
 When reviewing the Automation tab, ask yourself if your recent pushes to the
 repository are showing up. If not, it may point to an issue with the webhook
