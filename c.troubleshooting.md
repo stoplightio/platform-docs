@@ -135,3 +135,14 @@ This could be due to missing permissions in GitHub. Navigate to https://github.c
 ![GitHub Organization Access](assets/images/organization-access.png)
 
 Notice the organization access at the bottom. Grant access to the organization you're looking to add repos from. You should then be able to add projects from your organization.
+
+## What languages are supported?
+
+Today Stoplight is only available in the English language. While it is possible
+to host your own content in Stoplight that is not English, you may experience
+minor errors and other discrepancies when using non-Latin letters or scripts
+(ie, Cyrillic-based characters). For example, only the Latin alphabet is
+supported in Stoplight's search functionality.
+
+For any questions or concerns, please [contact Stoplight
+Support](mailto:support@stoplight.io).
