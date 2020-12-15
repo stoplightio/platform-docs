@@ -10,6 +10,18 @@ To setup a custom domain for your Stoplight workspace, follow the steps below:
    process, you will need to create a CNAME DNS record for your domain that
    points to `ingress.stoplight.io`.
 
+> ### Limitations
+> 
+> Stoplight currently requires the **full domain** to be allocated for use,
+> meaning that it is not possible to expose documentation from a single path or
+> route. As an example, the domain "api.example.com" can be used to host your
+> Stoplight documentation, however "example.com/api" (note the "/api" base path)
+> cannot. 
+>
+> See the roadmap item
+> [here](https://roadmap.stoplight.io/c/57-embeddable-component-library) for
+> more information on how we plan on addressing this limitation in the future.
+
 ## Troubleshooting
 
 ### Cloudflare-hosted domains
