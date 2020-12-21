@@ -68,7 +68,7 @@ Grouping of operations is completed by the use of [tags](https://swagger.io/docs
 <!-- theme: warning -->
 
 > When adding a tag to a model, an [OpenAPI Extension](https://swagger.io/docs/specification/openapi-extensions/) must be used. This can be added using the <i class="fal fa-tags"></i> icon in the editor to apply a tag or manually within code view.
-![x-](assets/images/OpenAPI_Extension.png)
+![x-](assets/images/openapi_extension.png)
 
 You can find more information on the default order of the project sidebar (as well as how to customize it) [here](https://meta.stoplight.io/docs/platform/4.-documentation/d.table-of-contents.md).
 
