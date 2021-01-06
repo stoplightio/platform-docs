@@ -1,6 +1,8 @@
 # Using a Custom Domain
 
-To setup a custom domain for your Stoplight workspace, follow the steps below:
+Using a custom domain allows you to host your Stoplight workspace from a domain
+fully under your control. To setup a custom domain for your Stoplight workspace,
+follow the steps below:
 
 ![](../assets/images/custom_domain.png)
 
@@ -9,6 +11,10 @@ To setup a custom domain for your Stoplight workspace, follow the steps below:
 3. Enter the custom domain you would like to use. To complete the configuration
    process, you will need to create a CNAME DNS record for your domain that
    points to `ingress.stoplight.io`.
+
+Once properly configured, accessing the custom domain should allow you to access
+the Stoplight workspace and an SSL certificate for your domain will
+automatically be generated with [Let's Encrypt](https://letsencrypt.org/).
 
 > ### Limitations
 > 
