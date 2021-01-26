@@ -16,13 +16,15 @@ Once properly configured, accessing the custom domain should allow you to access
 the Stoplight workspace and an SSL certificate for your domain will
 automatically be generated with [Let's Encrypt](https://letsencrypt.org/).
 
+A "noindex" tag will be automatically included on your Stoplight workspace domain in order to provide the best SEO indexing for your custom domain.
+
 > ### Limitations
-> 
+>
 > Stoplight currently requires the **full domain** to be allocated for use,
 > meaning that it is not possible to expose documentation from a single path or
 > route. As an example, the domain "api.example.com" can be used to host your
 > Stoplight documentation, however "example.com/api" (note the "/api" base path)
-> cannot. 
+> cannot.
 >
 > See the roadmap item
 > [here](https://roadmap.stoplight.io/c/57-embeddable-component-library) for
