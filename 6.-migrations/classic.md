@@ -20,18 +20,18 @@ Below are several features that were available in Classic that are linked to our
 upcoming roadmap. We encourage you to follow the features relevant to you -
 we'll notify you as each is released.
 
-|                                                                                                       |  Timeline   | Description                                                                        |
-| ----------------------------------------------------------------------------------------------------- | :---------: | ---------------------------------------------------------------------------------- |
-| [Docs: Custom CSS, JS, and HTML](https://roadmap.stoplight.io/c/57-embeddable-component-library)      | Short-term  | Rich component library for creating custom API docs site                           |
-| [Design: Shared parameters/responses](https://roadmap.stoplight.io/c/10-openapi-shared-components)    |  Mid-term   | Form based editing for OpenAPI shared components                                   |
-| [Design: Lifecycle tags](https://roadmap.stoplight.io/c/65-lifecycle-tags)                            |  Mid-term   | Add tags to build workflows around your API lifecycle                              |
-| [Docs: Try It OAuth token generation](https://roadmap.stoplight.io/c/58-request-maker-authentication) |  Mid-term   | Generate OAuth 1 & 2 tokens for HTTP requests in Try It                            |
-| [Discussions](https://roadmap.stoplight.io/c/61-discussions-comments)                                 |  Mid-term   | Create and resolve discussions on API designs and docs                             |
-| [Docs: Custom variables](https://roadmap.stoplight.io/c/47-custom-variables)                          | Considering | Allow users to set a variable once and have it used everywhere                     |
-| [Docs: Redirects](https://roadmap.stoplight.io/c/68-redirects)                                        | Considering | Automatic redirects when docs routes are changed                                   |
-| [Docs: Integrations](https://roadmap.stoplight.io/c/64-analytics-integrations)                        | Considering | First class support for integrations like Google analytics, Segment, Intercom, etc |
-| [Design: CRUD Builder](https://roadmap.stoplight.io/c/63-crud-builder)                                | Considering | Automatically generate a list of CRUD endpoints for a schema                       |
-| [API Discovery](https://roadmap.stoplight.io/c/66-learning-recording)                                 | Considering | Automatically create an OpenAPI document by proxying requests to an existing API   |
+|                                                                                                        |  Timeline   | Description                                                                        |
+| ------------------------------------------------------------------------------------------------------ | :---------: | ---------------------------------------------------------------------------------- |
+| [~~Design: Shared parameters/responses~~](https://roadmap.stoplight.io/c/138-support-for-openapi-shared-responses) |  Launched   | Form based editing for OpenAPI shared components                                   |
+| [~~Docs: Integrations~~](https://roadmap.stoplight.io/c/64-analytics-integrations)                     |  Launched   | First class support for integrations like Google analytics, Segment, Intercom, etc |
+| [Docs: Custom CSS, JS, and HTML](https://roadmap.stoplight.io/c/57-embeddable-component-library)       | In progress | Rich component library for creating custom API docs site                           |
+| [Docs: Try It OAuth token generation](https://roadmap.stoplight.io/c/58-request-maker-authentication)  | Short-term  | Generate OAuth 1 & 2 tokens for HTTP requests in Try It                            |
+| [Design: Lifecycle tags](https://roadmap.stoplight.io/c/65-lifecycle-tags)                             |  Mid-term   | Add tags to build workflows around your API lifecycle                              |  |
+| [Discussions](https://roadmap.stoplight.io/c/61-discussions-comments)                                  |  Mid-term   | Create and resolve discussions on API designs and docs                             |
+| [Docs: Custom variables](https://roadmap.stoplight.io/c/47-custom-variables)                           | Considering | Allow users to set a variable once and have it used everywhere                     |
+| [Docs: Redirects](https://roadmap.stoplight.io/c/68-redirects)                                         | Considering | Automatic redirects when docs routes are changed                                   |
+| [Design: CRUD Builder](https://roadmap.stoplight.io/c/63-crud-builder)                                 | Considering | Automatically generate a list of CRUD endpoints for a schema                       |
+| [API Discovery](https://roadmap.stoplight.io/c/66-learning-recording)                                  | Considering | Automatically create an OpenAPI document by proxying requests to an existing API   |
 
 ## How do I migrate?
 
@@ -47,6 +47,7 @@ If you have not already done so, you can create a free Stoplight workspace
 > If you feel comfortable and ready to migrate, please follow the steps below.
 > If you have any questions concerns, please don't hesitate to [reach
 > out](mailto:support@stoplight.io).
+
 ### Migrating project contents
 
 First, let's export the contents from one of your Classic projects.
@@ -67,7 +68,7 @@ repository which can then be added to your new Stoplight Workspace.
 
 > If you are interested in upgrading from OpenAPI v2 (otherwise known as
 > Swagger) to the latest OpenAPI v3 format, there is free conversion tool
-> available [here]( https://www.npmjs.com/package/swagger2openapi). The latest
+> available [here](https://www.npmjs.com/package/swagger2openapi). The latest
 > version of Stoplight Studio supports either format.
 
 ## FAQ

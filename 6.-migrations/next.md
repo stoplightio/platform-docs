@@ -23,20 +23,20 @@ While the new Stoplight Platform includes a lot of new functionality, there are 
 
 Each feature is linked to a card on our public roadmap, and we encourage you to follow the features relevant to you - we'll notify you as each is released.
 
-|                                                                                                       |  Timeline   | Description                                                                                                                               |
-| ----------------------------------------------------------------------------------------------------- | :---------: | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| [Docs: Theming](https://roadmap.stoplight.io/c/52-theming-and-branding)                               |  Done  | Customize the branding and colors                                                                                                         |
-| [Docs: Versioning](https://roadmap.stoplight.io/c/60-multiple-branches)                               |  Immediate  | Show/hide specific branches in each project's docs                                                                                        |
-| [Docs: Table of Contents ordering](https://roadmap.stoplight.io/c/59-customize-docs-sidebar-ordering) | Short-term  | Completely custom ordering of your docs sidebar. By default, files will be organized alphabetically, matching the order in the filesystem |
-| [Docs: Custom CSS, JS, and HTML](https://roadmap.stoplight.io/c/57-embeddable-component-library)      | Short-term  | Rich component library for creating custom API docs site                                                                                  |
-| [Design: Shared parameters/responses](https://roadmap.stoplight.io/c/10-openapi-shared-components)    |  Mid-term   | Form based editing for OpenAPI shared components                                                                                          |
-| [Design: Lifecycle Tags](https://roadmap.stoplight.io/c/65-lifecycle-tags)                            |  Mid-term   | Add tags to build workflows around your API lifecycle                                                                                     |
-| [Docs: Try It OAuth token generation](https://roadmap.stoplight.io/c/58-request-maker-authentication) |  Mid-term   | Generate OAuth 1 & 2 tokens for HTTP requests in Try It                                                                                   |
-| [Discussions](https://roadmap.stoplight.io/c/61-discussions-comments)                                 |  Mid-term   | Create and resolve discussions on API designs and docs                                                                                    |
-| [Docs: Custom variables](https://roadmap.stoplight.io/c/47-custom-variables)                          | Considering | Allow users to set a variable once and have it used everywhere                                                                            |
-| [Docs: Redirects](https://roadmap.stoplight.io/c/68-redirects)                                        | Considering | Automatic redirects when docs routes are changed                                                                                          |
-| [Docs: Integrations](https://roadmap.stoplight.io/c/64-analytics-integrations)                        | Considering | First class support for integrations like Google Analytics, Segment, Intercom, etc                                                        |
-| [Design: CRUD Builder](https://roadmap.stoplight.io/c/63-crud-builder)                                | Considering | Automatically generate a list of CRUD endpoints for a schema                                                                              |
+|                                                                                                                    |  Timeline   | Description                                                                                                                               |
+| ------------------------------------------------------------------------------------------------------------------ | :---------: | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| [~~Docs: Theming~~](https://roadmap.stoplight.io/c/52-theming-and-branding)                                        |  Launched   | Customize the branding and colors                                                                                                         |
+| [~~Docs: Versioning~~](https://roadmap.stoplight.io/c/60-multiple-branches)                                        |  Launched   | Show/hide specific branches in each project's docs                                                                                        |
+| [~~Docs: Table of Contents ordering~~](https://roadmap.stoplight.io/c/59-customize-docs-sidebar-ordering)          |  Launched   | Completely custom ordering of your docs sidebar. By default, files will be organized alphabetically, matching the order in the filesystem |
+| [~~Design: Shared parameters/responses~~](https://roadmap.stoplight.io/c/138-support-for-openapi-shared-responses) |  Launched   | Form based editing for OpenAPI shared components                                                                                          |
+| [~~Docs: Integrations~~](https://roadmap.stoplight.io/c/64-analytics-integrations)                                 |  Launched   | First class support for integrations like Google Analytics, Segment, Intercom, etc                                                        |
+| [Docs: Custom CSS, JS, and HTML](https://roadmap.stoplight.io/c/57-embeddable-component-library)                   | In progress | Rich component library for creating custom API docs site                                                                                  |
+| [Docs: Try It OAuth token generation](https://roadmap.stoplight.io/c/58-request-maker-authentication)              | Short-term  | Generate OAuth 1 & 2 tokens for HTTP requests in Try It                                                                                   |
+| [Design: Lifecycle Tags](https://roadmap.stoplight.io/c/65-lifecycle-tags)                                         |  Mid-term   | Add tags to build workflows around your API lifecycle                                                                                     |
+| [Discussions](https://roadmap.stoplight.io/c/61-discussions-comments)                                              |  Mid-term   | Create and resolve discussions on API designs and docs                                                                                    |
+| [Docs: Custom variables](https://roadmap.stoplight.io/c/47-custom-variables)                                       | Considering | Allow users to set a variable once and have it used everywhere                                                                            |
+| [Docs: Redirects](https://roadmap.stoplight.io/c/68-redirects)                                                     | Considering | Automatic redirects when docs routes are changed                                                                                          |
+| [Design: CRUD Builder](https://roadmap.stoplight.io/c/63-crud-builder)                                             | Considering | Automatically generate a list of CRUD endpoints for a schema                                                                              |
 
 ## How do I migrate?
 
@@ -59,7 +59,7 @@ git clone --bare https://git.stoplight.io/example-organization/next-project.git
 cd next-project
 ```
 
-Next, create a new git repository in your VCS provider ([Github](https://help.github.com/en/github/getting-started-with-github/create-a-repo), [Gitlab](https://docs.gitlab.com/ee/gitlab-basics/create-project.html), [Bitbucket](https://confluence.atlassian.com/bitbucket/create-a-git-repository-759857290.html), etc). 
+Next, create a new git repository in your VCS provider ([Github](https://help.github.com/en/github/getting-started-with-github/create-a-repo), [Gitlab](https://docs.gitlab.com/ee/gitlab-basics/create-project.html), [Bitbucket](https://confluence.atlassian.com/bitbucket/create-a-git-repository-759857290.html), etc).
 
 When it's created, find the "repository URL" and push the project contents from your computer into your new git repository. In your terminal, while in the root of your project folder, run the following commands to push the files and history into your new Git repository.
 
@@ -67,7 +67,7 @@ When it's created, find the "repository URL" and push the project contents from 
 git push --mirror git@github.com:example-organization/new-project.git
 ```
 
-At this point, you should see the contents of your project in your new Git repository in your VCS. 
+At this point, you should see the contents of your project in your new Git repository in your VCS.
 
 _Repeat these steps for each of the NEXT projects you want to migrate._
 
@@ -80,7 +80,7 @@ Now, let's create a Stoplight Workspace and add your projects.
 
 #### Invite Your Team
 
-The fastest way to get your team moved over to Stoplight Platform is to [configure an email domain](../2.-workspaces/d.inviting-your-team.md#make-your-workspace-discoverable) and share a link to your workspace's signup page. 
+The fastest way to get your team moved over to Stoplight Platform is to [configure an email domain](../2.-workspaces/d.inviting-your-team.md#make-your-workspace-discoverable) and share a link to your workspace's signup page.
 
 Alternatively, you can also [invite members](../2.-workspaces/d.inviting-your-team.md) individually using their email.
 
