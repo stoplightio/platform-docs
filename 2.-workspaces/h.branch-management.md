@@ -91,10 +91,11 @@ git push origin :master
 
 6. If [webhooks](./g.automating-publishing.md) have been setup then this branch has already been automatically removed from Stoplight. If webhooks are not enabled, you will need to delete the branch from the list by clicking on the cog and clicking the "Remove from Stoplight" button.
 
-
 ## Track Branches
 
-There's a freeform text box input to enter the name of an existing Git branch to track. 
+The default branch and all branches associcated with a pull request will be automatically tracked for you.
+
+If you want to track Git branches that are not associated with a pull request, such as a development or version branch, there's a freeform text box input to enter the branch name to track.
 
 Tracking a Git branch will analyze it, and add it to your list of branches in Stoplight. 
 

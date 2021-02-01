@@ -4,7 +4,7 @@ Stoplight can connect with popular auth providers to simplify your authenticatio
 
 ## Auth Provider Support
 
-We support the following Auth providers currently.
+We support the following Auth/Single Sign-On (SSO) providers:
 
 - LDAP
 - SAML
@@ -17,9 +17,9 @@ We support the following Auth providers currently.
 
 To configure popular Git providers as auth providers follow [this guide](configure-git/a.configuring-git.md).
 
-## Configure LDAP
+## LDAP
 
-> This feature is available on the Stoplight **Pro** plan, and above
+> This feature is available on the Stoplight **Professional** plan and above.
 
 You can use a Lightweight Directory Access Protocol (LDAP) authentication server to authenticate users with Stoplight. LDAP is an open-standard protocol for use with online directory services.
 
@@ -34,18 +34,71 @@ You can use a Lightweight Directory Access Protocol (LDAP) authentication server
 4. Click **Install**.
 
 
-## Configure SAML
+## SAML
 
-> This feature is available on the Stoplight **Pro** plan, and above
+> This feature is available on the Stoplight **Professional** plan and above.
 
-Organizations that need enhanced security requirements can configure SAML SSO allowing you to authenticate users with Stoplight. Security Assertion Markup Language (SAML) is a security standard for logging into applications. 
+Organizations that need enhanced security requirements can configure SAML SSO,
+allowing you to authenticate users to Stoplight with your own corporate Identity
+Provider (IdP).
 
-1. Navigate to the Integrations section in your Stoplight workspace settings. 
-2. Click **Install/Configure** beside SAML. 
-3. Provide the following information:
- - **Entry Point**: HTTPS endpoint of your IdP for single sign-on requests. This value is available in your IdP configuration. e.g. <!-- markdown-link-check-disable --> https://www.yourcompany.com/saml <!-- markdown-link-check-enable-->. If the entry point is behind a firewall, you may need to [add our IPs to your allowlist](../c.troubleshooting.md#how-do-i-allow-stoplight-to-access-an-internal-git-provider).
- - **Identifier Format** 
- - **Identity Provider Public Certificate**: The authentication certificate issued by your identity provider. PEM-encoded X.509, 'BEGIN/END CERTIFICATE' lines should be stripped out and the certificate should be provided on a single line.
- - **Issuer**: Set the value here in your SAML server.
- - **Callback URL**: Set `https://{workspace-name}.stoplight.io/oauth/callback` as callback URL on your SAML server.
-4. Click **Install**.
+### Prerequisites
+
+Before continuing, be sure to:
+
+- Contact the team responsible for your organization's SAML configuration for
+  the following pieces of information that must be configured within Stoplight:
+  - SAML Entry Point URL - This is the URL where applications integrating with a
+    SAML IdP must first direct users
+  - SAML Identifier Format - Stoplight defaults to using a "persistent" name
+    identifier format, however some SAML providers require a specific format
+    ("unspecified", for example)
+- Some fields will also need to be configured within the SAML IdP directly. Pass
+  along the following pieces of information to the team responsible for your
+  organization's SAML configuration:
+  - Issuer - This value defaults to "`stoplight`"
+  - Callback URL - This value is provided during the configuration, and defaults
+    to a value similar to "https://your-workspace.stoplight.io/oauth/callback"
+  - Attributes - The attributes (described below) are required by Stoplight to
+    successfully authenticate users.
+- Be logged in to Stoplight as an Administrator
+
+### SAML Assertion Requirements 
+
+In addition to the items above, the following SAML attributes need to be
+provided in the assertion data coming to Stoplight upon successful
+authentication with the SAML IdP:
+
+- External ID - This corresponds to the "`nameID`" field in the SAML response
+- Username - This corresponds to one of the following fields in the SAML
+  response (in order of precedence):
+  - `userName`
+  - `urn:oid:2.5.4.42`
+  - `displayName`
+  - `urn:oid:2.5.4.4`
+- Email - this corresponds to either the "`email`" or
+  "`urn:oid:1.2.840.113549.1.9.1`" attributes
+
+### Configuring the SAML Integration
+
+To configure a SAML integration, first navigate to your workspace
+**Integrations** screen and find the "SAML" integration option:
+
+![](../assets/images/saml-integration.png)
+
+Which will open a dialog to configure the SAML settings for the integration:
+
+![](../assets/images/saml-configuration.png)
+
+> If your SAML IdP is behind a firewall, you may need to [add our IPs to your
+> allowlist](../c.troubleshooting.md#how-do-i-allow-stoplight-to-access-an-internal-git-provider).
+
+### Okta
+
+If using [Okta](https://www.okta.com), below is a sample service configuration
+for Okta that should help get you started:
+
+![](../assets/images/saml-okta.png)
+
+> **Note** that the `apiguild.stoplight.io` workspace URL should be updated to
+> point to your workspace URL instead (ie, `example.stoplight.io`).

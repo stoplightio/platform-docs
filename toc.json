@@ -163,6 +163,11 @@
       "uri": "4.-documentation/d.table-of-contents.md"
     },
     {
+      "type": "item",
+      "title": "Configure analytics",
+      "uri": "4.-documentation/e.configure-analytics.md"
+    },
+    {
       "type": "divider",
       "title": "Governance"
     },

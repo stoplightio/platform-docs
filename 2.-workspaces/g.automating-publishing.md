@@ -22,7 +22,7 @@ If changes are not publishing, you can look at Webhook Events to debug the probl
 
 ## Continuous Integration
 
-Stoplight CLI is a command-line tool, available as [an NPM module](https://www.npmjs.com/package/@stoplight/cli), which can publish changes to Stoplight, and have them show up in Explorer just like any other project. They won't be editable in Studio, but the content will be available to read and search like anything else. 
+Stoplight CLI is a command-line tool, available as [an NPM module](https://www.npmjs.com/package/@stoplight/cli) (requires nodeJS v12 or greater), which can publish changes to Stoplight, and have them show up in Explorer just like any other project. They won't be editable in Studio, but the content will be available to read and search like anything else.
 
 Stoplight CLI can be used to [enable local projects](./f.working-with-local-projects.md) which do not use Git, but can also be used to publish projects from a continuous integration server instead of utilizing webhooks.
 
@@ -45,5 +45,8 @@ cd /home/src/my-project/
 ```bash
 npx @stoplight/cli@4 push --ci-token {project-token} --url https://{workspace-name}.stoplight.io
 ```
+
+> Note that nodeJS version 12 or greater is required to run the CLI. You can
+> double check your version with the command: `node --version`
 
 To find this token, head to `https://{workspace}.stoplight.io/settings/{project}/automation` in your browser. 
