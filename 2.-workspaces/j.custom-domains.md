@@ -18,6 +18,12 @@ automatically be generated with [Let's Encrypt](https://letsencrypt.org/).
 
 A "noindex" tag will be automatically included on your Stoplight workspace domain in order to provide the best SEO indexing for your custom domain.
 
+### Additional options
+
+Once your domain has been configured, you can optionally [enable analytics using Google Tag Manger](../4.-documentation/e.configure-analytics.md) and hide the "Sign in" button from the sidebar when your Workspace is loaded from your domain.
+
+![Custom Domain Options](../assets/images/configure-google-tag-manager.png)
+
 > ### Limitations
 >
 > Stoplight currently requires the **full domain** to be allocated for use,
@@ -29,6 +35,7 @@ A "noindex" tag will be automatically included on your Stoplight workspace domai
 > See the roadmap item
 > [here](https://roadmap.stoplight.io/c/57-embeddable-component-library) for
 > more information on how we plan on addressing this limitation in the future.
+
 
 ## Troubleshooting
 
