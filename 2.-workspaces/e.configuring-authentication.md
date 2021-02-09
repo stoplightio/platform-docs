@@ -57,8 +57,10 @@ Before continuing, be sure to:
   along the following pieces of information to the team responsible for your
   organization's SAML configuration:
   - Issuer - This value defaults to "`stoplight`"
+  <!-- markdown-link-check-disable -->
   - Callback URL - This value is provided during the configuration, and defaults
-    to a value similar to "https://your-workspace.stoplight.io/oauth/callback"
+    to a value similar to https://your-workspace.stoplight.io/oauth/callback
+<!-- markdown-link-check-enable -->
   - Attributes - The attributes (described below) are required by Stoplight to
     successfully authenticate users.
 - Be logged in to Stoplight as an Administrator
