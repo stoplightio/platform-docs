@@ -30,7 +30,7 @@ Dividers are bold, non-clickable items that signify the start of a section of co
 
 ### Groups
 
-Groups are non-linkable, collabsible items containing dividers, items, and other groups that all relate to the same subject matter.
+Groups are non-linkable, collabsible items containing items and other groups that all relate to the same subject matter. Dividers cannot be nested within a group.
 
 ### Items
 
@@ -55,7 +55,7 @@ Note:
 
 - Each entity should have a `type` and a `title` property. 
 - Items should also have a `uri` property that either points to a file somewhere within the project or an external link to another website. 
-- Groups should have an `items` property allowing you to futher nest more items, dividers, and groups.
+- Groups should have an `items` property allowing you to futher nest more items and groups.
 
 > **TIP**: The easiest way to get a file's URI in Studio is to click the `...` button next to the file, click the "copy path" menu item then paste the contents.
 >
