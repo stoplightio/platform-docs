@@ -59,7 +59,7 @@ Or a style guide can do both!
 
 Spectral focuses a bit more on helping you write better API descriptions by default, because when it comes to making a "good API"... there's no such thing. There's lots of ways to do things badly, but there's a myriad of tradeoffs to most approaches which may work in some situations and not in others. 
 
-So, we help you write valid _and useful_ [OpenAPI](https://meta.stoplight.io/docs/spectral/docs/reference/openapi-rules.md) and [AsyncAPI](https://meta.stoplight.io/spectral/docs/reference/asyncapi-rules.md) with our core rulesets, which you can then extend in your own custom style guides.
+So, we help you write valid _and useful_ [OpenAPI](https://meta.stoplight.io/docs/spectral/docs/reference/openapi-rules.md) and [AsyncAPI](https://meta.stoplight.io/docs/spectral/docs/reference/asyncapi-rules.md) with our core rulesets, which you can then extend in your own custom style guides.
 
 For example, adding contact information to the API description is often overlooked, but massively useful for people who have questions about the API later.
 
@@ -105,7 +105,7 @@ Let's look at creating a style guide using "Custom Rulesets".
 
 ### Custom Rulesets with Spectral
 
-[Rulesets](https://meta.stoplight.io/docs/spectral/docs/getting-started/rulesets.md) is the term we use for a collection of Rules, which is essentially going to be your automated style guide. Each rule is one bit of style you'd like to enforce.
+[Rulesets](https://meta.stoplight.io/docs/spectral/docs/getting-started/3-rulesets.md) is the term we use for a collection of Rules, which is essentially going to be your automated style guide. Each rule is one bit of style you'd like to enforce.
 
 You can do pretty much anything with a ruleset, by using our built-in functions, or get more powerful with [custom functions](https://meta.stoplight.io/docs/spectral/docs/guides/5-custom-functions.md)!
 
@@ -148,7 +148,7 @@ Done early enough, this will shape the actual API as it is being developed. The 
 
 If you're a code-first team then this is not ideal, as you'll potentially need to change code which exists in production just to get it to match this style guide.
 
-[Custom functions](https://meta.stoplight.io/docs/spectral/docs/guides/custom-functions.md) can be created for more advanced use cases. Maybe you want to implement a dictionary check to ban British spelling of words like "flavour" - that should _of course_ be "flavor". 😅
+[Custom functions](https://meta.stoplight.io/docs/spectral/docs/guides/5-custom-functions.md) can be created for more advanced use cases. Maybe you want to implement a dictionary check to ban British spelling of words like "flavour" - that should _of course_ be "flavor". 😅
 
 #### Automation
 
@@ -168,7 +168,7 @@ One approach is to publish your ruleset to a publicly available URL which folks 
 extends: https://example.com/api/spectral.yaml
 ```
 
-Alternatively, especially if you need [custom functions](https://meta.stoplight.io/spectral/docs/guides/5-custom-functions.md), you can [publish a ruleset as a NPM module](https://meta.stoplight.io/docs/spectral/docs/guides/7-sharing-rulesets.md#NPM).
+Alternatively, especially if you need [custom functions](https://meta.stoplight.io/docs/spectral/docs/guides/5-custom-functions.md), you can [publish a ruleset as a NPM module](https://meta.stoplight.io/docs/spectral/docs/guides/7-sharing-rulesets.md#NPM).
 
 ```yaml
 extends: example-npm-ruleset
