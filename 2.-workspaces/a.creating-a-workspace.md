@@ -8,7 +8,7 @@ Stoplight enables you to drive consistency, discipline, and efficiency across yo
 
 ## What is a workspace?
 
-A workspace in Stoplight is a place for you to group API projects across your organization in order to promote visibility, standards, and reuse of artifacts.
+A workspace in Stoplight is a hub for you to group API projects across your organization in order to promote visibility, standards, and reuse of artifacts.
 
 > Stoplight recommends making a single workspace for your organization, and then using roles and permissions to manage your workflows.
 
