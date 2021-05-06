@@ -30,7 +30,7 @@ To update the project visibility or add users to a project, click on the **Share
 
 Project roles determines the level of access for each project member. These roles include:
 
-**Viewer**: Viewers can view documentation and access mock servers **including unpublished branches**.
+**Viewer**: Viewers can view documentation and access mock servers including unpublished branches.
 
 **Editor**: Editors can edit the project in Studio and track new branches.
 
@@ -67,6 +67,8 @@ To add users to a project, click on the **Share** button (next to **Edit in Stud
 ![Direct Access](../assets/images/direct-access.png)
 
 
+### Request Project Permissions
 
+If you need access to a project, you can the project's owner to add you to the project or upgrade your project role. You can find a project's owner by hovering over their avatar in the projects list.
 
-
+![](../assets/images/projects-list-project-owner.png)
