@@ -1,73 +1,53 @@
-# Use a Custom Domain
+# Shared Models
 
-Using a custom domain allows you to host your Stoplight workspace from a domain
-fully under your control. To setup a custom domain for your Stoplight workspace,
-follow the steps below:
+While designing your APIs, you will often find yourself repeating **structures** in your endpoint request and response bodies. 
 
-![](../assets/images/custom_domain.png)
+**For example:** You might have an API endpoint that returns a list of users, and another endpoint that returns a single user. 
 
-1. Select Workspace settings from the top-left drop-down
-2. In Settings > Basics > Custom Domain
-3. Enter the custom domain you would like to use. To complete the configuration
-   process, you will need to create a CNAME DNS record for your domain that
-   points to `ingress.stoplight.io`.
+The **response structures** of these two endpoints will be very similar:
 
-Once properly configured, accessing the custom domain should allow you to access
-the Stoplight workspace and an SSL certificate for your domain will
-automatically be generated with [Let's Encrypt](https://letsencrypt.org/).
+1. One will respond with an **array** of user objects. 
+2. The other will respond with a **single** user object. 
 
-A "noindex" tag will be automatically included on your Stoplight workspace domain in order to provide the best SEO indexing for your custom domain.
+Now instead of defining those structures multiple times, you can define it once as a **shared model**, and reference it with your request or response bodies. 
 
-### Additional options
+This way anytime you have to update the structure, you will just have to do it once, and all instances of it will be updated automatically. 
 
-Once your domain has been configured, you can optionally [enable analytics using Google Tag Manger](../4.-documentation/e.configure-analytics.md) and hide the "Sign in" button from the sidebar when your Workspace is loaded from your domain.
+## Creating a Model
 
-![Custom Domain Options](../assets/images/configure-google-tag-manager.png)
+There are two different methods for generating a CRUD model:
 
-> ### Limitations
->
-> Stoplight currently requires the **full domain** to be allocated for use,
-> meaning that it is not possible to expose documentation from a single path or
-> route. As an example, the domain "api.example.com" can be used to host your
-> Stoplight documentation, however "example.com/api" (note the "/api" base path)
-> cannot.
->
-> See the roadmap item
-> [here](https://roadmap.stoplight.io/c/57-embeddable-component-library) for
-> more information on how we plan on addressing this limitation in the future.
+- Using the JSON Schema **editor**, which allows you to create data structures in an easy-to-use, graphical format.
+- Using the **Raw Schema** editor, if you would prefer to modify the data structure with raw JSON Schema.
 
+**Note:** To dive deeper into creating models, visit our guide: **Working with Models**
 
-## Troubleshooting
+## Using a Shared Model
 
-### Cloudflare-hosted domains
+Making use of a model when defining your request and response bodies is very easy. To use a shared model: 
 
-If you are using [Cloudflare](https://cloudflare.com/), be sure to set your
-CNAME record to "DNS Only" (signified by a grey cloud, and **not** an orange
-cloud).
+![Video](../assets/images/Screen Recording 2021-03-04 at 3.29.57 PM.mov)
 
-![](../assets/images/custom_domain_cloudflare.png)
+![CLI Command](../assets/images/cli-command.png)
 
-You can read more about what this means in the CloudFlare documentation
-[here](https://support.cloudflare.com/hc/en-us/articles/200169626-What-subdomains-are-appropriate-for-orange-gray-clouds-).
+1. Open your project in **Studio,** navigate to an **endpoint** in your **API** file. 
+2. In the **endpoint**, you may either want to specify a **request** or a **response** body. 
+3. In case you want to add a request body, navigate to the **JSON Request Body** button and click it. 
+4. As a result, you'd see the option to add a **Schema** and an **Example.** 
+5. Right below the schema, you would see "**object**" mentioned. That is the default schema **type**, to use a shared model, change the type to **$ref.**  
 
-### The connection has timed out
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bb18ce84-863e-427b-bdef-8eb1780eb0f9/Screen_Shot_2021-03-04_at_3.32.02_PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bb18ce84-863e-427b-bdef-8eb1780eb0f9/Screen_Shot_2021-03-04_at_3.32.02_PM.png)
 
-If you see an error related to "The connection has timed out", this typically
-means that a CAA DNS record is present on your domain, which is preventing the
-TLS verification process from completing.
+6. And then select a **model** from the dropdown that opens.
 
-> To learn more about CAA records and what they are used for, see the Let's
-> Encrypt documentation [here](https://letsencrypt.org/docs/caa/). You can
-> perform a CAA lookup on your domain [here](https://dnslookup.online/caa.html)
-> for reference.
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a9d02d31-06b7-4f18-b0bf-e89923503b07/Screen_Shot_2021-03-04_at_3.35.27_PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a9d02d31-06b7-4f18-b0bf-e89923503b07/Screen_Shot_2021-03-04_at_3.35.27_PM.png)
 
-To resolve this issue, use either option below:
+7. You can follow the same practice for the the **response** body. 
 
-- **RECOMMENDED** Add `letsencrypt.org` to the CAA record to allow Let's Encrypt
-  to generate certificates for your domain.
+8. Once done make sure to **save** and **push** changes to Git. 
 
-- **NOT RECOMMENDED** Remove the CAA DNS record from your domain, which will
-  allow any authority to generate certificates for the domain.
+## **What's next?**
 
-Once updated, try to navigate to your custom domain again to verify the issue
-has been resolved.
+Now that you know how to work with mosrt of the shared components, learn how to use: 
+
+- **Shared Examples**
