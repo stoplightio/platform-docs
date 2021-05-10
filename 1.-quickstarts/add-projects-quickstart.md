@@ -1,80 +1,126 @@
 # Add Projects
 
+**Projects** in Stoplight, are a place for you to manage APIs, articles, and any other files that you want to store together.
+
 Projects can contain anything you would expect to find in a repository: source code, API descriptions, images, Markdown articles, maybe some Excel spreadsheets. Stoplight will analyze the contents of a project looking for things it knows what to do with, and ignore the rest.
 
-Stoplight looks for: 
+Stoplight looks for:
 
 - API Description Documents (OpenAPI v2, OpenAPI v3, and JSON Schema)
 - Markdown articles
 - Images
 
-## Connecting a Git Repo
+## Adding Projects on Stoplight
 
-The quickest and recommended way to get projects into Stoplight is to pull them in from Git.
+There are multiple ways you can add projects to your Stoplight workspace. Choose the flow that best works for you. We recommend that you get projects into your workspace via **Git**. The methods include: 
 
-1. Select **+** on the top left, then click an option under **Add Git Project**.
+1. **Add via Git** 
+2. **Create Blank Project**
+3. **Import OpenAPI**
+4. **Stoplight CLI**
 
-![add-projects](../assets/images/add_git_project.png)
+## 1. **Add via Git**
 
-2. Select your Git provider of choice and then click **Connect with Your Git Provider**. Follow the instructions on the pop-up screen to authenticate.
+To add a project from your Git repo: 
 
-3. Upon successful authentication, you should see your organizations listed. Choose the organization and select the repositories you want to import. Click **Add Projects**.
+1. From your **Dashboard,** click the **+** ( add project) button next to your workspace name. 
+2. Next click on the Git provider of your choice. 
 
-Once the repository data has been analyzed, your workspace landing page should now contain projects populated with data.
+> **Note:** If your Git provider is already connected proceed to step 3, else see how to set up your Git account:  **Connected Accounts**
 
-Next, lets [share this project](share-documentation-quickstart.md). 
+3. Upon successful authentication, you should see your organizations listed. Choose your desired organization and select the repositories you want to import. Click **Add Project** when you are done. 
 
-## Creating a Blank Project
+![](assets/images/ad1.gif)
 
-If you don't have your API artifacts, like OpenAPI or JSON Schema, on a Git repository or want to get started with creating a new one, you can get started directly from Studio by selecting the **+** on the top left of the screen, and then clicking an option under **Create Local Project**.
+Once the repository data has been analyzed, your workspace home screen should now contain projects populated with data.
 
-<!-- theme: danger -->
+### **Custom configuration for Git**
 
-> ### Warning!
->
-> Projects *not connected* to a Git repository will **only be editable on your current browser session**. This means that you could potentially lose the ability to edit your project should you lose your session data.
-> 
-> If you either need to edit your content on multiple browsers or collaborate with others, it is strongly recommended that you use the "**Connecting a Git Repo**" option listed above.
+Sometimes you may want to make custom configurations to your Git connection. To do that:
 
-![start a new project](../assets/images/add_local_project.png)
+1. Click on **Manage Git Providers** button on the **Add projects** page, or the **Integrations** section in your workspace settings.
 
-### Importing Files
+2. Click **Configure** in front of the Git provider you're looking to set up a custom configuration for.
 
-From within Studio - Click **+** at the top of the screen and then "Import File" in order to open existing OpenAPI, JSON Schema, Image, or Markdown files.
+![](../assets/images/Ad2.png)
 
-![import existing file](../assets/images/import_files.png)
+3. Select **Customize integration settings** and add your desired configuration. Test it out by clicking `Test Settings`. Press `Save`. 
 
-### Promoting to Git
+> **Note**: Custom Integrations are only available to pro users. Read more about [configuring Git](https://meta.stoplight.io/docs/platform/2.-workspaces/configure-git/a.configuring-git.md).
 
-To start sharing this project, you can promote it to a new Git repository. This will create a new private Git repository under your VCS of choice and push the newly-created content to it.
+## 2. Create a Blank Project
 
-![promote-to-git](../assets/images/git_promote.png)
+Although we recommend you start using Stoplight by connecting a Git repository, at times you may not have your API artifacts like OpenAPI or JSON Schema on your Git repo, or you may want to get started by creating a new project.
 
-Click the **Push** icon, and then click **Promote to Git Repo** to use this option.
+ In that case: 
 
-Once done, choose your desired Git provider, organization, repo name, and then click **Create Git Repository**.
+1. From your dashboard, click the **+** (add project) button on top left of your home screen. 
+2. Next select **Blank Project.** 
+3. Specify a **Project** name. 
 
-<!-- theme: warning -->
+![Blank Project](../assets/images/BlankProject.png)
 
-> After making change within Studio please ensure you push the changes to avoid any work being lost. Click **Push** and follow prompts to do this.
-> ![commit-to-git](../assets/images/git_commit.png)
+  4. Click the **Create Project** button. 
 
-Next, lets [share this project](share-documentation-quickstart.md). 
+You will then be taken to Stoplight Studio. Our editor for API Design and Documentation. 
 
-### Push to Workspace
+![Blank Project 2](../assets/images/BlankProject2.png)
 
-If you don't want to push this content to a Git repo, you can push it to the workspace to start sharing it immediately.
+> **Warning:** Projects **not connected** to a Git repository will **only** be editable on your browsers. This means that you could potentially lose the ability to edit your project when you lose your session data.
 
-<!-- theme: danger -->
+If you either need to edit your content on multiple browsers or collaborate with others, it is strongly recommended that you [**promote your project to git**](https://meta.stoplight.io/docs/platform/2.-workspaces/configure-git/a.configuring-git.md).
 
-> ### Warning!
->
-> Projects *not connected* to a Git repository will **only be editable on your current browser session**. This means that you could potentially lose the ability to edit your project should you lose your session data.
-> 
-> If you either need to edit your content on multiple browsers or collaborate with others, it is strongly recommended that you use the "**Connecting a Git Repo**" option listed above.
+## 3. Import an OpenAPI Spec:
 
-![push-to-workspace](../assets/images/push_to_workspace.png)
+If you have your API in the form of OpenAPI on your local storage, you can easily import it to Stoplight. To do that: 
 
-Give it a useful name. Click **Push**, then click **Push to workspace**. 
+1. Navigate to **Import OpenAPI** F**ile** on the Add project page. 
 
-Next, lets [share this project](share-documentation-quickstart.md). 
+![Import API Spec](../assets/images/ImportSpec1.png)
+
+  2. Specify a **name** for the project. 
+
+  3. Choose the **project folder** from local storage. 
+
+  4. Clicking upload or open. 
+
+**It's that simple. Your Project is on Stoplight, you can now start editing it.** 
+
+> **Note:** To learn how to best work with Stoplight, view our detailed guides on: 
+> * [**API Design**](https://meta.stoplight.io/docs/studio/docs/Design-and-Modeling/01-getting-started.md) 
+> * [**API Documentation**](https://meta.stoplight.io/docs/studio/docs/Documentation/01-getting-started.md)
+> * [**Stoplight Studio**](https://meta.stoplight.io/docs/studio/README.md)
+
+## 4. Stoplight CLI
+
+Another point of entry into the Stoplight Universe, is through the **Stoplight CLI**. Stoplight CLI is a command-line tool, built as an NPM module, which can publish changes to Stoplight, and have them show up in **Explorer** just like any other project. 
+
+**Stoplight CLI** is designed for those who use a different version control system other than Git. 
+
+If you make use of Mercurial, SVN, SourceSafe, Bazaar or another service to keep your work organized, Stoplight has you covered.
+
+> **Note:** Projects you add through CLI won't be editable in Studio, but the content will be available to read and search like anything else. 
+
+1. Navigate to the **Add Projects** section and click on via **Stoplight CLI.**
+2. Give this project a name, and click **Add Project**. This is going to create an empty project where you can  push data.
+3. Copy the **command** on the screen.
+
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2c440d12-2e65-4d83-af5d-31239243eefd/Screen_Shot_2021-02-16_at_1.41.11_AM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2c440d12-2e65-4d83-af5d-31239243eefd/Screen_Shot_2021-02-16_at_1.41.11_AM.png)
+
+4.  Open your terminal, navigate to the root folder of the project and **run this command**. This will push data to your project. 
+
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/13b7a5ac-d196-4d91-b1bb-94946dc004bd/Screen_Shot_2021-02-16_at_1.44.36_AM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/13b7a5ac-d196-4d91-b1bb-94946dc004bd/Screen_Shot_2021-02-16_at_1.44.36_AM.png)
+
+5. You can then view the project in our **Explorer.** Read more about [working with local projects](https://meta.stoplight.io/docs/platform/2.-workspaces/f.working-with-local-projects.md).
+
+> **Tip:** You can add this command to your Continuous Integration server to update the contents whenever something changes.
+
+6. It's important to remember that projects imported via **Stoplight CLI** are **read only** and cannot be edited on Stoplight. 
+
+# **What's Next:**
+
+Now that your projects are setup, you can move onto the next steps in your API design and documentation journey: 
+
+- **Promote to Git**
+- **Project Settings**
+- **Share documentation**

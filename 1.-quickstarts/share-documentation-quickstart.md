@@ -8,7 +8,7 @@ To update the project visibility or add users to a project, navigate to the **Ma
 
 ![](../assets/images/manage-project-access.png)
 
-> Keep in mind that users will see different projects depending on the following criteria:
+>Keep in mind that users will see different projects depending on the following criteria:
 > - Their permissions in the **workspace**, or
 > - Their permissions in the **project**, or
 > - The **visibility settings** of the project (private, public, or internal)
