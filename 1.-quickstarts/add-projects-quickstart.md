@@ -105,11 +105,11 @@ If you make use of Mercurial, SVN, SourceSafe, Bazaar or another service to keep
 2. Give this project a name, and click **Add Project**. This is going to create an empty project where you can  push data.
 3. Copy the **command** on the screen.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2c440d12-2e65-4d83-af5d-31239243eefd/Screen_Shot_2021-02-16_at_1.41.11_AM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2c440d12-2e65-4d83-af5d-31239243eefd/Screen_Shot_2021-02-16_at_1.41.11_AM.png)
+![Stoplight CLI](../assets/images/CLI1.png)
 
 4.  Open your terminal, navigate to the root folder of the project and **run this command**. This will push data to your project. 
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/13b7a5ac-d196-4d91-b1bb-94946dc004bd/Screen_Shot_2021-02-16_at_1.44.36_AM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/13b7a5ac-d196-4d91-b1bb-94946dc004bd/Screen_Shot_2021-02-16_at_1.44.36_AM.png)
+![Stoplight CLI 2](../assets/images/CLI2.png)
 
 5. You can then view the project in our **Explorer.** Read more about [working with local projects](https://meta.stoplight.io/docs/platform/2.-workspaces/f.working-with-local-projects.md).
 
