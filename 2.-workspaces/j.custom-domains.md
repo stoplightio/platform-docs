@@ -26,7 +26,7 @@ There are two different methods for generating a CRUD model:
 
 Making use of a model when defining your request and response bodies is very easy. To use a shared model: 
 
-![Video](../assets/images/Screen Recording 2021-03-04 at 3.29.57 PM.mov)
+![Video](../assets/images/SharedModel.mov)
 
 ![CLI Command](../assets/images/cli-command.png)
 
