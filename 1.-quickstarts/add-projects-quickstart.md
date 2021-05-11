@@ -30,7 +30,7 @@ To add a project from your Git repo:
 
 3. Upon successful authentication, you should see your organizations listed. Choose your desired organization and select the repositories you want to import. Click **Add Project** when you are done. 
 
-![](assets/images/ad1.gif)
+![Add Project](assets/images/ad1.gif)
 
 Once the repository data has been analyzed, your workspace home screen should now contain projects populated with data.
 
