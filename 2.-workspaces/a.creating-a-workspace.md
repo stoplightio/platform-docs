@@ -19,43 +19,7 @@ To create a workspace, you'll need to sign up for a Stoplight account using an e
 
 ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ffee7832-7ea9-4720-989b-d4a2939b4978/Kapture_2021-02-08_at_15.26.10.gif](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ffee7832-7ea9-4720-989b-d4a2939b4978/Kapture_2021-02-08_at_15.26.10.gif)
 
-**Tip:**
-```json json_schema
-{
-  "type": "object",
-  "properties": {
-    "id": {
-      "type": "string"
-    }
-  }
-}
-```
-```json json_schema
-{
-  "type": "object",
-  "properties": {
-    "id": {
-      "type": "string"
-    }
-  }
-}
-```
-```json json_schema
-{
-  "type": "object",
-  "properties": {
-    "id": {
-      "type": "string"
-    }
-  }
-}
-```
-```json http
-{
-  "method": "get",
-  "url": "https://todos.stoplight.io/todos"
-}
-``` Your workspace name must be unique and depends on domain availability.
+**Tip:** Your workspace name must be unique and depends on domain availability.
 
 3. Check your email for a 6-digit verification code. Enter the code to verify your account. 
 
