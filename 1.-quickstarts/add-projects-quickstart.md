@@ -121,6 +121,6 @@ If you make use of Mercurial, SVN, SourceSafe, Bazaar or another service to keep
 
 Now that your projects are setup, you can move onto the next steps in your API design and documentation journey: 
 
-- **Promote to Git**
-- **Project Settings**
-- **Share documentation**
+- **[Promote to Git](../workspaces/Promote-to-Git.md)**
+- **[Project Settings](../projects/Project-Settings.md)**
+- **[Share documentation](share-documentation-quickstart.md)**
