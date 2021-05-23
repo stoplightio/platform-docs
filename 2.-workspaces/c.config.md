@@ -1,97 +1,76 @@
 ---
 tags: [Workspaces]
 ---
+# **Configure Projects**
 
-# Configure Projects
+When you add  **projects** to Stoplight, or associate them with a **Git repo**, Stoplight analyzes the contents of your repository and looks for things like: 
 
-Seeing as your projects can contain all sorts of files, sometimes you might not want Stoplight to analyze specific files. For example, if a project is backed by a Git repo which also contains a bunch of developer-only internal Markdown files, you might not want those going on your public documentation, 
+- API Description documents (OpenAPI v2, OpenAPI v3, and JSON Schema)
+- Markdown articles
+- Images
 
-There is a `.stoplight.json` config file, which can help with that, using an `"exclude"` to blacklist certain files/folders.
+Seeing that your repos can contain all sorts of files, sometimes you might not want Stoplight to analyze specific files such as developer-only internal documentation. Other times you might want your files grouped into specific folders, instead of  being added to root.
 
-There's also a `"formats"` keyword to instruments which files are supposed to be read and parsed as APIs, documentation, or other content. When you create an API in Studio, it can use this configuration to know where to put that file, so it's not just shoved into the root along with everything else.
+You can limit and control what Stoplight analyzes by using a `".stoplight.json"` config file. 
 
-![](../assets/images/create-api-with-config.gif)
+## What is the `".stoplight.json"`  file?
 
-## How it Works
+The `".stoplight.json"` file is a configuration file that should go in the root of your project. It can be regular **JSON** or **JSONC** (i.e. JSON with comments, and trailing commas) file. 
 
-The config file should go in the root of your project, and be named `.stoplight.json`. It can be regular JSON or [JSONC](https://github.com/microsoft/node-jsonc-parser) (i.e. JSON with comments, and trailing commas allowed).
+When you create an API in Studio, it will use this configuration to know what files to exclude, and where to put a certain file, so it's not shoved into the root along with everything else.
 
-Projects with no config file will act as though they had this config:
+The configuration file is made up of two key keywords: 
 
-```json
-{
-  "formats": {
-    "openapi": {
-      "rootDir": "reference",
-      "include": ["**"]
-    },
-    "markdown": {
-      "rootDir": "docs",
-      "include": ["**"]
-    },
-    "image": {
-      "rootDir": "assets/images",
-      "include": ["**"]
-    },
-    "json_schema": {
-      "rootDir": "models",
-      "include": ["**"]
-    }
-  }
-}
-```
+1. `"exclude"` 
+2. `"formats"` 
 
-Any files with the `openapi` and `json_schema` formats will go under the "APIs" panel, and any files with `markdown` or `images` formats will go under "Docs".
+### 1. Exclude:
 
-The funny-looking stars in the `"include"` are a [glob](https://en.wikipedia.org/wiki/Glob_(programming)) pattern, for finding files based on a pattern. More specifically, we're using an open-source library called [micromatch](https://github.com/micromatch/micromatch). 
+Any file or directory matching the pattern listed in exclude won't be indexed by Stoplight.
 
-## Reference
+### 2. Formats:
 
-### `editor`
+Specifies which files are supposed to be read and parsed as APIs, documentation, or other content.
 
-- `lineWidth` (optional) - Set the length that lines can be in Studio before they're wrapped in Code view. This will help avoid rewriting YAML values, so long as they're within the line length.
+- `rootDir` (required) - when `include` is unspecified, all files placed under `rootDir` are marked as included. Used by UI wizards in Studio as a default location for certain kinds of files.
+- `include` (optional) - at least one pattern needs to match the `rootDir`.
 
-### `exclude`
+By default a project configuration looks like this: 
 
-Any file or directory matching the pattern listed in `exclude` won't be indexed by Stoplight.
+![Default config](../assets/images/config.png)
 
-> **Note:** There is a fairly large default list of excluded file paths for things like node modules and other common dependency management files, `.cache/`, `.git`, `log/`, `tmp/`, etc. This is done for performance reasons and will be made more observable and configurable in future versions.
+Any files with the `openapi` and `json_schema` formats will go under the "APIs" panel, and any files with `markdown` or `images` formats will go under "Docs".
 
-### `formats`
+The funny-looking stars in the `"include"` are a [glob](https://en.wikipedia.org/wiki/Glob_(programming)) pattern, for finding files based on a pattern. More specifically, we're using an open-source library called [micromatch](https://github.com/micromatch/micromatch).
 
-- `rootDir` (required) - when `include` is unspecified, all files placed under `rootDir` are marked as included. Used by UI wizards in Studio as a default location for certain kinds of files.
-- `include` (optional) - at least one pattern needs to match the `rootDir`.
+# **Example**
 
-## Example
+Maybe a project has multiple APIs in the  `apis` directory, some test files that should not be indexed, and some models in a `schemas` directory, which you also use for [contract testing](https://apisyouwonthate.com/blog/writing-documentation-via-contract-testing).
 
-Maybe a project has multiple APIs in a `apis` directory, some test files that should not be indexed, and some models in a `schemas` directory, which you also use for [contract testing](https://apisyouwonthate.com/blog/writing-documentation-via-contract-testing).
+![Example Config](../assets/images/Config2.png)
 
-```
-help/article.md
-apis/petstore.openapi.yaml
-apis/address.openapi.json
-test/todos.openapi.yaml
-schemas/user.json
-.stoplight.json
-```
+To exclude the test files and make it clear which other files are which, the following configuration file could be used:
 
-To exclude the test files and make it clear which other files are which, the following `.stoplight.json` could be used:
+![Default Config](../assets/images/Config3.png)
 
-```json
-{
-  "formats": {
-    "openapi": {
-      "rootDir": "apis"
-    },
-    "json_schema": {
-      "rootDir": "schemas"
-    },
-    "markdown": {
-      "rootDir": "help"
-    },
-  },
-  "exclude": ["test"]
-}
-```
+## Adding a Stoplight Configuration file
 
-Next, lets [invite team members](./d.inviting-your-team.md) to these excellently configured projects. 
+To add a configuration file: 
+
+1. From your dashboard, navigate to your project and click **Edit.** 
+2. Once when you are inside the Studio, click the **+ (add)** button on the top left corner, then select the **Stoplight Config.** 
+3. This will open the default configuration file. 
+
+![Stoplight Config](../assets/images/Config4.png)
+
+4. Make your edits, and then click **Push** when done. 
+
+**Congrats. Your projects is now configured to be synchronized, the way you want it! 😊**
+
+## What's Next?
+
+Now that your project is configured, learn how you can: 
+
+- **[Invite Team Members](https://meta.stoplight.io/docs/platform/2.-workspaces/d.inviting-your-team.md)**
+- **[Manage Project Settings](https://meta.stoplight.io/docs/platform/2.-workspaces/l.project-roles.md)**
+- **[Start working with Stoplight Studio](https://meta.stoplight.io/docs/studio)**
