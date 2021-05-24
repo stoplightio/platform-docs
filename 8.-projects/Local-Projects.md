@@ -28,7 +28,7 @@ Adding local projects to your workspace is very easy.
 
 5. Open your terminal, navigate to the root folder of the project and **run this command**. This will push data to your workspace. 
 
-  ![Local Projects](../assets/images/localprojects2.png)
+  ![Local Pro'jects](../assets/images/localprojects2.png)
 
 ## **Editing Local Files**
 
