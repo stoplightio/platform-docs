@@ -19,7 +19,7 @@ To configure popular Git providers as auth providers follow [this guide](configu
 
 ## LDAP
 
-> This feature is available on the Stoplight **Professional** plan and above.
+> 👉 Note: This feature is available on the Stoplight **Professional** plan and above.
 
 You can use a Lightweight Directory Access Protocol (LDAP) authentication server to authenticate users with Stoplight. LDAP is an open-standard protocol for use with online directory services.
 
@@ -36,7 +36,7 @@ You can use a Lightweight Directory Access Protocol (LDAP) authentication server
 
 ## SAML
 
-> This feature is available on the Stoplight **Professional** plan and above.
+> 👉 Note: This feature is available on the Stoplight **Professional** plan and above.
 
 Organizations that need enhanced security requirements can configure SAML SSO,
 allowing you to authenticate users to Stoplight with your own corporate Identity
@@ -102,5 +102,5 @@ for Okta that should help get you started:
 
 ![](../assets/images/saml-okta.png)
 
-> **Note** that the `apiguild.stoplight.io` workspace URL should be updated to
+> 👉 **Note** that the `apiguild.stoplight.io` workspace URL should be updated to
 > point to your workspace URL instead (ie, `example.stoplight.io`).
