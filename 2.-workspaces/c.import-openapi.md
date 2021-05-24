@@ -28,7 +28,7 @@ If you are starting off from scratch and your project does not exist on Git at a
 1. From your dashboard, click the **+** (add projects) on the left top corner. 
 2. Navigate to **Import OpenAPI** F**ile** on the Add project page. 
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/afbd6703-b87d-4852-9b94-56fb3cf56a42/Screen_Shot_2021-02-15_at_10.59.42_PM.png](../assets/images/IO.png)
+![Import OpenAPI](../assets/images/IO.png)
 
   2. Specify a **Name** for the project. 
 
@@ -48,7 +48,7 @@ If your project already exists on Stoplight, and you want to add a new **OpenAPI
 2.  This will open the **Stoplight Studio.** 
 3. On the studio homepage, select I**mport**. 
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5784e251-a619-4463-add4-5d850908b247/Screen_Shot_2021-02-16_at_4.07.22_AM.png](../assets/images/IO1.png)
+![Import OpenAPI](../assets/images/IO1.png)
 
 4. Chose the file from your local storage. 
 
