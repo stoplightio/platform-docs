@@ -62,6 +62,5 @@ Once updated, try to navigate to your custom domain again to verify the issue ha
 
 ## What's next?
 
-- Create External Documentation
-- Invite Team Members
-- Share Project
+- [Invite Team Members](https://meta.stoplight.io/docs/platform/2.-workspaces/d.inviting-your-team.md)
+- [Share Project](https://meta.stoplight.io/docs/platform/1.-quickstarts/share-documentation-quickstart.md)
