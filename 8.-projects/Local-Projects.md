@@ -43,5 +43,4 @@ After you are done making changes, run the above CLI command again, and your con
 
 Once done editing, you can push the files using the CLI, or automate publishing in continuous integration. Read on to find out how: 
 
-- **Using Stoplight CLI**
-- **Continuous Integration**
+- **[Using Stoplight CLI](Stoplight-CLI.md)**
