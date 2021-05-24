@@ -25,7 +25,7 @@ To create a workspace, you'll need to sign up for a Stoplight account using an e
 
 ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/30a89f65-6d75-43c7-a408-1664e7e29570/Screen_Shot_2021-02-08_at_3.31.50_PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/30a89f65-6d75-43c7-a408-1664e7e29570/Screen_Shot_2021-02-08_at_3.31.50_PM.png)
 
-**Note:** In case you do not receive a confirmation code, check your spam folder or get in touch with our team. 
+> **Note:** In case you do not receive a confirmation code, check your spam folder or get in touch with our team. 
 
 3. Once Verified, enter your name, company name, and password and click continue. 
 

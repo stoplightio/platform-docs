@@ -4,7 +4,7 @@ Just like your **account**, your Stoplight **workspace** can be personalized for
 
 **Workspaces** on Stoplight act as base of your operation, this is where all  your projects are listed. Any personalization you make to your workspace will be reflected throughout the Stoplight platform. 
 
-**Note:** To read more about workspaces or to find how to create workspaces, read our guide: **Creating a Workspace**
+> **Note:** To read more about workspaces or to find how to create workspaces, read our guide: **Creating a Workspace**
 
 ## Personalizing your Stoplight Workspace
 

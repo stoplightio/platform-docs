@@ -26,7 +26,7 @@ Since you would be inviting different stakeholders from different parts of the A
 
 ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4d3a1bc5-7b27-47ba-848d-d1113493530b/Screen_Shot_2021-02-18_at_4.46.43_PM.png](../assets/images/Invite3.png)
 
-**Note:**  Learn more about organizing your team and assigning roles here: **Workspace Roles.** 
+> **Note:**  Learn more about organizing your team and assigning roles here: **Workspace Roles.** 
 
 Once you send an invite, your invitation will move to the pending invites section, and your team member will be sent an invite over email. When they click **Accept,** they will be added to your workspace. 
 

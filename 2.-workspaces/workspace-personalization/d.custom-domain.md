@@ -6,7 +6,7 @@ If you want to have your workspace behind a domain of your choice, you can set u
 
 Your **domain** on Stoplight is the URL or web address where your workspace lives. By default, when you sign up for Stoplight, your domain address looks like this: [`your-company-name.stoplight.com`](http://your-store-name.myshopify.com/)
 
-**Note:** When you share your documentation with external users or team members, you essentially share your domain address. 
+> **Note:** When you share your documentation with external users or team members, you essentially share your domain address. 
 
 If you want to host your Stoplight workspace on a domain fully under your control, then you can add a custom URL, such as [`api.example.com`](http://www.example.com/). The new URL will be your **custom domain**. 
 
@@ -51,7 +51,7 @@ You can read more about what this means in the CloudFlare documentation [here](
 
 If you see an error related to "The connection has timed out", this typically means that a CAA DNS record is present on your domain, which is preventing the TLS verification process from completing.
 
-**Note:** To learn more about CAA records and what they are used for, see the Let's Encrypt documentation [here](https://letsencrypt.org/docs/caa/). You can perform a CAA lookup on your domain [here](https://dnslookup.online/caa.html) for reference.
+> **Note:** To learn more about CAA records and what they are used for, see the Let's Encrypt documentation [here](https://letsencrypt.org/docs/caa/). You can perform a CAA lookup on your domain [here](https://dnslookup.online/caa.html) for reference.
 
 To resolve this issue, use either option below:
 
