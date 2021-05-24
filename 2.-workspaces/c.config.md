@@ -13,7 +13,7 @@ Seeing that your repos can contain all sorts of files, sometimes you might not w
 
 You can limit and control what Stoplight analyzes by using a `".stoplight.json"` config file. 
 
-## What is the `".stoplight.json"`  file?
+## What is the .stoplight.json file?
 
 The `".stoplight.json"` file is a configuration file that should go in the root of your project. It can be regular **JSON** or **JSONC** (i.e. JSON with comments, and trailing commas) file. 
 
