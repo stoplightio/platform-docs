@@ -22,13 +22,13 @@ Adding local projects to your workspace is very easy.
 2. On the **Add Projects** page, select add **via Stoplight CLI.**
 3. Enter the project **name**, and click **Add Project**. 
 
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fa434d62-8951-4834-8fb3-3c355be81990/Screen_Shot_2021-02-26_at_5.44.55_PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fa434d62-8951-4834-8fb3-3c355be81990/Screen_Shot_2021-02-26_at_5.44.55_PM.png)
+  ![Local Projects](../assets/images/localprojects1.png)
 
 4. This is going to create an empty project where you can push data. Copy the **command** on the screen.
 
 5. Open your terminal, navigate to the root folder of the project and **run this command**. This will push data to your workspace. 
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/13b7a5ac-d196-4d91-b1bb-94946dc004bd/Screen_Shot_2021-02-16_at_1.44.36_AM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/13b7a5ac-d196-4d91-b1bb-94946dc004bd/Screen_Shot_2021-02-16_at_1.44.36_AM.png)
+  ![Local Projects](../assets/images/localprojects2.png)
 
 ## **Editing Local Files**
 
