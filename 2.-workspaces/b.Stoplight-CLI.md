@@ -30,4 +30,4 @@ Now that your project is into Stoplight, it's really important you promote it to
 
 - **[Working with Local Projects](../8.-projects/Local-Projects.md)**
 - **[Configure Git](2.-workspaces/b.Stoplight-CLI.md)**
-- **Share Project**
+- **[Share Project](1.-quickstarts/share-documentation-quickstart.md)**
