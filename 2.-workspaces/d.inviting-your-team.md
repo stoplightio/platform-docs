@@ -12,7 +12,7 @@ You can invite up to 5 team members on the **Free** and **Starter** plan and mor
 ## Inviting Team Members to your workspace
 
 1. From your dashboard, click on the **workspace name** on top left of the page. 
-2. Next, select **Members** from the dropdown. This will take you to member settings. 
+2. Select **Members** from the dropdown. This will take you to member settings page. 
 
 ![Invite Member](../assets/images/Invite1.png)
 
@@ -20,7 +20,7 @@ You can invite up to 5 team members on the **Free** and **Starter** plan and mor
 
 4.  Enter the work **Email Address** of your teammate, select a **Role** and click **Send Invite.** 
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c4ef8ace-be19-4b60-bf4d-bff5136faf4b/Screen_Shot_2021-02-18_at_4.56.02_PM.png](../assets/images/Invite2.png)
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c4ef8ace-be19-4b60-bf4d-bff5136faf4b/Screen_Shot_2021-02-18_at_4.56.02_PM.png](../assets/images/billing.png)
 
 Since you would be inviting different stakeholders from different parts of the API Lifecycle, you can limit and restrict, who gets access to what. 
 
