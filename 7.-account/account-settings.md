@@ -1,5 +1,3 @@
-tags: [workspaces]
-
-# Promote-to-Git
+# account-settings
 
 The beginning of an awesome article...
