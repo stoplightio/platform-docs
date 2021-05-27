@@ -1,4 +1,4 @@
-# Sidebar Theme
+# Workspace Theme
 
 You can make your **workspace** reflect your organization's branding in colors by customizing your **sidebar.**
 
