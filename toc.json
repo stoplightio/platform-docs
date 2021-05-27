@@ -35,75 +35,77 @@
     },
     {
       "type": "item",
-      "title": "Creating a workspace",
+      "title": "Creating a Workspace",
       "uri": "2.-workspaces/a.creating-a-workspace.md"
     },
-    {
-      "type": "item",
-      "title": "Add Projects",
-      "uri": "2.-workspaces/b.adding-projects.md"
-    },
-    {
-      "type": "item",
-      "title": "Configure Projects",
-      "uri": "2.-workspaces/c.config.md"
-    },
-    {
+ 
+    
+     {
       "type": "group",
-      "title": "Configure Git",
+      "title": "Workspace Personalization",
       "items": [
         {
           "type": "item",
           "title": "Overview",
-          "uri": "2.-workspaces/configure-git/a.configuring-git.md"
+          "uri": "2.-workspaces/workspace-personalization/a.overview.md"
         },
         {
           "type": "item",
-          "title": "Bitbucket Cloud",
-          "uri": "2.-workspaces/configure-git/b.bitbucket-cloud.md"
+          "title": "Workspace Basics",
+          "uri": "2.-workspaces/workspace-personalization/b.workspace-basics.md"
         },
         {
           "type": "item",
-          "title": "Bitbucket Server",
-          "uri": "2.-workspaces/configure-git/c.bitbucket-server.md"
+          "title": "Configure Homescreen",
+          "uri": "2.-workspaces/workspace-personalization/c.configure-homescreen.md"
         },
         {
           "type": "item",
-          "title": "GitHub Enterprise",
-          "uri": "2.-workspaces/configure-git/d.github-enterprise.md"
+          "title": "Workspace Theme",
+          "uri": "2.-workspaces/workspace-personalization/e.workspace_theme.md"
         },
         {
           "type": "item",
-          "title": "GitLab",
-          "uri": "2.-workspaces/configure-git/e.gitlab.md"
+          "title": "Configure Sidebar",
+          "uri": "2.-workspaces/workspace-personalization/configure-sidebar.md"
         },
         {
           "type": "item",
-          "title": "Gitea",
-          "uri": "2.-workspaces/configure-git/f.gitea.md"
+          "title": "Custom Domain",
+          "uri": "2.-workspaces/workspace-personalization/d.custom-domain.md"
         }
+        
       ]
     },
     {
+      "type": "divider",
+      "title": "Projects"
+    },
+       {
       "type": "item",
-      "title": "Invite Members",
-      "uri": "2.-workspaces/d.inviting-your-team.md"
+      "title": "Add Project",
+      "uri": "2.-workspaces/b.adding-projects.md"
     },
     {
       "type": "item",
-      "title": "Workspace Roles",
-      "uri": "2.-workspaces/k.workspace-roles.md"
+      "title": "Configure Project",
+      "uri": "2.-workspaces/d.config.md"
     },
     {
       "type": "item",
-      "title": "Manage Project Access",
-      "uri": "2.-workspaces/l.project-roles.md"
+      "title": "Local Projects",
+      "uri": "8.-projects/Local-Projects.md"
     },
     {
       "type": "item",
-      "title": "Single Sign-On",
-      "uri": "2.-workspaces/e.configuring-authentication.md"
+      "title": "Project Settings",
+      "uri": "8.-projects/Project-Settings.md"
     },
+    {
+      "type": "divider",
+      "title": "Git Management"
+    },
+    
     {
       "type": "item",
       "title": "Work with Local Projects",
@@ -124,6 +126,17 @@
       "title": "Custom Domains",
       "uri": "2.-workspaces/j.custom-domains.md"
     },
+
+    {
+      "type": "divider",
+      "title": "Account"
+    },
+
+      {
+      "type": "divider",
+      "title": "Team"
+    },
+
     {
       "type": "divider",
       "title": "Design"
