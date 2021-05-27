@@ -8,7 +8,7 @@ Chose colors that best represent your brand. Your documentation will go out in t
 
 > **👉 Note:** This feature is available on the Stoplight **Starter** plan, and above.
 
-![Git](../assets/images/Git2.png)
+![Sidebar](../assets/images/SB.gif)
 
 
 Picking colors is very easy, you can either select from our present themes or specify your own colors. You can pick colors for each of these elements: 
