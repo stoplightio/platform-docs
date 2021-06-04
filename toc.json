@@ -217,6 +217,27 @@
       "type": "divider",
       "title": "Team"
     },
+
+ {
+      "type": "item",
+      "title": "Invite Team Members",
+      "uri": "9.-teams/d.inviting-your-team.md"
+    },
+
+     {
+      "type": "item",
+      "title": "Workspace Roles",
+      "uri": "9.-teams/k.workspace-roles.md"
+    },
+
+       {
+      "type": "item",
+      "title": "Project Roles",
+      "uri": "9.-teams/l.project-roles.md"
+    },
+
+
+
 {
       "type": "divider",
       "title": "Design"
