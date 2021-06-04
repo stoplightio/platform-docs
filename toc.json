@@ -35,8 +35,44 @@
     },
     {
       "type": "item",
-      "title": "Creating a workspace",
+      "title": "Creating a Workspace",
       "uri": "2.-workspaces/a.creating-a-workspace.md"
+    },
+
+    {
+      "type": "group",
+      "title": "Workspace Personalization",
+      "items": [
+        {
+          "type": "item",
+          "title": "Workspace Basics",
+          "uri": "2.-workspaces/workspace-personalization/a.workspace-basics.md"
+        },
+
+          {
+          "type": "item",
+          "title": "Configure Homescreen",
+          "uri": "2.-workspaces/workspace-personalization/c.configure-homescreen.md"
+        },
+
+           {
+          "type": "item",
+          "title": "Workspace Theme",
+          "uri": "2.-workspaces/workspace-personalization/d.custom-domain.md"
+        },
+       {
+          "type": "item",
+          "title": "Configure Sidebar",
+          "uri": "2.-workspaces/workspace-personalization/configure-sidebar.md"
+        },
+
+           {
+          "type": "item",
+          "title": "Custom Domain",
+          "uri": "2.-workspaces/workspace-personalization/d.custom-domain.md"
+        }
+        
+      ]
     },
     
     {
@@ -47,23 +83,14 @@
     
     {
       "type": "item",
-      "title": "Publishing",
-      "uri": "2.-workspaces/g.automating-publishing.md"
-    },
-    {
-      "type": "item",
-      "title": "Branch Management",
-      "uri": "2.-workspaces/h.branch-management.md"
-    },
-    {
-      "type": "item",
-      "title": "Custom Domains",
-      "uri": "2.-workspaces/j.custom-domains.md"
+      "title": "Configure Analytics",
+      "uri": "2.-workspaces/configuring-analytics.md"
     },
 {
       "type": "divider",
       "title": "Projects"
     },
+
 
     {
       "type": "item",
@@ -75,12 +102,36 @@
       "title": "Configure Projects",
       "uri": "2.-workspaces/c.config.md"
     },
-    
+
+       {
+      "type": "item",
+      "title": "Stoplight CLI",
+      "uri": "2.-workspaces/b.Stoplight-CLI.md"
+    },
+
+    {
+      "type": "item",
+      "title": "Import OpenAPI",
+      "uri": "8.-projects/c.import-openapi.md"
+    },
+
+       {
+      "type": "item",
+      "title": "Project Settings",
+      "uri": "8.-projects/Project-Settings.md"
+    }, 
 
     {
       "type": "divider",
       "title": "Git"
     },
+
+    {
+      "type": "item",
+      "title": "Git Basics",
+      "uri": "9.-git-management/a.overview.md"
+    },
+
     {
       "type": "group",
       "title": "Configure Git",
@@ -117,6 +168,30 @@
         }
       ]
     },
+
+
+    {
+      "type": "item",
+      "title": "Branch Management",
+      "uri": "2.-workspaces/h.branch-management.md"
+    },
+
+     {
+      "type": "item",
+      "title": "Publish Changes",
+      "uri": "2.-workspaces/g.automating-publishing.md"
+    },
+
+       {
+      "type": "item",
+      "title": "Automate Publishing",
+      "uri": "9.-git-management/b.automating-publishing.md"
+    },
+
+    
+
+
+
 
        {
       "type": "divider",
