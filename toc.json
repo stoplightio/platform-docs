@@ -188,17 +188,32 @@
       "uri": "9.-git-management/b.automating-publishing.md"
     },
 
-    
-
-
-
 
        {
       "type": "divider",
       "title": "Account"
     },
 
-        {
+  {
+      "type": "item",
+      "title": "Account Settings",
+      "uri": "7.-account/account-settings.md"
+    },
+
+     {
+      "type": "Update Account Details",
+      "title": "Reset Password",
+      "uri": "7.-account/update-email-address.md"
+    },
+
+ {
+      "type": "item",
+      "title": "Reset Password",
+      "uri": "7.-account/reset-password.md"
+    },
+
+
+    {
       "type": "divider",
       "title": "Team"
     },
