@@ -27,7 +27,7 @@ There are multiple ways to sign into your Stoplight account. If you prefer to si
 
 ## Change Password
 
-Additionally, if you are already logged into your account and want to change your password for some reason, you can visit [Account Settings](https://www.notion.so/Account-Settings-c2443897da8248ad8658faa282999c5f)  > Security to update your password. 
+Additionally, if you are already logged into your account and want to change your password for some reason, you can visit [Account Settings](7.-account/account-settings.md) > Security to update your password. 
 
 1. From your dashboard, on the bottom left, click your profile and select **Account Settings**. 
 

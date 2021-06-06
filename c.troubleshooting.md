@@ -16,7 +16,7 @@ exclude paths in your repository from being exposed in the documentation. Double
 check the project configuration to make sure the file you are looking for have
 not been excluded (or the file is in the include path).
 
-For more information on this feature, see [here](./2.-workspaces/c.config.md).
+For more information on this feature, see [here](8.-projects/d.config.md).
 
 ### Is there a `toc.json` file present in your repo?
 
@@ -117,7 +117,7 @@ If something is not working in a version listed here (or newer) please [contact 
 
 Local projects in Stoplight are stored in the browser cache. If you are on a different computer/browser, you won't be able to edit the project. 
 
-Preferably [connect to a Git provider](2.-workspaces/configure-git/a.configuring-git.md) that Stoplight supports. Once you've done that go into studio from the browser/computer you used to first create this project, and then promote it to a Git repo.
+Preferably [connect to a Git provider](9.-git-management/a.overview.md) that Stoplight supports. Once you've done that go into studio from the browser/computer you used to first create this project, and then promote it to a Git repo.
 
 ![Promote to Git](assets/images/git_promote.png)
 

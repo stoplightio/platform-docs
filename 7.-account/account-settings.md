@@ -101,6 +101,6 @@ To connect your Stoplight account to your Git repos:
 
 ## What's Next:
 
-1. [Adding your Projects ](https://meta.stoplight.io/docs/platform/1.-quickstarts/add-projects-quickstart.md)
-2. [Inviting your Team Members](https://meta.stoplight.io/docs/platform/2.-workspaces/d.inviting-your-team.md)
-3. [Sidebar Theming](2.-workspaces/workspace-personalization/e.sidebar-theme.md)
+1. [Adding your Projects ](../1.-quickstarts/add-projects-quickstart.md)
+2. [Inviting your Team Members](../9.-teams/d.inviting-your-team.md)
+3. [Workspace Theme](../2.-workspaces/workspace-personalization/e.workspace_theme.md)
