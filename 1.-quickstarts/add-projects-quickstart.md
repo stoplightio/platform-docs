@@ -30,7 +30,7 @@ To add a project from your Git repo:
 
 3. Upon successful authentication, you should see your organizations listed. Choose your desired organization and select the repositories you want to import. Click **Add Project** when you are done. 
 
-![Add Project](assets/images/ad1.gif)
+![Add Project](../assets/images/ad1.gif)
 
 Once the repository data has been analyzed, your workspace home screen should now contain projects populated with data.
 
@@ -42,7 +42,7 @@ Sometimes you may want to make custom configurations to your Git connection. To 
 
 2. Click **Configure** in front of the Git provider you're looking to set up a custom configuration for.
 
-![](../assets/images/Ad2.png)
+![Add Projects](../assets/images/Ad2.png)
 
 3. Select **Customize integration settings** and add your desired configuration. Test it out by clicking `Test Settings`. Press `Save`. 
 
@@ -68,7 +68,7 @@ You will then be taken to Stoplight Studio. Our editor for API Design and Docume
 
 > **Warning:** Projects **not connected** to a Git repository will **only** be editable on your browsers. This means that you could potentially lose the ability to edit your project when you lose your session data.
 
-If you either need to edit your content on multiple browsers or collaborate with others, it is strongly recommended that you [**promote your project to git**](https://meta.stoplight.io/docs/platform/2.-workspaces/configure-git/a.configuring-git.md).
+If you either need to edit your content on multiple browsers or collaborate with others, it is strongly recommended that you [**promote your project to git**](9.-git-management/publish-changes.md).
 
 ## 3. Import an OpenAPI Spec:
 
@@ -121,6 +121,5 @@ If you make use of Mercurial, SVN, SourceSafe, Bazaar or another service to keep
 
 Now that your projects are setup, you can move onto the next steps in your API design and documentation journey: 
 
-- **[Promote to Git](../workspaces/Promote-to-Git.md)**
-- **[Project Settings](../projects/Project-Settings.md)**
-- **[Share documentation](share-documentation-quickstart.md)**
+- **[Publish Changes](../9.-git-management/publish-changes.md)**
+- **[Share documentation](1.-quickstarts/share-documentation-quickstart.md)**
