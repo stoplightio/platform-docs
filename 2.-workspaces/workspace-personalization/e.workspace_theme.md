@@ -8,12 +8,13 @@ Chose colors that best represent your brand. Your documentation will go out in t
 
 > **👉 Note:** This feature is available on the Stoplight **Starter** plan, and above.
 
-![Sidebar](../assets/images/SB.gif)
+![Sidebar](../../assets/images/SB.gif)
 
 
 Picking colors is very easy, you can either select from our present themes or specify your own colors. You can pick colors for each of these elements: 
 
-![SideBar](../assets/images/S1.png)
+![SideBar](../../assets/images/S1.png)
+
 
 1. **Accent Color:** The button color. 
 2. **Background Color:** The main background color on your sidebar. ****
@@ -26,16 +27,16 @@ To customize your **sidebar theme**:
 1. From your Dashboard, click on your workspace name and select **settings**. 
 2. On the **Basics** page scroll down to the **Sidebar** **Theme section.** 
 
-![SideBar](../assets/images/S2.png)
+![SideBar](../../assets/images/S2.png)
 
 
 3. Pick a color from our intuitive color picker. You can use the color slider or enter a HEX/RGB/HSLA code. 
 
-![SideBar](../assets/images/S3.png)
+![SideBar](../../assets/images/S3.png)
 
 4. If you have no specific colors in mind, you can always chose from our presets. 
 
-![SideBar](../assets/images/S4.png)
+![SideBar](../../assets/images/S4.png)
 
 **We are excited to see what you can with sidebar themes! Put your creative juices to work! 👨‍🎨**
 
