@@ -22,7 +22,7 @@
     {
       "type": "item",
       "title": "Add Projects",
-      "uri": "1.-quickstarts/add-projects-quickstart.md"
+      "uri": "8.-projects/b.adding-projects.md"
     },
     {
       "type": "item",
@@ -84,7 +84,7 @@
     {
       "type": "item",
       "title": "Configure Analytics",
-      "uri": "2.-workspaces/configuring-analytics.md"
+      "uri": "2.-workspaces/e.configuring-authentication.md"
     },
 {
       "type": "divider",
@@ -95,18 +95,18 @@
     {
       "type": "item",
       "title": "Add Projects",
-      "uri": "2.-workspaces/b.adding-projects.md"
+      "uri": "8.-projects/b.adding-projects.md"
     },
     {
       "type": "item",
       "title": "Configure Projects",
-      "uri": "2.-workspaces/c.config.md"
+      "uri": "8.-projects/d.config.md"
     },
 
        {
       "type": "item",
       "title": "Stoplight CLI",
-      "uri": "2.-workspaces/b.Stoplight-CLI.md"
+      "uri": "8.-projects/b.Stoplight-CLI.md"
     },
 
     {
