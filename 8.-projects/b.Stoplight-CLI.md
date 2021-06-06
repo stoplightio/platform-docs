@@ -18,6 +18,8 @@ If you make use of Mercurial, SVN, SourceSafe, Bazaar or another service to keep
 
 ![Stoplight CLI](../assets/images/CLI1.png)
 
+
+
 4.  Open your terminal, navigate to the root folder of the project and **run this command**. This will push data to your workspace. 
 
 ![Stoplight CLI](../assets/images/CLI2.png)
@@ -29,5 +31,5 @@ If you make use of Mercurial, SVN, SourceSafe, Bazaar or another service to keep
 Now that your project is into Stoplight, it's really important you promote it to Git to enable collaborations. Read on to learn how to: 
 
 - **[Working with Local Projects](../8.-projects/Local-Projects.md)**
-- **[Configure Git](2.-workspaces/b.Stoplight-CLI.md)**
+- **[Configure Git](../9.-git-management/configure-git)**
 - **[Share Project](1.-quickstarts/share-documentation-quickstart.md)**
