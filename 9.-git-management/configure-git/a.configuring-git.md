@@ -1,6 +1,6 @@
 # Overview
 
-Stoplight can connect with popular Git Providers hosted publically or on your servers (even if it's protected by a firewall), letting you work directly with [projects](../b.adding-projects.md) in public or private repos. 
+Stoplight can connect with popular Git Providers hosted publically or on your servers (even if it's protected by a firewall), letting you work directly with [projects](../../1.-quickstarts/add-projects-quickstart.md) in public or private repos. 
 
 ## Git Provider Support
 
@@ -18,7 +18,7 @@ We support the following Git providers.
 
 - <i class="Icon fab fa-microsoft fa-2x" style="color: rgb(32, 80, 129);"> </i> Azure Devops
 
-If you don't see the Git Provider you're looking for, take a look at our [roadmap](https://roadmap.stoplight.io/) to keep an eye on what's coming next. You can also use [Stoplight CLI](../f.working-with-local-projects.md) to push projects to Stoplight Platform.
+If you don't see the Git Provider you're looking for, take a look at our [roadmap](https://roadmap.stoplight.io/) to keep an eye on what's coming next. You can also use [Stoplight CLI](../../8.-projects/b.Stoplight-CLI.md) to push projects to Stoplight Platform.
 
 ## Configure Cloud Git Providers
 

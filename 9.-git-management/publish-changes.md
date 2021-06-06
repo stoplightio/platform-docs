@@ -58,4 +58,4 @@ Now that your projects are connected to your Git Repo or shared on your workspac
 
 - **[Share your Project](../1.-quickstarts/share-documentation-quickstart.md)**
 - **[Add Team members](../9.-teams/d.inviting-your-team.md)**
-- **S[tart designing with Stoplight Studio](3.-design/a.overview.md)**
+- **[Start designing with Stoplight Studio](../3.-design/a.overview.md)**
