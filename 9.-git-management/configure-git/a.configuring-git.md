@@ -1,6 +1,6 @@
 # Overview
 
-Stoplight can connect with popular Git Providers hosted publically or on your servers (even if it's protected by a firewall), letting you work directly with [projects](../../1.-quickstarts/add-projects-quickstart.md) in public or private repos. 
+Stoplight can connect with popular Git Providers hosted publically or on your servers even if it's protected by a firewall), letting you work directly with [projects](../../1.-quickstarts/add-projects-quickstart.md) in public or private repos. 
 
 ## Git Provider Support
 
