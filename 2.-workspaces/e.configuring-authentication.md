@@ -59,7 +59,7 @@ Before continuing, be sure to:
   - Issuer - This value defaults to "`stoplight`"
   <!-- markdown-link-check-disable -->
   - Callback URL - This value is provided during the configuration, and defaults
-    to a value similar to https://your-workspace.stoplight.io/oauth/callback
+    to a value similar to https://stoplight.io/oauth/callback
 <!-- markdown-link-check-enable -->
   - Attributes - The attributes (described below) are required by Stoplight to
     successfully authenticate users.
