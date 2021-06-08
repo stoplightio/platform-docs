@@ -26,15 +26,7 @@ Next, lets [share this project](share-documentation-quickstart.md).
 
 ## Creating a Blank Project
 
-If you don't have your API artifacts, like OpenAPI or JSON Schema, on a Git repository or want to get started with creating a new one, you can get started directly from Studio by selecting the **+** on the top left of the screen, and then clicking an option under **Create Local Project**.
-
-<!-- theme: danger -->
-
-> ### Warning!
->
-> Projects *not connected* to a Git repository will **only be editable on your current browser session**. This means that you could potentially lose the ability to edit your project should you lose your session data.
-> 
-> If you either need to edit your content on multiple browsers or collaborate with others, it is strongly recommended that you use the "**Connecting a Git Repo**" option listed above.
+If you don't have your API artifacts, like OpenAPI or JSON Schema, in a Git repository or want to get started with creating a new one, you can get started directly from Studio by selecting the **+** on the top left of the screen, and then clicking an option under **Create Stoplight Project**.
 
 ![start a new project](../assets/images/add_local_project.png)
 
@@ -44,37 +36,14 @@ From within Studio - Click **+** at the top of the screen and then "Import File"
 
 ![import existing file](../assets/images/import_files.png)
 
-### Promoting to Git
-
-To start sharing this project, you can promote it to a new Git repository. This will create a new private Git repository under your VCS of choice and push the newly-created content to it.
-
-![promote-to-git](../assets/images/git_promote.png)
-
-Click the **Push** icon, and then click **Promote to Git Repo** to use this option.
-
-Once done, choose your desired Git provider, organization, repo name, and then click **Create Git Repository**.
-
-<!-- theme: warning -->
-
-> After making change within Studio please ensure you push the changes to avoid any work being lost. Click **Push** and follow prompts to do this.
-> ![commit-to-git](../assets/images/git_commit.png)
-
-Next, lets [share this project](share-documentation-quickstart.md). 
-
 ### Push to Workspace
 
-If you don't want to push this content to a Git repo, you can push it to the workspace to start sharing it immediately.
-
-<!-- theme: danger -->
-
-> ### Warning!
->
-> Projects *not connected* to a Git repository will **only be editable on your current browser session**. This means that you could potentially lose the ability to edit your project should you lose your session data.
-> 
-> If you either need to edit your content on multiple browsers or collaborate with others, it is strongly recommended that you use the "**Connecting a Git Repo**" option listed above.
+Once you're done making changes, you can click the "Push to Workspace" button to save your changes to Stoplight.
 
 ![push-to-workspace](../assets/images/push_to_workspace.png)
 
-Give it a useful name. Click **Push**, then click **Push to workspace**. 
+### Share
 
-Next, lets [share this project](share-documentation-quickstart.md). 
+Finally, click the **Share** button in the top right to [share this project](share-documentation-quickstart.md) with your teammates. 
+
+![share](../assets/images/studio-share-button.png)

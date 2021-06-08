@@ -12,17 +12,13 @@ Workspace roles on Stoplight are predefined according to varying access needs. Y
 
 ![Workspace Roles](../assets/images/workspace-roles.png)
 
-**Viewer**: Viewers can view documentation and consume mock servers. Viewers are usually developers and other stakeholders inside the organization consuming the API but don't need to make changes to API design and docs. Viewers can view **published branches** of all internal projects and **all branches** of projects they are granted direct access to. [Learn how to add members to a project](l.project-roles.md)
+**Guests**: can view documentation for projects that they are granted explicit access to. Guests are folks outside your company or organization, such as partners who require authentitcated access to the documentation.
 
-**Maker**: Makers in addition to viewer access, can create and edit all internal projects and projects they are granted direct access to. Makers are usually product managers, technical writers and architects creating/editing API designs and docs.
+**Viewer**: can view documentation and consume mock servers. Viewers are usually developers and other stakeholders inside the organization consuming the API but don't need to make changes to API design and docs. Viewers can view **published branches** of all internal projects and **all branches** of projects they are granted direct access to. [Learn how to add members to a project](l.project-roles.md)
 
-**Admin**: Admins in addition to maker access can manage team members and make changes to the workspace like landing page content and themes. Admins are usually team leads onboarding their respective teams to the platform. 
+**Maker**: in addition to viewer access, can create and edit all internal projects and projects they are granted direct access to. Makers are usually product managers, technical writers and architects creating/editing API designs and docs.
 
-**Owner**: An owner in addition to admin access can manage team members, billing and add/edit projects. Owners are usually API Champions leaders and managers leading cross-team efforts.
-
-**Guests**: Guests can view documentation for projects that they are granted explicit access to. Guests are usually partners who required authentitcated access to the documentation.
-
-**Billing**: Billing roles are usually reserved for operations folks that need to manage billing across the workspace.
+**Owners, Admins and Billing**: in addition to maker access can manage team members, billing and make changes to the workspace like landing page content and themes.
 
 
 ## What's Next?

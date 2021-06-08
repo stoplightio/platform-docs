@@ -1,24 +1,22 @@
 # Manage Project Access
 
-While workspace roles define workspace wide access, not all projects need to be accessible/editable by everybody in the workspace. 
+While workspace roles define workspace-wide access, not all projects need to be accessible or editable by everybody in the workspace. 
 
-Visbility and permission settings within projects allow granular control over who can do what. 
+Visibility and permission settings within projects allow granular control over who can do what. 
 
 ## Project Visibility
 
-Project visbility determines who can view projects within or outside the workspace. 
+Project visibility determines who can view projects within or outside the workspace. 
 
-**Private**: Only members with direct acess can view/edit the projects.
+**Private**: Only Workspace Members and Guests with direct project access can view the project.
 
-**Internal**: Anybody within the workspace can view the published branches of the project except guests. Guests need direct access to the project. Makers within the workspace can edit these projects.
+**Internal**: All Workspace Members can view the project. Guests need direct access to the project.
 
-**Public**: Everyone including anonymous visitors can access the project. Makers within the workspace can edit these projects.
+**Public**: Everyone including anonymous visitors can view project.
 
-> **Note:** Makers would require access to the git repository in order to edit Git projects.
+### Change Project Visibility
 
-### Change Project Visbility
-
-To update the project visibility or add users to a project, navigate to the **Manage Access** tab in the project settings screen (using the cog icon next to **Edit in Studio**). From this screen, you will be able to modify the visibility settings of a project
+To update the project visibility or add users to a project, click on the **Share** button in the project's sidebar (next to **Edit in Studio**).
 
 ![](../assets/images/manage-project-access.png)
 
@@ -27,26 +25,67 @@ To update the project visibility or add users to a project, navigate to the **Ma
 > - Their role in the **project**, or
 > - The **visibility settings** of the project (private, public, or internal)
 
-
 ## Project Roles
 
-Project roles determine who can edit projects and their settings. These roles include:
+Project roles determines the level of access for each project member. These roles include:
 
-![Project Roles](../assets/images/project-roles.png)
+**Viewer**: Viewers can view documentation and access mock servers including unpublished branches.
 
-**Viewer**: Viewers can view documentation and consume mock servers **including unpublished branches**.
+**Editor**: Editors can edit the project in Studio and track new branches.
 
-**Editor**: Editors in addition to viewer access, can edit private projects. They can also view project settings and automation logs. To edit these settigns, members require admin access. Internal/public projects can be edited by makers across the workspace. 
+**Admin**: Admins can edit project settings, manage member roles and remove members.
 
-**Admin**: Admins in addition to editor access can update visbility, manage branches, add members and delete the project. 
+**Owner**: Owners can remove the project and transfer ownership to another member. There can only be one Owner per project.
 
-> Project creators start as the only admin when a project is created. *Everybody elese including workspace owners/admins would require the project admin to add them explictly in the project in order to manage settings and/or view unpublished branches*.
+View the full list of permissions for each role below:
+
+| Permission                | Owner | Admin | Editor | Viewer |
+|---------------------------|-------|-------|--------|--------|
+| View published branches   | ✅     | ✅     | ✅      | ✅      |
+| View unpublished branches | ✅     | ✅     | ✅      | ✅      |
+| Access mock servers       | ✅     | ✅     | ✅      | ✅      |
+| Add members               | ✅     | ✅     | ✅      | ✅      |
+| Edit in Studio            | ✅     | ✅     | ✅      |        |
+| Track branches            | ✅     | ✅     | ✅      |        |
+| View settings             | ✅     | ✅     | ✅      |        |
+| Edit settings             | ✅     | ✅     |        |        |
+| Remove members            | ✅     | ✅     |        |        |
+| Remove project            | ✅     |       |        |        |
+| Transfer ownership        | ✅     |       |        |        |
+| Leave the project         |       | ✅     | ✅      | ✅      |
+
+> **Note:** In order to edit Git projects, users will still need permissions in both Stoplight and the Git repository.
 
 ### Grant Project Permissions
 
-To add users to a project, navigate to the **Manage Access** tab in the project settings screen (using the cog icon next to **Edit in Studio**). From this screen, you will be able to add members with appropiate roles to the project
+Every Project member can add members to the project with their role or lower. For example, a Project Editor can add a new member with either the Editor role or Viewer role but not with the Admin or Owner role.
+
+To add users to a project, click on the **Share** button (next to **Edit in Studio**). From here, you will be able to add existing Workspace members by their username or invite new members by email.
 
 ![Direct Access](../assets/images/direct-access.png)
+
+### Request Project Permissions
+
+If you need access to a project, the project's owner can add you as a member or upgrade your role. To find out who is the project owner, hover over their avatar in the projects list.
+
+![](../assets/images/projects-list-project-owner.png)
+
+## Project Ownership
+
+Every project must have only one Owner. Before the Owner can leave a project, they are required to transfer ownership to another project member. 
+
+### Transfer Project Ownership
+
+To transfer ownership, open the **Share** dialog and change the member's role to "Owner". Once confirmed, your role will change to "Admin" and the selected member will become the Owner.
+
+![](../assets/images/transfer-project-ownership.png)
+
+### Remove a Project Owner
+
+When removing a Member from the Workspace or downgrading a Member to a Guest, you will automatically take ownership of all projects they currently own. You can then transfer ownership of those projects to another member if you wish.
+
+![](../assets/images/remove-workspace-member-transfer.png)
+
 
 
 

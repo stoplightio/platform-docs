@@ -39,16 +39,6 @@
       "uri": "2.-workspaces/a.creating-a-workspace.md"
     },
     {
-      "type": "item",
-      "title": "Add Projects",
-      "uri": "2.-workspaces/b.adding-projects.md"
-    },
-    {
-      "type": "item",
-      "title": "Configure Projects",
-      "uri": "2.-workspaces/c.config.md"
-    },
-    {
       "type": "group",
       "title": "Configure Git",
       "items": [
@@ -96,13 +86,27 @@
     },
     {
       "type": "item",
+      "title": "Single Sign-On",
+      "uri": "2.-workspaces/e.configuring-authentication.md"
+    },
+    {
+      "type": "divider",
+      "title": "Projects"
+    },
+    {
+      "type": "item",
+      "title": "Add Projects",
+      "uri": "2.-workspaces/b.adding-projects.md"
+    },
+    {
+      "type": "item",
       "title": "Manage Project Access",
       "uri": "2.-workspaces/l.project-roles.md"
     },
     {
       "type": "item",
-      "title": "Single Sign-On",
-      "uri": "2.-workspaces/e.configuring-authentication.md"
+      "title": "Configure Projects",
+      "uri": "2.-workspaces/c.config.md"
     },
     {
       "type": "item",
@@ -118,11 +122,6 @@
       "type": "item",
       "title": "Branch Management",
       "uri": "2.-workspaces/h.branch-management.md"
-    },
-    {
-      "type": "item",
-      "title": "Custom Domains",
-      "uri": "2.-workspaces/j.custom-domains.md"
     },
     {
       "type": "divider",
@@ -166,6 +165,11 @@
       "type": "item",
       "title": "Quality API Reference Documentation",
       "uri": "4.-documentation/c.quality-api-reference-docs.md"
+    },
+    {
+      "type": "item",
+      "title": "Custom Domains",
+      "uri": "2.-workspaces/j.custom-domains.md"
     },
     {
       "type": "item",
