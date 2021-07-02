@@ -11,7 +11,7 @@ provider.
 
 ## How do I migrate?
 
-To start, head over to Stoplight Platform and [create a workspace](https://stoplight.io/welcome/create).
+To start, head over to Stoplight Platform and [create a workspace](https://stoplight.io/welcome/create) for your company. Note that while you might have multiple workspaces for your company in Stoplight Classic, you will only have one workspace for your company on the new Stoplight Platform.
 
 After creating your workspace, you should land on the Classic Migration screen. If not, click on your workspace name in the top left of the screen and navigate to "Settings". From there you should see a "Classic Migration" tab.
 
@@ -31,6 +31,7 @@ Choose the Classic APIs you want to migrate to your Stoplight Platform workspace
 
 Wait a few moments for the projects to migrate and you'll see them appear in your left sidebar. Success!
 
+You can continue this migration process as many times as you want. If you migrate the same project multiple times, **it will overwrite the existing project data in Stoplight Platform**. This will allow you to migrate APIs at your own pace until Classic is officially shutdown.
 
 ## Limitations
 
@@ -71,7 +72,7 @@ hesitate to [contact us](mailto:support@stoplight.io).
 **Is a Stoplight Workspace similar to a Workspace in Classic?**
 
 Yes, they are very similar. Just like in a Classic workspace, your workspace is
-where you'll invite members, add projects, and create a billing subscription.
+where you'll invite members, add projects, and create a billing subscription. However the main difference is you will only have one Workspace for your entire company in Stoplight Platform.
 
 **How do the members roles compare to the ones in Classic?**
 
@@ -124,7 +125,7 @@ To configure a custom SSO provider for your workspace, please review the guide
 
 **How do I create a new version of my API project?**
 
-Versions in Stoplight are now managed through Git branches. For more information
+Versions in Stoplight are managed through branches. For more information
 on this subject, please review the guide
 [here](../2.-workspaces/h.branch-management.md).
 
