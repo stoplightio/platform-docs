@@ -24,4 +24,4 @@ When someone tries to join your Workspace, Stoplight will first have them confir
 
 If their email address matches one of your Workspace's allow email domains, Stoplight will add them as a member to your Workspace with the role configured with the email domain.
 
-If their email address matches one of your Workspace's allow email domains, a pending "join request" will be created, which will require an approval from a Workspace Owner or Admin.
+If their email address **does not match** one of your Workspace's allow email domains, a pending "join request" will be created and an approval from a Workspace Owner or Admin will be required.
