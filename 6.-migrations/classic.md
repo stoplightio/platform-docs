@@ -9,67 +9,57 @@ with no connection to Git. With the latest version of Stoplight, all of your
 designs and related assets can be fully managed directly in your Git VCS
 provider.
 
-## When can I migrate?
+## How do I migrate?
+
+To start, head over to Stoplight Platform and [create a workspace](https://stoplight.io/welcome/create).
+
+After creating your workspace, you should land on the Classic Migration screen. If not, click on your workspace name in the top left of the screen and navigate to "Settings". From there you should see a "Classic Migration" tab.
+
+If you don't see the "Classic Migration" tab, you can navigate there directly by adding `/admin/legacy-migration/classic` to the end of your workspace URL.
+
+![Getting to the Classic Migration screen](../assets/images/classic-migration-screen.png)
+
+Now you'll need to retrieve your Classic API secret to start the migration process. In a new browser tab, navigate to your [account settings in Classic](https://app.stoplight.io/account/settings) and copy your API secret.
+
+![](../assets/images/classic-account-settings.png)
+
+Back on the Classic Migration screen in Stoplight Platform, paste your API secret in the input. If successful, you'll see a list of all the Classic workspaces you own and all of their APIs.
+
+Choose the Classic APIs you want to migrate to your Stoplight Platform workspace. After selecting at least one project, you'll see a button to migrate them.
+
+![Classic migration button](../assets/images/classic-migration-button.png)
+
+Wait a few moments for the projects to migrate and you'll see them appear in your left sidebar. Success!
+
+
+## Limitations
+
+### Migration tool
+
+The Classic Migration tool can migrate all of your Classic APIs, including groups, text sections, endpoints, and models.
+
+However, there are a few items that won't be migrated:
+
+- **Members** - the roles and permission system is slightly different in Stoplight Platform (see FAQ below), so Stoplight won't be able to migrate your teammates. You can [configure an allowed email domain](../2.-workspaces/allowed-email-domains.md) so your teammates can automatically join your workspace or [invite them manually by email](../2.-workspaces/d.inviting-your-team.md).
+- **Hosted docs** - Stoplight won't be able to migrate your hosted documentation settings, such as custom domains, themes, layouts, authentication, and integrations. You will need to reconfigure these in your new Workspace's settings.
+
+### Stoplight Platform vs Stoplight Classic
 
 While the new Stoplight Platform includes a lot of new functionality, there are
-some features from Classic that have not yet made their way over. For a full
-feature parity breakdown, please review the guide
-[here](https://support.stoplight.io/hc/en-us/articles/360035390511-What-are-the-differences-between-the-Stoplight-products-).
+some features from Classic that have not yet made their way over.
 
 Below are several features that were available in Classic that are linked to our
 upcoming roadmap. We encourage you to follow the features relevant to you -
 we'll notify you as each is released.
 
-|                                                                                                        |  Timeline   | Description                                                                        |
-| ------------------------------------------------------------------------------------------------------ | :---------: | ---------------------------------------------------------------------------------- |
+|                                                                                                                    |  Timeline   | Description                                                                        |
+| ------------------------------------------------------------------------------------------------------------------ | :---------: | ---------------------------------------------------------------------------------- |
 | [~~Design: Shared parameters/responses~~](https://roadmap.stoplight.io/c/138-support-for-openapi-shared-responses) |  Launched   | Form based editing for OpenAPI shared components                                   |
-| [~~Docs: Integrations~~](https://roadmap.stoplight.io/c/64-analytics-integrations)                     |  Launched   | First class support for integrations like Google analytics, Segment, Intercom, etc |
-| [Docs: Custom CSS, JS, and HTML](https://roadmap.stoplight.io/c/57-embeddable-component-library)       | In progress | Rich component library for creating custom API docs site                           |
-| [Docs: Try It OAuth token generation](https://roadmap.stoplight.io/c/58-request-maker-authentication)  | Short-term  | Generate OAuth 1 & 2 tokens for HTTP requests in Try It                            |
-| [Design: Lifecycle tags](https://roadmap.stoplight.io/c/65-lifecycle-tags)                             |  Mid-term   | Add tags to build workflows around your API lifecycle                              |  |
-| [Discussions](https://roadmap.stoplight.io/c/61-discussions-comments)                                  |  Mid-term   | Create and resolve discussions on API designs and docs                             |
-| [Docs: Custom variables](https://roadmap.stoplight.io/c/47-custom-variables)                           | Considering | Allow users to set a variable once and have it used everywhere                     |
-| [Docs: Redirects](https://roadmap.stoplight.io/c/68-redirects)                                         | Considering | Automatic redirects when docs routes are changed                                   |
-| [Design: CRUD Builder](https://roadmap.stoplight.io/c/63-crud-builder)                                 | Considering | Automatically generate a list of CRUD endpoints for a schema                       |
-| [API Discovery](https://roadmap.stoplight.io/c/66-learning-recording)                                  | Considering | Automatically create an OpenAPI document by proxying requests to an existing API   |
-
-## How do I migrate?
-
-Because we've updated our approach to where your data is stored and managed
-(your VCS rather, than our homegrown backend), this migration is a bit more
-involved. The goal of this migration is to move your data from Stoplight Classic
-to Git repos in your VCS, and then to connect those Git repos to your new
-Stoplight Workspace.
-
-If you have not already done so, you can create a free Stoplight workspace
-[here](https://stoplight.io/welcome).
-
-> If you feel comfortable and ready to migrate, please follow the steps below.
-> If you have any questions concerns, please don't hesitate to [reach
-> out](mailto:support@stoplight.io).
-
-### Migrating project contents
-
-First, let's export the contents from one of your Classic projects.
-
-1. Choose which Classic project you want to migrate.
-2. Follow [this
-   guide](https://help.stoplight.io/docs/design/exporting-to-swagger-or-raml) to
-   export the project's **OpenAPI v2 file with the Stoplight extensions
-   included**. If you have multiple versions, you'll want to export each one
-   individually.
-
-Now that you have the exported OpenAPI file(s), you can now add them to a Git
-repository which can then be added to your new Stoplight Workspace.
-
-1. You can choose to either create a new Git repository or import the file to an
-   existing one. Follow [this
-   guide](../1.-quickstarts/add-projects-quickstart.md) to learn how.
-
-> If you are interested in upgrading from OpenAPI v2 (otherwise known as
-> Swagger) to the latest OpenAPI v3 format, there is free conversion tool
-> available [here](https://www.npmjs.com/package/swagger2openapi). The latest
-> version of Stoplight Studio supports either format.
+| [~~Docs: Integrations~~](https://roadmap.stoplight.io/c/64-analytics-integrations)                                 |  Launched   | First class support for integrations like Google analytics, Segment, Intercom, etc |
+| [~~Docs: Custom CSS, JS, and HTML~~](https://roadmap.stoplight.io/c/57-embeddable-component-library)               |  Launched   | Rich component library for creating custom API docs site                           |
+| [Docs: Custom variables](https://roadmap.stoplight.io/c/47-custom-variables)                                       | Considering | Allow users to set a variable once and have it used everywhere                     |
+| [Design: CRUD Builder](https://roadmap.stoplight.io/c/63-crud-builder)                                             | Considering | Automatically generate a list of CRUD endpoints for a schema                       |
+| [API Discovery](https://roadmap.stoplight.io/c/66-learning-recording)                                              | Considering | Automatically create an OpenAPI document by proxying requests to an existing API   |
 
 ## FAQ
 

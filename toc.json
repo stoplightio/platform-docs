@@ -81,6 +81,11 @@
     },
     {
       "type": "item",
+      "title": "Allowed Email Domains",
+      "uri": "2.-workspaces/allowed-email-domains.md"
+    },
+    {
+      "type": "item",
       "title": "Workspace Roles",
       "uri": "2.-workspaces/k.workspace-roles.md"
     },
